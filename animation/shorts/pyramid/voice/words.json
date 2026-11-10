@@ -1,0 +1,1304 @@
+[
+ {
+  "word": "The",
+  "start": 0.1,
+  "end": 0.294,
+  "sentence": 0
+ },
+ {
+  "word": "biggest",
+  "start": 0.294,
+  "end": 0.643,
+  "sentence": 0
+ },
+ {
+  "word": "pyramid",
+  "start": 0.643,
+  "end": 0.992,
+  "sentence": 0
+ },
+ {
+  "word": "on",
+  "start": 0.992,
+  "end": 1.147,
+  "sentence": 0
+ },
+ {
+  "word": "Earth",
+  "start": 1.147,
+  "end": 1.418,
+  "sentence": 0
+ },
+ {
+  "word": "isn't",
+  "start": 1.418,
+  "end": 1.651,
+  "sentence": 0
+ },
+ {
+  "word": "in",
+  "start": 1.651,
+  "end": 1.806,
+  "sentence": 0
+ },
+ {
+  "word": "Egypt.",
+  "start": 1.806,
+  "end": 2.077,
+  "sentence": 0
+ },
+ {
+  "word": "It's",
+  "start": 2.197,
+  "end": 2.394,
+  "sentence": 1
+ },
+ {
+  "word": "hiding",
+  "start": 2.394,
+  "end": 2.708,
+  "sentence": 1
+ },
+ {
+  "word": "under",
+  "start": 2.708,
+  "end": 2.983,
+  "sentence": 1
+ },
+ {
+  "word": "this",
+  "start": 2.983,
+  "end": 3.219,
+  "sentence": 1
+ },
+ {
+  "word": "church",
+  "start": 3.219,
+  "end": 3.534,
+  "sentence": 1
+ },
+ {
+  "word": "in",
+  "start": 3.534,
+  "end": 3.691,
+  "sentence": 1
+ },
+ {
+  "word": "Mexico.",
+  "start": 3.691,
+  "end": 4.006,
+  "sentence": 1
+ },
+ {
+  "word": "Over",
+  "start": 4.126,
+  "end": 4.38,
+  "sentence": 2
+ },
+ {
+  "word": "two",
+  "start": 4.38,
+  "end": 4.593,
+  "sentence": 2
+ },
+ {
+  "word": "thousand",
+  "start": 4.593,
+  "end": 5.017,
+  "sentence": 2
+ },
+ {
+  "word": "years",
+  "start": 5.017,
+  "end": 5.314,
+  "sentence": 2
+ },
+ {
+  "word": "ago,",
+  "start": 5.314,
+  "end": 5.526,
+  "sentence": 2
+ },
+ {
+  "word": "the",
+  "start": 5.526,
+  "end": 5.738,
+  "sentence": 2
+ },
+ {
+  "word": "people",
+  "start": 5.738,
+  "end": 6.077,
+  "sentence": 2
+ },
+ {
+  "word": "of",
+  "start": 6.077,
+  "end": 6.247,
+  "sentence": 2
+ },
+ {
+  "word": "Cholula",
+  "start": 6.247,
+  "end": 6.629,
+  "sentence": 2
+ },
+ {
+  "word": "built",
+  "start": 6.629,
+  "end": 6.925,
+  "sentence": 2
+ },
+ {
+  "word": "a",
+  "start": 6.925,
+  "end": 7.053,
+  "sentence": 2
+ },
+ {
+  "word": "temple",
+  "start": 7.053,
+  "end": 7.392,
+  "sentence": 2
+ },
+ {
+  "word": "on",
+  "start": 7.392,
+  "end": 7.562,
+  "sentence": 2
+ },
+ {
+  "word": "a",
+  "start": 7.562,
+  "end": 7.689,
+  "sentence": 2
+ },
+ {
+  "word": "flat",
+  "start": 7.689,
+  "end": 7.944,
+  "sentence": 2
+ },
+ {
+  "word": "plain.",
+  "start": 7.944,
+  "end": 8.24,
+  "sentence": 2
+ },
+ {
+  "word": "A",
+  "start": 8.36,
+  "end": 8.49,
+  "sentence": 3
+ },
+ {
+  "word": "few",
+  "start": 8.49,
+  "end": 8.707,
+  "sentence": 3
+ },
+ {
+  "word": "generations",
+  "start": 8.707,
+  "end": 9.27,
+  "sentence": 3
+ },
+ {
+  "word": "later,",
+  "start": 9.27,
+  "end": 9.573,
+  "sentence": 3
+ },
+ {
+  "word": "it",
+  "start": 9.573,
+  "end": 9.747,
+  "sentence": 3
+ },
+ {
+  "word": "felt",
+  "start": 9.747,
+  "end": 10.007,
+  "sentence": 3
+ },
+ {
+  "word": "too",
+  "start": 10.007,
+  "end": 10.223,
+  "sentence": 3
+ },
+ {
+  "word": "small.",
+  "start": 10.223,
+  "end": 10.527,
+  "sentence": 3
+ },
+ {
+  "word": "So",
+  "start": 10.647,
+  "end": 10.797,
+  "sentence": 4
+ },
+ {
+  "word": "instead",
+  "start": 10.797,
+  "end": 11.136,
+  "sentence": 4
+ },
+ {
+  "word": "of",
+  "start": 11.136,
+  "end": 11.286,
+  "sentence": 4
+ },
+ {
+  "word": "tearing",
+  "start": 11.286,
+  "end": 11.625,
+  "sentence": 4
+ },
+ {
+  "word": "it",
+  "start": 11.625,
+  "end": 11.776,
+  "sentence": 4
+ },
+ {
+  "word": "down,",
+  "start": 11.776,
+  "end": 12.001,
+  "sentence": 4
+ },
+ {
+  "word": "they",
+  "start": 12.001,
+  "end": 12.227,
+  "sentence": 4
+ },
+ {
+  "word": "built",
+  "start": 12.227,
+  "end": 12.491,
+  "sentence": 4
+ },
+ {
+  "word": "a",
+  "start": 12.491,
+  "end": 12.604,
+  "sentence": 4
+ },
+ {
+  "word": "bigger",
+  "start": 12.604,
+  "end": 12.905,
+  "sentence": 4
+ },
+ {
+  "word": "pyramid",
+  "start": 12.905,
+  "end": 13.243,
+  "sentence": 4
+ },
+ {
+  "word": "right",
+  "start": 13.243,
+  "end": 13.507,
+  "sentence": 4
+ },
+ {
+  "word": "on",
+  "start": 13.507,
+  "end": 13.657,
+  "sentence": 4
+ },
+ {
+  "word": "top",
+  "start": 13.657,
+  "end": 13.846,
+  "sentence": 4
+ },
+ {
+  "word": "of",
+  "start": 13.846,
+  "end": 13.996,
+  "sentence": 4
+ },
+ {
+  "word": "it.",
+  "start": 13.996,
+  "end": 14.147,
+  "sentence": 4
+ },
+ {
+  "word": "Then",
+  "start": 14.267,
+  "end": 14.465,
+  "sentence": 5
+ },
+ {
+  "word": "their",
+  "start": 14.465,
+  "end": 14.695,
+  "sentence": 5
+ },
+ {
+  "word": "grandkids",
+  "start": 14.695,
+  "end": 15.058,
+  "sentence": 5
+ },
+ {
+  "word": "did",
+  "start": 15.058,
+  "end": 15.223,
+  "sentence": 5
+ },
+ {
+  "word": "the",
+  "start": 15.223,
+  "end": 15.388,
+  "sentence": 5
+ },
+ {
+  "word": "same",
+  "start": 15.388,
+  "end": 15.586,
+  "sentence": 5
+ },
+ {
+  "word": "thing.",
+  "start": 15.586,
+  "end": 15.816,
+  "sentence": 5
+ },
+ {
+  "word": "And",
+  "start": 15.936,
+  "end": 16.128,
+  "sentence": 6
+ },
+ {
+  "word": "their",
+  "start": 16.128,
+  "end": 16.396,
+  "sentence": 6
+ },
+ {
+  "word": "grandkids.",
+  "start": 16.396,
+  "end": 16.818,
+  "sentence": 6
+ },
+ {
+  "word": "For",
+  "start": 16.938,
+  "end": 17.138,
+  "sentence": 7
+ },
+ {
+  "word": "almost",
+  "start": 17.138,
+  "end": 17.457,
+  "sentence": 7
+ },
+ {
+  "word": "a",
+  "start": 17.457,
+  "end": 17.577,
+  "sentence": 7
+ },
+ {
+  "word": "thousand",
+  "start": 17.577,
+  "end": 17.976,
+  "sentence": 7
+ },
+ {
+  "word": "years.",
+  "start": 17.976,
+  "end": 18.256,
+  "sentence": 7
+ },
+ {
+  "word": "By",
+  "start": 18.376,
+  "end": 18.544,
+  "sentence": 8
+ },
+ {
+  "word": "the",
+  "start": 18.544,
+  "end": 18.755,
+  "sentence": 8
+ },
+ {
+  "word": "end,",
+  "start": 18.755,
+  "end": 18.966,
+  "sentence": 8
+ },
+ {
+  "word": "it",
+  "start": 18.966,
+  "end": 19.135,
+  "sentence": 8
+ },
+ {
+  "word": "held",
+  "start": 19.135,
+  "end": 19.388,
+  "sentence": 8
+ },
+ {
+  "word": "nearly",
+  "start": 19.388,
+  "end": 19.725,
+  "sentence": 8
+ },
+ {
+  "word": "twice",
+  "start": 19.725,
+  "end": 20.021,
+  "sentence": 8
+ },
+ {
+  "word": "as",
+  "start": 20.021,
+  "end": 20.189,
+  "sentence": 8
+ },
+ {
+  "word": "much",
+  "start": 20.189,
+  "end": 20.442,
+  "sentence": 8
+ },
+ {
+  "word": "as",
+  "start": 20.442,
+  "end": 20.611,
+  "sentence": 8
+ },
+ {
+  "word": "the",
+  "start": 20.611,
+  "end": 20.822,
+  "sentence": 8
+ },
+ {
+  "word": "Great",
+  "start": 20.822,
+  "end": 21.117,
+  "sentence": 8
+ },
+ {
+  "word": "Pyramid",
+  "start": 21.117,
+  "end": 21.497,
+  "sentence": 8
+ },
+ {
+  "word": "of",
+  "start": 21.497,
+  "end": 21.666,
+  "sentence": 8
+ },
+ {
+  "word": "Giza.",
+  "start": 21.666,
+  "end": 21.919,
+  "sentence": 8
+ },
+ {
+  "word": "Then",
+  "start": 22.039,
+  "end": 22.263,
+  "sentence": 9
+ },
+ {
+  "word": "the",
+  "start": 22.263,
+  "end": 22.451,
+  "sentence": 9
+ },
+ {
+  "word": "city",
+  "start": 22.451,
+  "end": 22.675,
+  "sentence": 9
+ },
+ {
+  "word": "shrank,",
+  "start": 22.675,
+  "end": 22.975,
+  "sentence": 9
+ },
+ {
+  "word": "and",
+  "start": 22.975,
+  "end": 23.162,
+  "sentence": 9
+ },
+ {
+  "word": "nobody",
+  "start": 23.162,
+  "end": 23.461,
+  "sentence": 9
+ },
+ {
+  "word": "looked",
+  "start": 23.461,
+  "end": 23.761,
+  "sentence": 9
+ },
+ {
+  "word": "after",
+  "start": 23.761,
+  "end": 24.023,
+  "sentence": 9
+ },
+ {
+  "word": "it.",
+  "start": 24.023,
+  "end": 24.173,
+  "sentence": 9
+ },
+ {
+  "word": "Rain",
+  "start": 24.293,
+  "end": 24.552,
+  "sentence": 10
+ },
+ {
+  "word": "washed",
+  "start": 24.552,
+  "end": 24.898,
+  "sentence": 10
+ },
+ {
+  "word": "dirt",
+  "start": 24.898,
+  "end": 25.157,
+  "sentence": 10
+ },
+ {
+  "word": "down",
+  "start": 25.157,
+  "end": 25.416,
+  "sentence": 10
+ },
+ {
+  "word": "the",
+  "start": 25.416,
+  "end": 25.633,
+  "sentence": 10
+ },
+ {
+  "word": "steps,",
+  "start": 25.633,
+  "end": 25.935,
+  "sentence": 10
+ },
+ {
+  "word": "seeds",
+  "start": 25.935,
+  "end": 26.238,
+  "sentence": 10
+ },
+ {
+  "word": "sprouted,",
+  "start": 26.238,
+  "end": 26.67,
+  "sentence": 10
+ },
+ {
+  "word": "and",
+  "start": 26.67,
+  "end": 26.886,
+  "sentence": 10
+ },
+ {
+  "word": "trees",
+  "start": 26.886,
+  "end": 27.189,
+  "sentence": 10
+ },
+ {
+  "word": "moved",
+  "start": 27.189,
+  "end": 27.491,
+  "sentence": 10
+ },
+ {
+  "word": "in.",
+  "start": 27.491,
+  "end": 27.664,
+  "sentence": 10
+ },
+ {
+  "word": "Until",
+  "start": 27.784,
+  "end": 28.061,
+  "sentence": 11
+ },
+ {
+  "word": "the",
+  "start": 28.061,
+  "end": 28.258,
+  "sentence": 11
+ },
+ {
+  "word": "biggest",
+  "start": 28.258,
+  "end": 28.614,
+  "sentence": 11
+ },
+ {
+  "word": "pyramid",
+  "start": 28.614,
+  "end": 28.969,
+  "sentence": 11
+ },
+ {
+  "word": "on",
+  "start": 28.969,
+  "end": 29.128,
+  "sentence": 11
+ },
+ {
+  "word": "the",
+  "start": 29.128,
+  "end": 29.325,
+  "sentence": 11
+ },
+ {
+  "word": "planet",
+  "start": 29.325,
+  "end": 29.641,
+  "sentence": 11
+ },
+ {
+  "word": "looked",
+  "start": 29.641,
+  "end": 29.957,
+  "sentence": 11
+ },
+ {
+  "word": "exactly",
+  "start": 29.957,
+  "end": 30.313,
+  "sentence": 11
+ },
+ {
+  "word": "like",
+  "start": 30.313,
+  "end": 30.55,
+  "sentence": 11
+ },
+ {
+  "word": "a",
+  "start": 30.55,
+  "end": 30.669,
+  "sentence": 11
+ },
+ {
+  "word": "hill.",
+  "start": 30.669,
+  "end": 30.906,
+  "sentence": 11
+ },
+ {
+  "word": "So",
+  "start": 31.026,
+  "end": 31.3,
+  "sentence": 12
+ },
+ {
+  "word": "in",
+  "start": 31.3,
+  "end": 31.575,
+  "sentence": 12
+ },
+ {
+  "word": "1594,",
+  "start": 31.575,
+  "end": 31.987,
+  "sentence": 12
+ },
+ {
+  "word": "the",
+  "start": 31.987,
+  "end": 32.33,
+  "sentence": 12
+ },
+ {
+  "word": "Spanish",
+  "start": 32.33,
+  "end": 32.947,
+  "sentence": 12
+ },
+ {
+  "word": "built",
+  "start": 32.947,
+  "end": 33.428,
+  "sentence": 12
+ },
+ {
+  "word": "a",
+  "start": 33.428,
+  "end": 33.633,
+  "sentence": 12
+ },
+ {
+  "word": "church",
+  "start": 33.633,
+  "end": 34.182,
+  "sentence": 12
+ },
+ {
+  "word": "on",
+  "start": 34.182,
+  "end": 34.457,
+  "sentence": 12
+ },
+ {
+  "word": "top.",
+  "start": 34.457,
+  "end": 34.8,
+  "sentence": 12
+ },
+ {
+  "word": "Luckily,",
+  "start": 34.92,
+  "end": 35.266,
+  "sentence": 13
+ },
+ {
+  "word": "that",
+  "start": 35.266,
+  "end": 35.497,
+  "sentence": 13
+ },
+ {
+  "word": "meant",
+  "start": 35.497,
+  "end": 35.766,
+  "sentence": 13
+ },
+ {
+  "word": "nobody",
+  "start": 35.766,
+  "end": 36.074,
+  "sentence": 13
+ },
+ {
+  "word": "tore",
+  "start": 36.074,
+  "end": 36.304,
+  "sentence": 13
+ },
+ {
+  "word": "it",
+  "start": 36.304,
+  "end": 36.458,
+  "sentence": 13
+ },
+ {
+  "word": "down.",
+  "start": 36.458,
+  "end": 36.689,
+  "sentence": 13
+ },
+ {
+  "word": "Unluckily,",
+  "start": 36.809,
+  "end": 37.293,
+  "sentence": 14
+ },
+ {
+  "word": "it",
+  "start": 37.293,
+  "end": 37.469,
+  "sentence": 14
+ },
+ {
+  "word": "also",
+  "start": 37.469,
+  "end": 37.733,
+  "sentence": 14
+ },
+ {
+  "word": "means",
+  "start": 37.733,
+  "end": 38.041,
+  "sentence": 14
+ },
+ {
+  "word": "nobody",
+  "start": 38.041,
+  "end": 38.393,
+  "sentence": 14
+ },
+ {
+  "word": "can",
+  "start": 38.393,
+  "end": 38.613,
+  "sentence": 14
+ },
+ {
+  "word": "dig",
+  "start": 38.613,
+  "end": 38.833,
+  "sentence": 14
+ },
+ {
+  "word": "it",
+  "start": 38.833,
+  "end": 39.009,
+  "sentence": 14
+ },
+ {
+  "word": "up.",
+  "start": 39.009,
+  "end": 39.185,
+  "sentence": 14
+ },
+ {
+  "word": "You",
+  "start": 39.305,
+  "end": 39.506,
+  "sentence": 15
+ },
+ {
+  "word": "see,",
+  "start": 39.506,
+  "end": 39.707,
+  "sentence": 15
+ },
+ {
+  "word": "the",
+  "start": 39.707,
+  "end": 39.909,
+  "sentence": 15
+ },
+ {
+  "word": "pyramid",
+  "start": 39.909,
+  "end": 40.271,
+  "sentence": 15
+ },
+ {
+  "word": "is",
+  "start": 40.271,
+  "end": 40.433,
+  "sentence": 15
+ },
+ {
+  "word": "built",
+  "start": 40.433,
+  "end": 40.715,
+  "sentence": 15
+ },
+ {
+  "word": "like",
+  "start": 40.715,
+  "end": 40.956,
+  "sentence": 15
+ },
+ {
+  "word": "nesting",
+  "start": 40.956,
+  "end": 41.319,
+  "sentence": 15
+ },
+ {
+  "word": "dolls.",
+  "start": 41.319,
+  "end": 41.601,
+  "sentence": 15
+ },
+ {
+  "word": "Open",
+  "start": 41.721,
+  "end": 41.959,
+  "sentence": 16
+ },
+ {
+  "word": "one,",
+  "start": 41.959,
+  "end": 42.158,
+  "sentence": 16
+ },
+ {
+  "word": "and",
+  "start": 42.158,
+  "end": 42.357,
+  "sentence": 16
+ },
+ {
+  "word": "there's",
+  "start": 42.357,
+  "end": 42.675,
+  "sentence": 16
+ },
+ {
+  "word": "an",
+  "start": 42.675,
+  "end": 42.834,
+  "sentence": 16
+ },
+ {
+  "word": "older",
+  "start": 42.834,
+  "end": 43.113,
+  "sentence": 16
+ },
+ {
+  "word": "one",
+  "start": 43.113,
+  "end": 43.311,
+  "sentence": 16
+ },
+ {
+  "word": "inside.",
+  "start": 43.311,
+  "end": 43.63,
+  "sentence": 16
+ },
+ {
+  "word": "In",
+  "start": 43.75,
+  "end": 43.978,
+  "sentence": 17
+ },
+ {
+  "word": "1931,",
+  "start": 43.978,
+  "end": 44.321,
+  "sentence": 17
+ },
+ {
+  "word": "archaeologists",
+  "start": 44.321,
+  "end": 45.234,
+  "sentence": 17
+ },
+ {
+  "word": "started",
+  "start": 45.234,
+  "end": 45.748,
+  "sentence": 17
+ },
+ {
+  "word": "tunnelling",
+  "start": 45.748,
+  "end": 46.433,
+  "sentence": 17
+ },
+ {
+  "word": "in,",
+  "start": 46.433,
+  "end": 46.662,
+  "sentence": 17
+ },
+ {
+  "word": "and",
+  "start": 46.662,
+  "end": 46.947,
+  "sentence": 17
+ },
+ {
+  "word": "dug",
+  "start": 46.947,
+  "end": 47.233,
+  "sentence": 17
+ },
+ {
+  "word": "about",
+  "start": 47.233,
+  "end": 47.632,
+  "sentence": 17
+ },
+ {
+  "word": "eight",
+  "start": 47.632,
+  "end": 48.032,
+  "sentence": 17
+ },
+ {
+  "word": "kilometres",
+  "start": 48.032,
+  "end": 48.717,
+  "sentence": 17
+ },
+ {
+  "word": "of",
+  "start": 48.717,
+  "end": 48.946,
+  "sentence": 17
+ },
+ {
+  "word": "tunnels.",
+  "start": 48.946,
+  "end": 49.459,
+  "sentence": 17
+ },
+ {
+  "word": "They",
+  "start": 49.579,
+  "end": 49.835,
+  "sentence": 18
+ },
+ {
+  "word": "found",
+  "start": 49.835,
+  "end": 50.133,
+  "sentence": 18
+ },
+ {
+  "word": "stairs",
+  "start": 50.133,
+  "end": 50.474,
+  "sentence": 18
+ },
+ {
+  "word": "inside",
+  "start": 50.474,
+  "end": 50.815,
+  "sentence": 18
+ },
+ {
+  "word": "stairs,",
+  "start": 50.815,
+  "end": 51.156,
+  "sentence": 18
+ },
+ {
+  "word": "and",
+  "start": 51.156,
+  "end": 51.369,
+  "sentence": 18
+ },
+ {
+  "word": "a",
+  "start": 51.369,
+  "end": 51.497,
+  "sentence": 18
+ },
+ {
+  "word": "mural",
+  "start": 51.497,
+  "end": 51.795,
+  "sentence": 18
+ },
+ {
+  "word": "fifty",
+  "start": 51.795,
+  "end": 52.093,
+  "sentence": 18
+ },
+ {
+  "word": "metres",
+  "start": 52.093,
+  "end": 52.434,
+  "sentence": 18
+ },
+ {
+  "word": "long",
+  "start": 52.434,
+  "end": 52.69,
+  "sentence": 18
+ },
+ {
+  "word": "of",
+  "start": 52.69,
+  "end": 52.86,
+  "sentence": 18
+ },
+ {
+  "word": "people",
+  "start": 52.86,
+  "end": 53.201,
+  "sentence": 18
+ },
+ {
+  "word": "at",
+  "start": 53.201,
+  "end": 53.372,
+  "sentence": 18
+ },
+ {
+  "word": "a",
+  "start": 53.372,
+  "end": 53.499,
+  "sentence": 18
+ },
+ {
+  "word": "drinking",
+  "start": 53.499,
+  "end": 53.925,
+  "sentence": 18
+ },
+ {
+  "word": "party.",
+  "start": 53.925,
+  "end": 54.224,
+  "sentence": 18
+ },
+ {
+  "word": "And",
+  "start": 54.344,
+  "end": 54.513,
+  "sentence": 19
+ },
+ {
+  "word": "most",
+  "start": 54.513,
+  "end": 54.717,
+  "sentence": 19
+ },
+ {
+  "word": "of",
+  "start": 54.717,
+  "end": 54.853,
+  "sentence": 19
+ },
+ {
+  "word": "it",
+  "start": 54.853,
+  "end": 54.989,
+  "sentence": 19
+ },
+ {
+  "word": "still",
+  "start": 54.989,
+  "end": 55.227,
+  "sentence": 19
+ },
+ {
+  "word": "hasn't",
+  "start": 55.227,
+  "end": 55.464,
+  "sentence": 19
+ },
+ {
+  "word": "been",
+  "start": 55.464,
+  "end": 55.668,
+  "sentence": 19
+ },
+ {
+  "word": "dug",
+  "start": 55.668,
+  "end": 55.838,
+  "sentence": 19
+ },
+ {
+  "word": "up.",
+  "start": 55.838,
+  "end": 55.974,
+  "sentence": 19
+ },
+ {
+  "word": "So",
+  "start": 56.094,
+  "end": 56.245,
+  "sentence": 20
+ },
+ {
+  "word": "the",
+  "start": 56.245,
+  "end": 56.433,
+  "sentence": 20
+ },
+ {
+  "word": "biggest",
+  "start": 56.433,
+  "end": 56.773,
+  "sentence": 20
+ },
+ {
+  "word": "pyramid",
+  "start": 56.773,
+  "end": 57.113,
+  "sentence": 20
+ },
+ {
+  "word": "on",
+  "start": 57.113,
+  "end": 57.264,
+  "sentence": 20
+ },
+ {
+  "word": "Earth",
+  "start": 57.264,
+  "end": 57.529,
+  "sentence": 20
+ },
+ {
+  "word": "is",
+  "start": 57.529,
+  "end": 57.68,
+  "sentence": 20
+ },
+ {
+  "word": "still",
+  "start": 57.68,
+  "end": 57.944,
+  "sentence": 20
+ },
+ {
+  "word": "mostly",
+  "start": 57.944,
+  "end": 58.246,
+  "sentence": 20
+ },
+ {
+  "word": "a",
+  "start": 58.246,
+  "end": 58.359,
+  "sentence": 20
+ },
+ {
+  "word": "hill,",
+  "start": 58.359,
+  "end": 58.586,
+  "sentence": 20
+ },
+ {
+  "word": "wearing",
+  "start": 58.586,
+  "end": 58.926,
+  "sentence": 20
+ },
+ {
+  "word": "a",
+  "start": 58.926,
+  "end": 59.039,
+  "sentence": 20
+ },
+ {
+  "word": "church",
+  "start": 59.039,
+  "end": 59.341,
+  "sentence": 20
+ },
+ {
+  "word": "as",
+  "start": 59.341,
+  "end": 59.492,
+  "sentence": 20
+ },
+ {
+  "word": "a",
+  "start": 59.492,
+  "end": 59.606,
+  "sentence": 20
+ },
+ {
+  "word": "hat.",
+  "start": 59.606,
+  "end": 59.794,
+  "sentence": 20
+ }
+]

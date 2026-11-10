@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+node_modules/
+
+# local models and renders (any folder named out/, including animation/out/)
+models/
+out/
+
+# third-party reference frames for the cartoon look-match (private study only, never publish)
+.claude/skills/cartoon-3d-short/references/frames/
+.claude/skills/cartoon-3d-short/references/sheets/

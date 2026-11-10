@@ -1,0 +1,16 @@
+[project]
+name = "shorts-studio"
+version = "0.2.0"
+description = "Cartoon 3D story shorts (2D characters in an ink-outlined 3D world), made with Claude, three.js and Remotion."
+requires-python = ">=3.12,<3.13"
+# Python side only: the narration (Kokoro), the synthesized score and SFX, and the measuring tools.
+dependencies = [
+    "kokoro-onnx>=0.6.1",
+    "numpy>=2.3",
+    "pillow>=11.0",
+    "scipy>=1.15",
+    "soundfile>=0.13",
+]
+
+[tool.uv]
+package = false

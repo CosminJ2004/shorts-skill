@@ -1,0 +1,6 @@
+node_modules/
+out/
+public/kenney/
+*.log
+shorts/*/voice/*.wav
+shorts/*/audio/
