@@ -83,3 +83,14 @@ Read this file before starting a new short.
   - Frame 1060: the drift turned the friar's background into a blank church wall.
   - Frame 1600: the digger is half cut off at the mural.
   - Rule for SKILL.md: after adding drift, check the first and last frame of every shot for framing.
+
+## Iteration 3: The Pyramid Wearing a Church, v3 + captions (2026-11-10)
+- **User:** "I like it", but it needs cool, viral captions.
+- **Changed in the skill:**
+  - The upstream "no captions" rule is replaced: viral word-by-word captions are now standard.
+  - Shared component `animation/src/lib/Captions.tsx`: 1-2 words per page, uppercase heavy font, thick outline,
+    yellow for the spoken word, green for numbers and names, pop-in.
+  - The captions render as a separate transparent ProRes layer and are composited with ffmpeg, about 3 minutes
+    instead of re-rendering the picture.
+- **Found on the first render:** the captions covered the friar's face. Added per-short `CaptionZone`s that move the
+  line to the upper third during close-ups, plus the rule "check one frame of every close-up".

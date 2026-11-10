@@ -16,7 +16,8 @@ The style reference is a channel studied privately (`references/`: STYLE_BIBLE.m
 - Never say the channel's name in a voice-over or description.
 
 User rules that apply:
-- No captions or labels in the video.
+- Burn in viral word-by-word captions. This rule changed with user feedback on 2026-11-10; see "Captions" below.
+  No other labels or text in the video.
 - English only.
 - Voice: one steady tone.
 - Jokes are researched real facts.
@@ -67,6 +68,24 @@ changed.
   - Never blur what the current line is about.
   - A blur fade-out keeps the previous focus point (`dofAt`). Switching focus while the blur is still high softens the
     subject.
+
+## Captions (user feedback, iteration 3)
+- **Style:** `animation/src/lib/Captions.tsx`, driven by the short's `words.json`.
+  - 1-2 words per page, heavy uppercase sans (Segoe UI Black), thick black outline and a hard shadow.
+  - The spoken word turns yellow; numbers and names turn green.
+  - Each page pops in over 5 frames, and each word shows 1 frame early.
+- **Placement:** centre at 63 % of the height, inside the reference caption band.
+  - Never cover a face. In close-ups whose heads sit in the band, add a `CaptionZone` [from, to, 0.36] that moves the
+    line to the upper third.
+  - Check one frame of every close-up.
+- **Render the captions as their own transparent layer**, so changing them never re-renders the 3D picture (~3 min
+  instead of ~15). Register a `<Name>Captions` composition with `CaptionsLayer`, then:
+  ```bash
+  npx remotion render src/index.ts <Name>Captions out/<name>/captions.mov --codec=prores --prores-profile=4444 --pixel-format=yuva444p10le --image-format=png --concurrency=4
+  ```
+  ```bash
+  ffmpeg -i final.mp4 -i captions.mov -filter_complex "[0:v][1:v]overlay=format=auto" -c:v libx264 -crf 16 -c:a copy final_captions.mp4
+  ```
 
 ## Pipeline
 1. **Topic and facts.** Pick one surprising true story with a physical cause and effect (it should be visual), plus a simple everyday analogy that explains it.
