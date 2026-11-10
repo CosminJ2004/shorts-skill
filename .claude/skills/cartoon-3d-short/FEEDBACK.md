@@ -94,3 +94,20 @@ Read this file before starting a new short.
     instead of re-rendering the picture.
 - **Found on the first render:** the captions covered the friar's face. Added per-short `CaptionZone`s that move the
   line to the upper third during close-ups, plus the rule "check one frame of every close-up".
+
+## Iteration 4: feedback on v3 (2026-11-10)
+- **User:** v3 is very good. Next, be more careful with details:
+  - shadows;
+  - more elements in each scene;
+  - better sharpness and graphics;
+  - detail on faces, bodies and clothing;
+  - characters bigger in frame.
+  The caption style question was parked.
+- **Changed in the skill:** new SKILL.md section "Detail and framing", a standing checklist. It requires:
+  - contact shadows and shade areas;
+  - three depth layers per shot;
+  - full-resolution antialiased renders;
+  - face, body and clothing detail at close-up resolution;
+  - a subject at 40-60 % of the frame height;
+  - a stills check of the first, middle and last frame of every shot.
+- **Next video:** a viral English "Did you know" short, built against this checklist.

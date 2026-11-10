@@ -69,6 +69,35 @@ changed.
   - A blur fade-out keeps the previous focus point (`dofAt`). Switching focus while the blur is still high softens the
     subject.
 
+## Detail and framing (user feedback, iteration 4: standing quality bar)
+The user liked v3 but asked for more care with details. Treat every point here as a check before rendering.
+- **Shadows.**
+  - Every character and prop casts a visible contact shadow (shadow map or blob), including under feet.
+  - Each scene has real shade areas: overhangs, trees, walls, awnings. Open grass in flat light reads cheap. This
+    also fixes the "darks too lifted" gap (day p5 .36 against .23).
+- **More elements.**
+  - Fill every shot in three depth layers: foreground props (blurred edge objects, rocks, plants), a midground with
+    the subject, and a busy background (buildings, crowds, terrain).
+  - No empty wall or empty sky behind a speaking character. v3 frame 1060 (friar against a blank wall) fails this.
+- **Sharpness.**
+  - Render at full 1080x1920 with antialiasing (MSAA or SMAA).
+  - Texture filtering: anisotropic 8+ and mipmaps on every card.
+  - Character cards at least 2x their on-screen size.
+  - Lens blur only on the background, never on the subject (see Lens blur above).
+- **Characters.**
+  - Faces: readable eyes with highlights, brows, a mouth that changes per beat (talk/smile/shock), nose and cheek
+    shading. No dot-eye blanks in a close-up.
+  - Bodies: proportioned torso, arms and hands, with a pose per beat rather than one stiff pose.
+  - Clothing: folds, seams, belts, trims, layered garments and a period-correct palette. Flat single-colour clothing
+    is not allowed in close-ups.
+  - Draw at close-up resolution even when the shot is wide; the camera pushes in.
+- **Framing.**
+  - Keep characters bigger in frame: in people shots the subject fills 40-60 % of the frame height.
+  - Never crop a head or a key prop at the edge. v3 frame 1600 (digger cut off at the mural) fails this.
+  - After adding drift or glides, check the first, middle and last frame of every shot.
+- **Check:** a stills sheet (first, middle and last frame of every shot) reviewed against this list before the full
+  render.
+
 ## Captions (user feedback, iteration 3)
 - **Style:** `animation/src/lib/Captions.tsx`, driven by the short's `words.json`.
   - 1-2 words per page, heavy uppercase sans (Segoe UI Black), thick black outline and a hard shadow.
