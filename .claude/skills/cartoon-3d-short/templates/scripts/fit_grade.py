@@ -81,7 +81,7 @@ def grade(src: np.ndarray, r: np.ndarray, p: dict) -> np.ndarray:
 class Sample:
     """A fixed random subset of one still's pixels with the masks the metrics need (computed before grading)."""
 
-    def __init__(self, path: Path, n: int = 24000, seed: int = 0):
+    def __init__(self, path: Path, n: int = 8000, seed: int = 0):
         rgb = np.asarray(Image.open(path).convert("RGB").resize((LS.W, LS.H), Image.Resampling.BOX), np.float32) / 255
         y = rgb @ W.astype(np.float32)
         closed = ndi.grey_closing(y, size=(7, 7))
@@ -139,7 +139,8 @@ HI = np.array([.08, .2, .3, .45, .4, .2, 1.4, 1.4, 1.4, .06, .06, .04, .04, .04,
 def loss(x: np.ndarray, samples: list[Sample], T: dict) -> float:
     p = unpack(np.clip(x, LO, HI))
     ms = [metrics(s, p) for s in samples]
-    e = 0.0
+    # never clip: white faces (~.93) must keep their shading, so the curve stays below 1 until the very top
+    e = 400.0 * (max(0.0, p["ky"][5] - 0.975) + max(0.0, p["ky"][4] - 0.92))
     for k in METRICS:
         t, lo, hi = T[k]
         v = float(np.mean([m[k] for m in ms]))
@@ -152,7 +153,7 @@ def fit(samples: list[Sample], cluster: str) -> tuple[dict, dict, dict]:
     T = LS.GRADE_T[cluster]
     x0 = pack(START)
     before = {k: float(np.mean([metrics(s, unpack(x0))[k] for s in samples])) for k in METRICS}
-    res = minimize(loss, x0, args=(samples, T), method="Powell", options=dict(maxiter=6000, xtol=1e-3, ftol=1e-4))
+    res = minimize(loss, x0, args=(samples, T), method="Powell", options=dict(maxfev=1500, xtol=1e-3, ftol=1e-3))
     p = unpack(np.clip(res.x, LO, HI))
     after = {k: float(np.mean([metrics(s, p)[k] for s in samples])) for k in METRICS}
     return p, before, after

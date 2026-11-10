@@ -11,9 +11,24 @@ import type { Light } from "./story";
 
 // __FIT__ (fit_grade.py replaces everything up to __END__)
 export const PYR_GRADES: Record<Light, GradeParams> = {
-  day: GRADE_DAY2,
-  golden: GRADE_GOLDEN2,
-  tunnel: GRADE_DAY2,
+  day: {
+    ky: [0.0129, 0.0927, 0.2758, 0.5717, 0.8349, 0.9741, 1.0000],
+    sat: [0.5031, 0.5000, 1.0762],
+    tintS: [0.0358, 0.0558], tintM: [-0.0093, -0.0319], tintH: [0.0299, 0.0016],
+    vig: [0.2198, 0.5536],
+  },
+  tunnel: {
+    ky: [0.0763, 0.1851, 0.3116, 0.6299, 0.8650, 0.9750, 1.0000],
+    sat: [0.6657, 0.9236, 0.5000],
+    tintS: [0.0460, -0.0051], tintM: [0.0047, 0.0064], tintH: [0.0388, -0.0400],
+    vig: [0.0119, 0.6580],
+  },
+  golden: {
+    ky: [0.0391, 0.0732, 0.2465, 0.5943, 0.9023, 0.9605, 1.0000],
+    sat: [0.5000, 0.6825, 1.0431],
+    tintS: [0.0592, 0.0600], tintM: [0.0132, -0.0208], tintH: [-0.0171, 0.0319],
+    vig: [0.2092, 0.3115],
+  },
 };
 // __END__
 

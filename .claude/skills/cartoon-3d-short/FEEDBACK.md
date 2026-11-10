@@ -48,3 +48,38 @@ Read this file before starting a new short.
      cuts to 1-3 per minute.
   5. Lens blur goes on people's close beats only. Never blur what the line is about. A blur fade-out must keep the old
      focus point: v2 jumped focus to the church while the blur was still 12 px, so the hook's tourist went soft.
+
+## Iteration 2: The Pyramid Wearing a Church, v3 (2026-11-10)
+- **What changed:**
+  - grade fitted per light with fit_grade.py (non-clipping curve);
+  - orbit drift (`ARC`);
+  - dissolves at every shot change;
+  - glides at 358 and 1396;
+  - lens blur only on close beats, with the focus fade fixed;
+  - a tunnel light and grade of its own.
+- **Scorecard:** 20 of 58 metrics out of range, down from 36.
+
+  | Metric | v2 | v3 | Reference |
+  |---|---|---|---|
+  | Day S | .69 | .49 | .44 |
+  | Day colourfulness | 125 | 79 | 83 |
+  | Golden S | .74 | .51 | .46 |
+  | Lens blur on | 44 % of frames | 17 % | — |
+  | Dead-still camera | 47 % of frames | 6 % | 10 % |
+  | Tunnel S | .84 | .48 | — |
+  | Tunnel shadows | brown | violet | — |
+
+- **Still open:**
+  - Camera moving ≥2 px/f only 19 % of frames (reference 65 %). The drift is too slow: about double the `ARC`
+    rates, or add glides between beats.
+  - Darks are not deep enough: day and golden p5 are .36 and .32 against .23 and .21. Scenes are mostly sky and grass
+    with little in shade, so this is a world fix (more shadowed props, cast shadows), not a grade fix.
+  - Tunnel too dark (p50 .37 against .46). The grade can't lift it without clipping; it needs stronger lantern light.
+  - Ink fraction on day scenes is low (.010 against .026). Open grass gets no lines; we need more objects with edges.
+  - Hook sentence is 8 words (reference 10-16).
+  - `look_score.py` flags false "cuts" in the dark tunnel travel and on the nesting-doll pop-ins. The real cuts are
+    3 (500, 1100, 1560).
+- **Seen in stills:**
+  - Frame 1060: the drift turned the friar's background into a blank church wall.
+  - Frame 1600: the digger is half cut off at the mural.
+  - Rule for SKILL.md: after adding drift, check the first and last frame of every shot for framing.
