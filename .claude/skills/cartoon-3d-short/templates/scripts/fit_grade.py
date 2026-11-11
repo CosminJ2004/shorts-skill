@@ -33,7 +33,7 @@ E_CR = np.array([1.5748, -0.46813, 0.0])
 W = np.array([0.2126, 0.7152, 0.0722])
 METRICS = ("p5", "p50", "p99", "S", "colourful", "C50", "C90", "vig", "sh_a", "sh_b")
 WEIGHT = dict(p5=1.0, p50=2.0, p99=1.0, S=2.0, colourful=1.0, C50=1.0, C90=1.0, vig=0.5, sh_a=0.7, sh_b=0.7)
-CLUSTER = {"day": "day", "golden": "golden", "tunnel": "interior", "interior": "interior", "night": "night"}
+CLUSTER = {"day": "day", "golden": "golden", "tunnel": "interior", "interior": "interior", "inside": "interior", "night": "night"}
 
 
 def mono_tangents(ky: np.ndarray) -> np.ndarray:

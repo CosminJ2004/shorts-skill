@@ -22,7 +22,7 @@ User rules that apply:
 - Voice: one steady tone.
 - Jokes are researched real facts.
 - Standard mix: music +3 dB, SFX -6 dB, voice unchanged.
-- Final export 2K vertical: 1440x2560, `--scale 1.3333`.
+- Final export: 1080x1920. `--scale 1.3333` fails in Remotion 4.0.542, because 1920 x 1.3333 is not a whole number of pixels. For 2K, register the composition at 1440x2560 instead.
 - Opus max verifies every check.
 - Save after every step.
 - "Just do it" once the script is approved.
@@ -85,8 +85,9 @@ The user liked v3 but asked for more care with details. Treat every point here a
   - Character cards at least 2x their on-screen size.
   - Lens blur only on the background, never on the subject (see Lens blur above).
 - **Characters.**
-  - Faces: readable eyes with highlights, brows, a mouth that changes per beat (talk/smile/shock), nose and cheek
-    shading. No dot-eye blanks in a close-up.
+  - Faces: brows, eyelids and a mouth shape that changes per beat (talk/smile/shock/smug), nose and cheek shading,
+    hair or beard strands. No blank faces in a close-up. Keep the style rule "no blush, no eye highlights" (Look
+    targets): the detail comes from shapes and shading, not shine.
   - Bodies: proportioned torso, arms and hands, with a pose per beat rather than one stiff pose.
   - Clothing: folds, seams, belts, trims, layered garments and a period-correct palette. Flat single-colour clothing
     is not allowed in close-ups.
@@ -96,7 +97,34 @@ The user liked v3 but asked for more care with details. Treat every point here a
   - Never crop a head or a key prop at the edge. v3 frame 1600 (digger cut off at the mural) fails this.
   - After adding drift or glides, check the first, middle and last frame of every shot.
 - **Check:** a stills sheet (first, middle and last frame of every shot) reviewed against this list before the full
-  render.
+  render. Use `templates/scripts/stills_sheet.py`.
+
+## Build lessons from the castle short (iteration 5)
+- **Character kit** (`toon.ts`, all fields optional, so older shorts are unchanged):
+  - Outfit fields: `beard`, `cape`, `collar` (ermine), `tabard` with `charge` (lions / lilies / cross) and `trim`,
+    `mail`, `girdle`, `hood`, `nose`, `spear`.
+  - Hats: `crown`, `crown_big`, `helm` (with a mail coif), `kettle`.
+  - Poses: `cross`, `climb`, `cradle`, `hips`, `point`.
+  - Expressions: `smug`, `queasy`, `proud`, `sneer`, `scared`.
+  - Props: `torch`, `scroll`.
+  - Check a new cast on a flat sheet composition first (`src/videos/castle/CastSheet.tsx`), before the 3D world
+    exists.
+- **Character shots zoom; they don't dolly.** `dolly()` moves the lens toward the look point. With a far look point
+  (a castle 40 m away), an 8 % push moves the lens 3 m, straight past a character standing 4 m in front. When the look
+  point is far, use `zoom()`; dolly only when the look point is on the subject.
+- **Word punches:** `pushK(f, f0, rate, punch)` starts its punch at f0. To punch on a word inside a shot, multiply in
+  a second factor: `pushK(f, a, rate) * pushK(f, wordFrame, 0, 0.009, 24)`.
+- **Portrait width:** at 8 m and 44 degrees the frame is only 3.5 m wide. Size props to fit (the balance was 4 m wide
+  and had to shrink to 2.6 m), or put people behind the props instead of beside them.
+- **Cliffs and steep ground:** a terrain heightfield has a few vertices down a 45 m drop, so it reads as a grass or
+  hay field. Build steep faces as their own high-resolution curtain mesh along the edge, with a painted texture
+  (strata, flint, cracks, moss), and tuck the terrain behind it. Ripple the face with vertical gullies, not
+  horizontal bands: horizontal ripples read as clouds at a distance.
+- **Golden light that faces the walls:** a backlit golden sun leaves every wall facing the camera in violet shade.
+  For shots of a wall, set the shot `az` near 130-140 (sun behind the lens). Keep backlight for silhouettes and sky
+  shots.
+- **Grade per light** stays the rule: re-fit with `fit_grade.py` on pre-grade stills of the new world. It now
+  accepts `inside` as an interior light name.
 
 ## Captions (user feedback, iteration 3)
 - **Style:** `animation/src/lib/Captions.tsx`, driven by the short's `words.json`.

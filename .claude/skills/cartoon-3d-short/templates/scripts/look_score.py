@@ -40,7 +40,7 @@ LUMA = np.array([0.2126, 0.7152, 0.0722], np.float32)
 VF = "scale={w}:{h}:in_color_matrix=bt709:in_range=tv:out_range=pc:flags=area+accurate_rnd+full_chroma_int"
 EDGE_T = 0.05  # Sobel/8 gradient of the ink-free image that counts as a strong edge
 SOFT_T = 0.22  # tile acutance below this = soft (about sigma > 2 px at 720p)
-LIGHT_CLUSTER = {"day": "day", "golden": "golden", "night": "night", "interior": "interior", "tunnel": "interior"}
+LIGHT_CLUSTER = {"day": "day", "golden": "golden", "night": "night", "interior": "interior", "tunnel": "interior", "inside": "interior"}
 
 # Reference medians per light cluster (reports/grade.md section 2) and accepted range.
 GRADE_T = {

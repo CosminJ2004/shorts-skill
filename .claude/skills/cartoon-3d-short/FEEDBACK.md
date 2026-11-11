@@ -111,3 +111,33 @@ Read this file before starting a new short.
   - a subject at 40-60 % of the frame height;
   - a stills check of the first, middle and last frame of every shot.
 - **Next video:** a viral English "Did you know" short, built against this checklist.
+
+## Iteration 5: The Castle That Fell Through Its Toilet (2026-11-11)
+- **User:**
+  - Make a viral English "did you know" short, like the ones with huge views this week.
+  - Focus on quality and on a script with exactly the reference format: hook, punchline, something funny.
+- **Research:** the week's Shorts chart was mostly DIY, Diwali, pets and MrBeast. The one fact-explainer in the top 16
+  was "How the First Combat Submarine Actually Worked" (24 M views in 5 days). That gives the formula: a real
+  historical object, how it actually worked, and the mechanism shown.
+- **Script:**
+  - hook of 14 words;
+  - the "iron or butter" boast set up and paid off as the callback;
+  - a Luckily / Unluckily joke built on real facts;
+  - a "You see," pivot with an everyday analogy (a bank vault with a doggy door).
+  - Facts and sources are in `shorts/castle/SCRIPT.md`.
+- **Quality bar applied** (iteration 4 feedback):
+  - the medieval character kit: crowns, helms and coifs, heraldic tabards, capes, beards, noses, folds;
+  - poses per beat;
+  - 24 shots, each with foreground props and contact shadows;
+  - chalk cliff faces, crenels, arrow slits, a corbelled keep;
+  - interiors with candles, stained glass, a tapestry and a hay basket by the seat.
+- **Lessons:** see SKILL.md, "Build lessons from the castle short".
+- **Scorecard:**
+  - Passing: voice, script and sound (hook 14 words, "You see," at 49.1 s, -14.7 LUFS), day colour, ink fraction,
+    and lens blur on 9 % of frames.
+  - Still open:
+    - The camera moves (2 px/f or more) in only 19 % of frames, against 65 % in the reference. The orbits are too
+      slow; this is the same gap as the pyramid's.
+    - The vignette is too strong in golden scenes (0.54 against 0.75).
+    - Golden darks are lifted (p5 .29 against .21) and lean brown (b* +4).
+    - Hard cuts run at 6.2 per minute: the flash, the butter swaps and the toilet pop.

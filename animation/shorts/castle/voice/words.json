@@ -1,0 +1,1484 @@
+[
+ {
+  "word": "The",
+  "start": 0.1,
+  "end": 0.303,
+  "sentence": 0
+ },
+ {
+  "word": "strongest",
+  "start": 0.303,
+  "end": 0.75,
+  "sentence": 0
+ },
+ {
+  "word": "castle",
+  "start": 0.75,
+  "end": 1.076,
+  "sentence": 0
+ },
+ {
+  "word": "in",
+  "start": 1.076,
+  "end": 1.238,
+  "sentence": 0
+ },
+ {
+  "word": "France",
+  "start": 1.238,
+  "end": 1.563,
+  "sentence": 0
+ },
+ {
+  "word": "was",
+  "start": 1.563,
+  "end": 1.767,
+  "sentence": 0
+ },
+ {
+  "word": "captured",
+  "start": 1.767,
+  "end": 2.173,
+  "sentence": 0
+ },
+ {
+  "word": "by",
+  "start": 2.173,
+  "end": 2.336,
+  "sentence": 0
+ },
+ {
+  "word": "soldiers",
+  "start": 2.336,
+  "end": 2.742,
+  "sentence": 0
+ },
+ {
+  "word": "who",
+  "start": 2.742,
+  "end": 2.945,
+  "sentence": 0
+ },
+ {
+  "word": "climbed",
+  "start": 2.945,
+  "end": 3.311,
+  "sentence": 0
+ },
+ {
+  "word": "up",
+  "start": 3.311,
+  "end": 3.474,
+  "sentence": 0
+ },
+ {
+  "word": "its",
+  "start": 3.474,
+  "end": 3.677,
+  "sentence": 0
+ },
+ {
+  "word": "toilet.",
+  "start": 3.677,
+  "end": 4.002,
+  "sentence": 0
+ },
+ {
+  "word": "In",
+  "start": 4.122,
+  "end": 4.342,
+  "sentence": 1
+ },
+ {
+  "word": "1196,",
+  "start": 4.342,
+  "end": 4.673,
+  "sentence": 1
+ },
+ {
+  "word": "Richard",
+  "start": 4.673,
+  "end": 5.168,
+  "sentence": 1
+ },
+ {
+  "word": "the",
+  "start": 5.168,
+  "end": 5.444,
+  "sentence": 1
+ },
+ {
+  "word": "Lionheart",
+  "start": 5.444,
+  "end": 6.049,
+  "sentence": 1
+ },
+ {
+  "word": "built",
+  "start": 6.049,
+  "end": 6.435,
+  "sentence": 1
+ },
+ {
+  "word": "it",
+  "start": 6.435,
+  "end": 6.655,
+  "sentence": 1
+ },
+ {
+  "word": "on",
+  "start": 6.655,
+  "end": 6.875,
+  "sentence": 1
+ },
+ {
+  "word": "a",
+  "start": 6.875,
+  "end": 7.04,
+  "sentence": 1
+ },
+ {
+  "word": "cliff",
+  "start": 7.04,
+  "end": 7.426,
+  "sentence": 1
+ },
+ {
+  "word": "above",
+  "start": 7.426,
+  "end": 7.811,
+  "sentence": 1
+ },
+ {
+  "word": "the",
+  "start": 7.811,
+  "end": 8.086,
+  "sentence": 1
+ },
+ {
+  "word": "River",
+  "start": 8.086,
+  "end": 8.472,
+  "sentence": 1
+ },
+ {
+  "word": "Seine.",
+  "start": 8.472,
+  "end": 8.857,
+  "sentence": 1
+ },
+ {
+  "word": "Three",
+  "start": 8.977,
+  "end": 9.287,
+  "sentence": 2
+ },
+ {
+  "word": "rings",
+  "start": 9.287,
+  "end": 9.597,
+  "sentence": 2
+ },
+ {
+  "word": "of",
+  "start": 9.597,
+  "end": 9.774,
+  "sentence": 2
+ },
+ {
+  "word": "walls,",
+  "start": 9.774,
+  "end": 10.084,
+  "sentence": 2
+ },
+ {
+  "word": "on",
+  "start": 10.084,
+  "end": 10.261,
+  "sentence": 2
+ },
+ {
+  "word": "solid",
+  "start": 10.261,
+  "end": 10.571,
+  "sentence": 2
+ },
+ {
+  "word": "rock,",
+  "start": 10.571,
+  "end": 10.837,
+  "sentence": 2
+ },
+ {
+  "word": "built",
+  "start": 10.837,
+  "end": 11.147,
+  "sentence": 2
+ },
+ {
+  "word": "in",
+  "start": 11.147,
+  "end": 11.324,
+  "sentence": 2
+ },
+ {
+  "word": "just",
+  "start": 11.324,
+  "end": 11.59,
+  "sentence": 2
+ },
+ {
+  "word": "two",
+  "start": 11.59,
+  "end": 11.811,
+  "sentence": 2
+ },
+ {
+  "word": "years.",
+  "start": 11.811,
+  "end": 12.121,
+  "sentence": 2
+ },
+ {
+  "word": "It",
+  "start": 12.241,
+  "end": 12.406,
+  "sentence": 3
+ },
+ {
+  "word": "cost",
+  "start": 12.406,
+  "end": 12.653,
+  "sentence": 3
+ },
+ {
+  "word": "twelve",
+  "start": 12.653,
+  "end": 12.982,
+  "sentence": 3
+ },
+ {
+  "word": "thousand",
+  "start": 12.982,
+  "end": 13.393,
+  "sentence": 3
+ },
+ {
+  "word": "pounds,",
+  "start": 13.393,
+  "end": 13.722,
+  "sentence": 3
+ },
+ {
+  "word": "more",
+  "start": 13.722,
+  "end": 13.969,
+  "sentence": 3
+ },
+ {
+  "word": "than",
+  "start": 13.969,
+  "end": 14.216,
+  "sentence": 3
+ },
+ {
+  "word": "all",
+  "start": 14.216,
+  "end": 14.422,
+  "sentence": 3
+ },
+ {
+  "word": "his",
+  "start": 14.422,
+  "end": 14.627,
+  "sentence": 3
+ },
+ {
+  "word": "castles",
+  "start": 14.627,
+  "end": 14.997,
+  "sentence": 3
+ },
+ {
+  "word": "in",
+  "start": 14.997,
+  "end": 15.162,
+  "sentence": 3
+ },
+ {
+  "word": "England",
+  "start": 15.162,
+  "end": 15.532,
+  "sentence": 3
+ },
+ {
+  "word": "combined.",
+  "start": 15.532,
+  "end": 15.944,
+  "sentence": 3
+ },
+ {
+  "word": "Richard",
+  "start": 16.064,
+  "end": 16.441,
+  "sentence": 4
+ },
+ {
+  "word": "was",
+  "start": 16.441,
+  "end": 16.651,
+  "sentence": 4
+ },
+ {
+  "word": "so",
+  "start": 16.651,
+  "end": 16.819,
+  "sentence": 4
+ },
+ {
+  "word": "proud,",
+  "start": 16.819,
+  "end": 17.113,
+  "sentence": 4
+ },
+ {
+  "word": "he",
+  "start": 17.113,
+  "end": 17.281,
+  "sentence": 4
+ },
+ {
+  "word": "called",
+  "start": 17.281,
+  "end": 17.616,
+  "sentence": 4
+ },
+ {
+  "word": "it",
+  "start": 17.616,
+  "end": 17.784,
+  "sentence": 4
+ },
+ {
+  "word": "his",
+  "start": 17.784,
+  "end": 17.994,
+  "sentence": 4
+ },
+ {
+  "word": "one-year-old",
+  "start": 17.994,
+  "end": 18.498,
+  "sentence": 4
+ },
+ {
+  "word": "daughter.",
+  "start": 18.498,
+  "end": 18.917,
+  "sentence": 4
+ },
+ {
+  "word": "The",
+  "start": 19.037,
+  "end": 19.245,
+  "sentence": 5
+ },
+ {
+  "word": "king",
+  "start": 19.245,
+  "end": 19.495,
+  "sentence": 5
+ },
+ {
+  "word": "of",
+  "start": 19.495,
+  "end": 19.661,
+  "sentence": 5
+ },
+ {
+  "word": "France",
+  "start": 19.661,
+  "end": 19.994,
+  "sentence": 5
+ },
+ {
+  "word": "said,",
+  "start": 19.994,
+  "end": 20.243,
+  "sentence": 5
+ },
+ {
+  "word": "\"I'd",
+  "start": 20.243,
+  "end": 20.41,
+  "sentence": 5
+ },
+ {
+  "word": "take",
+  "start": 20.41,
+  "end": 20.659,
+  "sentence": 5
+ },
+ {
+  "word": "it,",
+  "start": 20.659,
+  "end": 20.826,
+  "sentence": 5
+ },
+ {
+  "word": "even",
+  "start": 20.826,
+  "end": 21.075,
+  "sentence": 5
+ },
+ {
+  "word": "if",
+  "start": 21.075,
+  "end": 21.242,
+  "sentence": 5
+ },
+ {
+  "word": "its",
+  "start": 21.242,
+  "end": 21.45,
+  "sentence": 5
+ },
+ {
+  "word": "walls",
+  "start": 21.45,
+  "end": 21.741,
+  "sentence": 5
+ },
+ {
+  "word": "were",
+  "start": 21.741,
+  "end": 21.99,
+  "sentence": 5
+ },
+ {
+  "word": "made",
+  "start": 21.99,
+  "end": 22.24,
+  "sentence": 5
+ },
+ {
+  "word": "of",
+  "start": 22.24,
+  "end": 22.406,
+  "sentence": 5
+ },
+ {
+  "word": "iron.\"",
+  "start": 22.406,
+  "end": 22.656,
+  "sentence": 5
+ },
+ {
+  "word": "Richard",
+  "start": 22.776,
+  "end": 23.135,
+  "sentence": 6
+ },
+ {
+  "word": "said,",
+  "start": 23.135,
+  "end": 23.375,
+  "sentence": 6
+ },
+ {
+  "word": "\"I'd",
+  "start": 23.375,
+  "end": 23.534,
+  "sentence": 6
+ },
+ {
+  "word": "hold",
+  "start": 23.534,
+  "end": 23.774,
+  "sentence": 6
+ },
+ {
+  "word": "it,",
+  "start": 23.774,
+  "end": 23.933,
+  "sentence": 6
+ },
+ {
+  "word": "even",
+  "start": 23.933,
+  "end": 24.173,
+  "sentence": 6
+ },
+ {
+  "word": "if",
+  "start": 24.173,
+  "end": 24.333,
+  "sentence": 6
+ },
+ {
+  "word": "they",
+  "start": 24.333,
+  "end": 24.572,
+  "sentence": 6
+ },
+ {
+  "word": "were",
+  "start": 24.572,
+  "end": 24.812,
+  "sentence": 6
+ },
+ {
+  "word": "made",
+  "start": 24.812,
+  "end": 25.051,
+  "sentence": 6
+ },
+ {
+  "word": "of",
+  "start": 25.051,
+  "end": 25.211,
+  "sentence": 6
+ },
+ {
+  "word": "butter.\"",
+  "start": 25.211,
+  "end": 25.53,
+  "sentence": 6
+ },
+ {
+  "word": "Then",
+  "start": 25.65,
+  "end": 25.905,
+  "sentence": 7
+ },
+ {
+  "word": "Richard",
+  "start": 25.905,
+  "end": 26.286,
+  "sentence": 7
+ },
+ {
+  "word": "died,",
+  "start": 26.286,
+  "end": 26.541,
+  "sentence": 7
+ },
+ {
+  "word": "and",
+  "start": 26.541,
+  "end": 26.753,
+  "sentence": 7
+ },
+ {
+  "word": "his",
+  "start": 26.753,
+  "end": 26.965,
+  "sentence": 7
+ },
+ {
+  "word": "brother",
+  "start": 26.965,
+  "end": 27.346,
+  "sentence": 7
+ },
+ {
+  "word": "John",
+  "start": 27.346,
+  "end": 27.601,
+  "sentence": 7
+ },
+ {
+  "word": "got",
+  "start": 27.601,
+  "end": 27.813,
+  "sentence": 7
+ },
+ {
+  "word": "the",
+  "start": 27.813,
+  "end": 28.025,
+  "sentence": 7
+ },
+ {
+  "word": "castle.",
+  "start": 28.025,
+  "end": 28.364,
+  "sentence": 7
+ },
+ {
+  "word": "John's",
+  "start": 28.484,
+  "end": 28.794,
+  "sentence": 8
+ },
+ {
+  "word": "big",
+  "start": 28.794,
+  "end": 29.015,
+  "sentence": 8
+ },
+ {
+  "word": "addition?",
+  "start": 29.015,
+  "end": 29.458,
+  "sentence": 8
+ },
+ {
+  "word": "A",
+  "start": 29.578,
+  "end": 29.735,
+  "sentence": 9
+ },
+ {
+  "word": "chapel.",
+  "start": 29.735,
+  "end": 30.153,
+  "sentence": 9
+ },
+ {
+  "word": "With",
+  "start": 30.273,
+  "end": 30.476,
+  "sentence": 10
+ },
+ {
+  "word": "a",
+  "start": 30.476,
+  "end": 30.578,
+  "sentence": 10
+ },
+ {
+  "word": "toilet.",
+  "start": 30.578,
+  "end": 30.849,
+  "sentence": 10
+ },
+ {
+  "word": "In",
+  "start": 30.969,
+  "end": 31.186,
+  "sentence": 11
+ },
+ {
+  "word": "1203,",
+  "start": 31.186,
+  "end": 31.51,
+  "sentence": 11
+ },
+ {
+  "word": "the",
+  "start": 31.51,
+  "end": 31.781,
+  "sentence": 11
+ },
+ {
+  "word": "French",
+  "start": 31.781,
+  "end": 32.214,
+  "sentence": 11
+ },
+ {
+  "word": "arrived",
+  "start": 32.214,
+  "end": 32.701,
+  "sentence": 11
+ },
+ {
+  "word": "and",
+  "start": 32.701,
+  "end": 32.972,
+  "sentence": 11
+ },
+ {
+  "word": "dug",
+  "start": 32.972,
+  "end": 33.242,
+  "sentence": 11
+ },
+ {
+  "word": "under",
+  "start": 33.242,
+  "end": 33.621,
+  "sentence": 11
+ },
+ {
+  "word": "the",
+  "start": 33.621,
+  "end": 33.892,
+  "sentence": 11
+ },
+ {
+  "word": "first",
+  "start": 33.892,
+  "end": 34.27,
+  "sentence": 11
+ },
+ {
+  "word": "wall",
+  "start": 34.27,
+  "end": 34.595,
+  "sentence": 11
+ },
+ {
+  "word": "until",
+  "start": 34.595,
+  "end": 34.974,
+  "sentence": 11
+ },
+ {
+  "word": "it",
+  "start": 34.974,
+  "end": 35.19,
+  "sentence": 11
+ },
+ {
+  "word": "collapsed.",
+  "start": 35.19,
+  "end": 35.786,
+  "sentence": 11
+ },
+ {
+  "word": "But",
+  "start": 35.906,
+  "end": 36.09,
+  "sentence": 12
+ },
+ {
+  "word": "the",
+  "start": 36.09,
+  "end": 36.275,
+  "sentence": 12
+ },
+ {
+  "word": "second",
+  "start": 36.275,
+  "end": 36.57,
+  "sentence": 12
+ },
+ {
+  "word": "wall",
+  "start": 36.57,
+  "end": 36.792,
+  "sentence": 12
+ },
+ {
+  "word": "held.",
+  "start": 36.792,
+  "end": 37.013,
+  "sentence": 12
+ },
+ {
+  "word": "Until",
+  "start": 37.133,
+  "end": 37.403,
+  "sentence": 13
+ },
+ {
+  "word": "one",
+  "start": 37.403,
+  "end": 37.595,
+  "sentence": 13
+ },
+ {
+  "word": "soldier",
+  "start": 37.595,
+  "end": 37.942,
+  "sentence": 13
+ },
+ {
+  "word": "looked",
+  "start": 37.942,
+  "end": 38.25,
+  "sentence": 13
+ },
+ {
+  "word": "up,",
+  "start": 38.25,
+  "end": 38.404,
+  "sentence": 13
+ },
+ {
+  "word": "and",
+  "start": 38.404,
+  "end": 38.596,
+  "sentence": 13
+ },
+ {
+  "word": "spotted",
+  "start": 38.596,
+  "end": 38.943,
+  "sentence": 13
+ },
+ {
+  "word": "a",
+  "start": 38.943,
+  "end": 39.058,
+  "sentence": 13
+ },
+ {
+  "word": "hole",
+  "start": 39.058,
+  "end": 39.289,
+  "sentence": 13
+ },
+ {
+  "word": "in",
+  "start": 39.289,
+  "end": 39.443,
+  "sentence": 13
+ },
+ {
+  "word": "the",
+  "start": 39.443,
+  "end": 39.636,
+  "sentence": 13
+ },
+ {
+  "word": "wall.",
+  "start": 39.636,
+  "end": 39.867,
+  "sentence": 13
+ },
+ {
+  "word": "The",
+  "start": 39.987,
+  "end": 40.178,
+  "sentence": 14
+ },
+ {
+  "word": "toilet",
+  "start": 40.178,
+  "end": 40.484,
+  "sentence": 14
+ },
+ {
+  "word": "chute.",
+  "start": 40.484,
+  "end": 40.751,
+  "sentence": 14
+ },
+ {
+  "word": "He",
+  "start": 40.871,
+  "end": 41.027,
+  "sentence": 15
+ },
+ {
+  "word": "climbed",
+  "start": 41.027,
+  "end": 41.377,
+  "sentence": 15
+ },
+ {
+  "word": "all",
+  "start": 41.377,
+  "end": 41.571,
+  "sentence": 15
+ },
+ {
+  "word": "the",
+  "start": 41.571,
+  "end": 41.766,
+  "sentence": 15
+ },
+ {
+  "word": "way",
+  "start": 41.766,
+  "end": 41.96,
+  "sentence": 15
+ },
+ {
+  "word": "up,",
+  "start": 41.96,
+  "end": 42.116,
+  "sentence": 15
+ },
+ {
+  "word": "straight",
+  "start": 42.116,
+  "end": 42.505,
+  "sentence": 15
+ },
+ {
+  "word": "into",
+  "start": 42.505,
+  "end": 42.738,
+  "sentence": 15
+ },
+ {
+  "word": "the",
+  "start": 42.738,
+  "end": 42.933,
+  "sentence": 15
+ },
+ {
+  "word": "chapel.",
+  "start": 42.933,
+  "end": 43.244,
+  "sentence": 15
+ },
+ {
+  "word": "Luckily",
+  "start": 43.364,
+  "end": 43.754,
+  "sentence": 16
+ },
+ {
+  "word": "for",
+  "start": 43.754,
+  "end": 43.971,
+  "sentence": 16
+ },
+ {
+  "word": "him,",
+  "start": 43.971,
+  "end": 44.187,
+  "sentence": 16
+ },
+ {
+  "word": "nobody",
+  "start": 44.187,
+  "end": 44.534,
+  "sentence": 16
+ },
+ {
+  "word": "guarded",
+  "start": 44.534,
+  "end": 44.924,
+  "sentence": 16
+ },
+ {
+  "word": "the",
+  "start": 44.924,
+  "end": 45.14,
+  "sentence": 16
+ },
+ {
+  "word": "toilet.",
+  "start": 45.14,
+  "end": 45.487,
+  "sentence": 16
+ },
+ {
+  "word": "Unluckily",
+  "start": 45.607,
+  "end": 46.06,
+  "sentence": 17
+ },
+ {
+  "word": "for",
+  "start": 46.06,
+  "end": 46.266,
+  "sentence": 17
+ },
+ {
+  "word": "him,",
+  "start": 46.266,
+  "end": 46.472,
+  "sentence": 17
+ },
+ {
+  "word": "the",
+  "start": 46.472,
+  "end": 46.678,
+  "sentence": 17
+ },
+ {
+  "word": "whole",
+  "start": 46.678,
+  "end": 46.966,
+  "sentence": 17
+ },
+ {
+  "word": "castle",
+  "start": 46.966,
+  "end": 47.296,
+  "sentence": 17
+ },
+ {
+  "word": "had",
+  "start": 47.296,
+  "end": 47.502,
+  "sentence": 17
+ },
+ {
+  "word": "been",
+  "start": 47.502,
+  "end": 47.749,
+  "sentence": 17
+ },
+ {
+  "word": "using",
+  "start": 47.749,
+  "end": 48.037,
+  "sentence": 17
+ },
+ {
+  "word": "it",
+  "start": 48.037,
+  "end": 48.202,
+  "sentence": 17
+ },
+ {
+  "word": "for",
+  "start": 48.202,
+  "end": 48.408,
+  "sentence": 17
+ },
+ {
+  "word": "six",
+  "start": 48.408,
+  "end": 48.614,
+  "sentence": 17
+ },
+ {
+  "word": "months.",
+  "start": 48.614,
+  "end": 48.944,
+  "sentence": 17
+ },
+ {
+  "word": "You",
+  "start": 49.064,
+  "end": 49.273,
+  "sentence": 18
+ },
+ {
+  "word": "see,",
+  "start": 49.273,
+  "end": 49.482,
+  "sentence": 18
+ },
+ {
+  "word": "a",
+  "start": 49.482,
+  "end": 49.607,
+  "sentence": 18
+ },
+ {
+  "word": "medieval",
+  "start": 49.607,
+  "end": 50.025,
+  "sentence": 18
+ },
+ {
+  "word": "toilet",
+  "start": 50.025,
+  "end": 50.36,
+  "sentence": 18
+ },
+ {
+  "word": "was",
+  "start": 50.36,
+  "end": 50.569,
+  "sentence": 18
+ },
+ {
+  "word": "just",
+  "start": 50.569,
+  "end": 50.82,
+  "sentence": 18
+ },
+ {
+  "word": "a",
+  "start": 50.82,
+  "end": 50.945,
+  "sentence": 18
+ },
+ {
+  "word": "stone",
+  "start": 50.945,
+  "end": 51.238,
+  "sentence": 18
+ },
+ {
+  "word": "seat",
+  "start": 51.238,
+  "end": 51.488,
+  "sentence": 18
+ },
+ {
+  "word": "over",
+  "start": 51.488,
+  "end": 51.739,
+  "sentence": 18
+ },
+ {
+  "word": "a",
+  "start": 51.739,
+  "end": 51.865,
+  "sentence": 18
+ },
+ {
+  "word": "chute,",
+  "start": 51.865,
+  "end": 52.157,
+  "sentence": 18
+ },
+ {
+  "word": "straight",
+  "start": 52.157,
+  "end": 52.576,
+  "sentence": 18
+ },
+ {
+  "word": "down",
+  "start": 52.576,
+  "end": 52.826,
+  "sentence": 18
+ },
+ {
+  "word": "the",
+  "start": 52.826,
+  "end": 53.035,
+  "sentence": 18
+ },
+ {
+  "word": "outside",
+  "start": 53.035,
+  "end": 53.412,
+  "sentence": 18
+ },
+ {
+  "word": "wall.",
+  "start": 53.412,
+  "end": 53.663,
+  "sentence": 18
+ },
+ {
+  "word": "It's",
+  "start": 53.783,
+  "end": 53.968,
+  "sentence": 19
+ },
+ {
+  "word": "like",
+  "start": 53.968,
+  "end": 54.189,
+  "sentence": 19
+ },
+ {
+  "word": "a",
+  "start": 54.189,
+  "end": 54.3,
+  "sentence": 19
+ },
+ {
+  "word": "bank",
+  "start": 54.3,
+  "end": 54.522,
+  "sentence": 19
+ },
+ {
+  "word": "vault",
+  "start": 54.522,
+  "end": 54.781,
+  "sentence": 19
+ },
+ {
+  "word": "with",
+  "start": 54.781,
+  "end": 55.003,
+  "sentence": 19
+ },
+ {
+  "word": "a",
+  "start": 55.003,
+  "end": 55.114,
+  "sentence": 19
+ },
+ {
+  "word": "steel",
+  "start": 55.114,
+  "end": 55.373,
+  "sentence": 19
+ },
+ {
+  "word": "door,",
+  "start": 55.373,
+  "end": 55.595,
+  "sentence": 19
+ },
+ {
+  "word": "and",
+  "start": 55.595,
+  "end": 55.78,
+  "sentence": 19
+ },
+ {
+  "word": "a",
+  "start": 55.78,
+  "end": 55.891,
+  "sentence": 19
+ },
+ {
+  "word": "doggy",
+  "start": 55.891,
+  "end": 56.15,
+  "sentence": 19
+ },
+ {
+  "word": "door",
+  "start": 56.15,
+  "end": 56.372,
+  "sentence": 19
+ },
+ {
+  "word": "in",
+  "start": 56.372,
+  "end": 56.52,
+  "sentence": 19
+ },
+ {
+  "word": "the",
+  "start": 56.52,
+  "end": 56.705,
+  "sentence": 19
+ },
+ {
+  "word": "back.",
+  "start": 56.705,
+  "end": 56.927,
+  "sentence": 19
+ },
+ {
+  "word": "His",
+  "start": 57.047,
+  "end": 57.251,
+  "sentence": 20
+ },
+ {
+  "word": "friends",
+  "start": 57.251,
+  "end": 57.618,
+  "sentence": 20
+ },
+ {
+  "word": "followed,",
+  "start": 57.618,
+  "end": 58.026,
+  "sentence": 20
+ },
+ {
+  "word": "set",
+  "start": 58.026,
+  "end": 58.23,
+  "sentence": 20
+ },
+ {
+  "word": "fires,",
+  "start": 58.23,
+  "end": 58.516,
+  "sentence": 20
+ },
+ {
+  "word": "and",
+  "start": 58.516,
+  "end": 58.72,
+  "sentence": 20
+ },
+ {
+  "word": "opened",
+  "start": 58.72,
+  "end": 59.046,
+  "sentence": 20
+ },
+ {
+  "word": "the",
+  "start": 59.046,
+  "end": 59.25,
+  "sentence": 20
+ },
+ {
+  "word": "gates.",
+  "start": 59.25,
+  "end": 59.536,
+  "sentence": 20
+ },
+ {
+  "word": "Soon",
+  "start": 59.656,
+  "end": 59.932,
+  "sentence": 21
+ },
+ {
+  "word": "after,",
+  "start": 59.932,
+  "end": 60.253,
+  "sentence": 21
+ },
+ {
+  "word": "the",
+  "start": 60.253,
+  "end": 60.483,
+  "sentence": 21
+ },
+ {
+  "word": "last",
+  "start": 60.483,
+  "end": 60.759,
+  "sentence": 21
+ },
+ {
+  "word": "wall",
+  "start": 60.759,
+  "end": 61.034,
+  "sentence": 21
+ },
+ {
+  "word": "fell,",
+  "start": 61.034,
+  "end": 61.31,
+  "sentence": 21
+ },
+ {
+  "word": "and",
+  "start": 61.31,
+  "end": 61.54,
+  "sentence": 21
+ },
+ {
+  "word": "John",
+  "start": 61.54,
+  "end": 61.815,
+  "sentence": 21
+ },
+ {
+  "word": "lost",
+  "start": 61.815,
+  "end": 62.091,
+  "sentence": 21
+ },
+ {
+  "word": "Normandy.",
+  "start": 62.091,
+  "end": 62.55,
+  "sentence": 21
+ },
+ {
+  "word": "Richard",
+  "start": 62.67,
+  "end": 62.994,
+  "sentence": 22
+ },
+ {
+  "word": "said",
+  "start": 62.994,
+  "end": 63.21,
+  "sentence": 22
+ },
+ {
+  "word": "he'd",
+  "start": 63.21,
+  "end": 63.39,
+  "sentence": 22
+ },
+ {
+  "word": "hold",
+  "start": 63.39,
+  "end": 63.605,
+  "sentence": 22
+ },
+ {
+  "word": "it",
+  "start": 63.605,
+  "end": 63.749,
+  "sentence": 22
+ },
+ {
+  "word": "even",
+  "start": 63.749,
+  "end": 63.965,
+  "sentence": 22
+ },
+ {
+  "word": "if",
+  "start": 63.965,
+  "end": 64.109,
+  "sentence": 22
+ },
+ {
+  "word": "the",
+  "start": 64.109,
+  "end": 64.289,
+  "sentence": 22
+ },
+ {
+  "word": "walls",
+  "start": 64.289,
+  "end": 64.541,
+  "sentence": 22
+ },
+ {
+  "word": "were",
+  "start": 64.541,
+  "end": 64.756,
+  "sentence": 22
+ },
+ {
+  "word": "made",
+  "start": 64.756,
+  "end": 64.972,
+  "sentence": 22
+ },
+ {
+  "word": "of",
+  "start": 64.972,
+  "end": 65.116,
+  "sentence": 22
+ },
+ {
+  "word": "butter.",
+  "start": 65.116,
+  "end": 65.404,
+  "sentence": 22
+ },
+ {
+  "word": "The",
+  "start": 65.524,
+  "end": 65.709,
+  "sentence": 23
+ },
+ {
+  "word": "walls",
+  "start": 65.709,
+  "end": 65.969,
+  "sentence": 23
+ },
+ {
+  "word": "were",
+  "start": 65.969,
+  "end": 66.191,
+  "sentence": 23
+ },
+ {
+  "word": "fine.",
+  "start": 66.191,
+  "end": 66.413,
+  "sentence": 23
+ },
+ {
+  "word": "It",
+  "start": 66.533,
+  "end": 66.664,
+  "sentence": 24
+ },
+ {
+  "word": "was",
+  "start": 66.664,
+  "end": 66.828,
+  "sentence": 24
+ },
+ {
+  "word": "the",
+  "start": 66.828,
+  "end": 66.992,
+  "sentence": 24
+ },
+ {
+  "word": "toilet.",
+  "start": 66.992,
+  "end": 67.254,
+  "sentence": 24
+ }
+]
