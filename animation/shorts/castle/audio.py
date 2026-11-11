@@ -100,7 +100,7 @@ def score():
     section(music, s(17)[0], s(18)[1], fife=True, vel=0.55)                             # you see
     section(music, s(19)[0], s(22)[1], vel=0.75)                                        # they pour in
     section(music, s(23)[0], DUR - 1.0, fife=True, vel=0.75)                            # reprise
-    fanfare(music, fr(140))                      # "Richard the Lionheart"
+    fanfare(music, fr(186))                      # "Richard the Lionheart" (aligned word time)
     fanfare(music, fr(1831), 0.6)                # the French flag
     for t, chord in [(fr(124), "Dm"), (fr(1056), "Dm"), (fr(1288), "C"), (fr(1472), "Dm"), (DUR - 1.1, "Dm")]:
         for m in CH[chord]:
@@ -140,7 +140,7 @@ def sfx():
             if light == "day":
                 place(out, G.bird_chirps(d, R, 0.35), fr(a), 0.4)
     # whooshes on glides and the flash
-    for f0, d, pk in [(86, 0.6, 0.3), (122, 0.6, 0.3), (205, 1.2, 0.6), (893, 0.9, 0.45), (985, 1.0, 0.5), (1030, 0.7, 0.3),
+    for f0, d, pk in [(86, 0.6, 0.3), (122, 0.6, 0.3), (226, 1.2, 0.6), (893, 0.9, 0.45), (1006, 0.9, 0.45), (1034, 0.7, 0.3),
                       (1148, 1.0, 0.5), (1322, 0.8, 0.4), (1548, 1.4, 0.7), (1662, 1.1, 0.5), (1988, 0.7, 0.35)]:
         place(out, G.whoosh(d, R, peak=pk), fr(f0) - pk * 0.3, 0.5)
     # the climber's scrapes (hook + shot 14)
@@ -180,11 +180,14 @@ def sfx():
     for k, f in enumerate([660, 784]):
         place(out, pan(bell(f) * 0.3, 0.3 * (k * 2 - 1)), fr(889) + k * 0.35, 0.6)
     # the siege: marching boots, picks, the collapse
-    for k in range(int(fr(985 - 929) / 0.5)):
+    for k in range(int(fr(1006 - 929) / 0.5)):
         place(out, pan(G.boot(R, 0.7), 0.15 * (-1) ** k), fr(929) + k * 0.5, 0.5)
-    for k in range(int(fr(1050 - 989) / 0.35)):
-        place(out, pan(G.clink(R, f0=R.uniform(1500, 2600), dur=0.1), R.uniform(-0.3, 0.3)), fr(989) + k * 0.35, 0.6)
-        place(out, thud(0.6, 0.2, 400), fr(989) + k * 0.35, 0.5)
+    for k in range(int(fr(1050 - 1014) / 0.35)):
+        place(out, pan(G.clink(R, f0=R.uniform(1500, 2600), dur=0.1), R.uniform(-0.3, 0.3)), fr(1014) + k * 0.35, 0.6)
+        place(out, thud(0.6, 0.2, 400), fr(1014) + k * 0.35, 0.5)
+    # risers into the big reveals (GrowKaz sound rule: riser 1-2 s before, impact on it)
+    for f0, d in [(1056, 1.6), (1288, 1.0), (1953, 1.2)]:
+        place(out, G.whoosh(d, R, peak=d * 0.95, f_lo=200, f_hi=4000, tail=0.05), fr(f0) - d * 0.95, 0.45)
     rumble = lp(colored(ns(3.0), R, -1.0), 120) * np.exp(-tt(3.0) / 0.9) * 2.5
     place(out, rumble, fr(1050), 1.0)
     place(out, thud(3.0, 1.2, 110), fr(1060), 1.0)
@@ -248,7 +251,7 @@ def mix():
     vr = rms(voice[:, voice.any(axis=0)]) if voice.any() else 0.1
     music *= (vr / rms(music)) * dbg(-13.0 + 3.0)  # skill rule: music +3 dB over our base
     fx *= (vr / rms(fx)) * dbg(-12.0 - 6.0 + 6.0)  # SFX bed sits ~-12 dB under the voice
-    music *= dbg(-4.0) ** key[None, :]
+    music *= dbg(-9.0) ** key[None, :]  # duck -9 dB under the voice (was -4: the music fought the words)
     out = voice + music + fx
     out /= max(1e-6, np.abs(out).max()) / 0.89
     (HERE / "audio").mkdir(exist_ok=True)

@@ -126,6 +126,36 @@ The user liked v3 but asked for more care with details. Treat every point here a
 - **Grade per light** stays the rule: re-fit with `fit_grade.py` on pre-grade stills of the new world. It now
   accepts `inside` as an interior light name.
 
+## Life and pacing rules (from the GrowKaz Stickman plugin, adopted 2026-11-11; the code is ours)
+- **Quoted lines are lip-synced. The narrator never is.**
+  - When a character's quote is spoken (`"I'd take it..."`), pass `talk: talkAt(WORDS, t, ...quoteRange(WORDS, s))`
+    (`src/lib/talk.ts`).
+  - The mouth opens once per syllable, in 4 steps, so drawings are reused.
+- **Nobody is frozen.**
+  - Standing and seated cards breathe: the mesh scales about 1.2 % in y over a 3-4 s cycle, with a phase per
+    character (`breath` in the castle world).
+  - Expressions and poses change on the words, never at random.
+- **The camera always moves.**
+  - Every shot orbits (`ARC`) at ~4-7 deg/s on close shots, double the old rates (`ARC_GAIN = 2`). At the old rates
+    only 19 % of frames moved, against the reference's 65 %.
+  - Holds still push in.
+- **Shot vocabulary per short.** Mix these, and never use the same framing more than 3 shots in a row:
+  - establishing wide (~10 %), opening every new place;
+  - medium two-shot (~25 %);
+  - over-the-shoulder with a soft foreground figure (~10 %);
+  - face close-up (10-15 %) for reactions and "you" moments;
+  - insert or macro on objects (~10 %);
+  - cutaway or diagram for the mechanism (the "You see," segment);
+  - 1-3 signature moments per short (the butter swap, the toilet pop).
+- **Pacing:** 15-25 shots per minute and a median of 2-3.5 s. Cut or reframe on phrase boundaries, 3-6 frames
+  before the phrase.
+- **Sound:**
+  - Duck the music -9 dB under the voice (-4 was too little).
+  - A continuous ambience bed under every shot.
+  - A riser 1-2 s before each big reveal, with the impact on the reveal frame.
+  - A pop or blip when something appears.
+  - Never more than ~2 SFX on the same instant.
+
 ## Captions (user feedback, iteration 3)
 - **Style:** `animation/src/lib/Captions.tsx`, driven by the short's `words.json`.
   - 1-2 words per page, heavy uppercase sans (Segoe UI Black), thick black outline and a hard shadow.
@@ -159,7 +189,11 @@ The user liked v3 but asked for more care with details. Treat every point here a
    - Never describe on screen what the viewer already sees.
 3. **Voice.** Record or generate `voice.wav`, then make its word timings `words.json` (any speech-to-text with word times).
    - Put them in the project folder, e.g. `~/bridge-short/voice/`.
-   - Hand-fix the word timings. Everything is timed to words.json.
+   - In the shorts-studio repo, run `uv run python scripts/make_voice.py <name>` and then
+     `uv run python scripts/align_words.py <name>`. The second script aligns the script's exact words onto
+     faster-whisper word times, using the base.en model.
+   - The letter-count estimate was up to 1.5 s off: years like "1196" are read as three long words. Always align
+     before timing shots, kicks and expressions to words. Everything is timed to words.json.
 4. **Shot plan** in `story.ts`: copy `templates/bridge/` (the final bridge source, same as `src/videos/bridge/` of your Remotion project) to `src/videos/<name>/`, register a new composition next to `BridgeShort` in `src/Root.tsx`, and rename it.
    - `SHOTS`: id, a/b frames, light day/golden, crowd mode, `tau` story time.
    - `XFADE`: crossfades at place/time changes.

@@ -141,3 +141,20 @@ Read this file before starting a new short.
     - The vignette is too strong in golden scenes (0.54 against 0.75).
     - Golden darks are lifted (p5 .29 against .21) and lean brown (b* +4).
     - Hard cuts run at 6.2 per minute: the flash, the butter swaps and the toilet pop.
+
+## Iteration 5b: ideas taken from the GrowKaz Stickman plugin (2026-11-11)
+- **User:** "toate 5": take all five ideas into our skill.
+- **Not installed:** the plugin itself. It has a different look (black stick figures with rim light on dark sets).
+  Only the ideas were rewritten as our code and rules.
+- **Changes:**
+  1. `scripts/align_words.py` gives real word times with faster-whisper. On the castle, 96 % of words matched, and
+     the largest error in the old estimate was 1.5 s.
+  2. `src/lib/talk.ts` lip-syncs quoted lines (Philip's "iron", Richard's "butter").
+  3. Idle breathing on standing and seated cards.
+  4. `ARC_GAIN = 2` doubles the orbit rate (it was 19 % moving frames, against 65 % in the reference).
+  5. SKILL.md "Life and pacing rules": shot vocabulary, pacing, a -9 dB duck, ambience, risers.
+- **Castle v2:** re-rendered with all five changes.
+- **Castle v2 measured:**
+  - Camera moving frames rose from 19 % to 37 % (reference 34-94 %); dead-still frames fell from 18 % to 8 %.
+  - Median speed is still low: 1.2 px/f against 3.6.
+  - Still open: the golden vignette is too strong (0.52 against 0.75).

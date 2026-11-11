@@ -314,7 +314,7 @@ const mouth = (p: Pen, kind: MouthK, mx: number, my: number, u: number, k = 1) =
 /** face v2 (front / 3-4). u = 1 % of the head path width W. Eyes 26u apart on the centre line, brows 20u up, mouth 20u
  *  down, everything slid toward the facing side. No blush, no catchlights. */
 const faceFront = (p: Pen, cx: number, cy: number, W: number, expr: Expr, facing: number, look: number, lid: number, brim: boolean,
-  skin: string, moustache?: string, stout = false, nose = false) => {
+  skin: string, moustache?: string, stout = false, nose = false, talk = 0) => {
   const u = W / 100, F = FACE[expr], fx = cx + 7 * u * facing;
   const ex = (F.eye[0] === "shock" ? 12 : 13) * u, ey = cy;
   for (const side of [-1, 1]) {
@@ -327,7 +327,11 @@ const faceFront = (p: Pen, cx: number, cy: number, W: number, expr: Expr, facing
   }
   const mx = cx + 8 * u * facing, my = cy + 20 * u;
   if (nose) { const nx = fx + 2 * u * facing, s = facing || 1; p.stroke([[nx - s * 2 * u, cy + 4 * u], [nx + s * 3.5 * u, cy + 9.5 * u], [nx - s * 1.5 * u, cy + 12 * u]], 2.8 * u); }
-  mouth(p, F.mouth, mx, my, u);
+  if (talk > 0.05) { // talking: an open mouth whose height follows the syllables, with a tongue and a teeth band
+    const rx = (8 + 4 * talk) * u, ry = (2.5 + 10 * talk) * u;
+    p.ell(mx, my, rx, ry, MOUTH, 3 * u);
+    if (talk > 0.35) { p.clip(ellPts(mx, my, rx, ry), () => { p.ell(mx, my - ry, rx, 3 * u, WHITE, 0); p.ell(mx + u, my + ry * 0.7, rx * 0.5, ry * 0.4, TONGUE, 0); }); p.ell(mx, my, rx, ry, null, 3 * u); }
+  } else mouth(p, F.mouth, mx, my, u);
   if (moustache) for (const s of [-1, 1])
     taper(p, [mx + s * 1.5 * u, cy + 12.5 * u], [mx + s * (stout ? 19 : 15) * u, cy + (stout ? 10.5 : 15) * u], stout ? 5.5 * u : 4.5 * u, 1.6 * u, moustache);
   if (expr === "nervous") p.ell(cx + 40 * u * (facing || 1), cy - 22 * u, 3 * u, 5 * u, "#9fd4ff", 2 * u);
@@ -519,6 +523,8 @@ const BUILD: Record<Build, { a: number; torso: number; legs: number; tw: number 
 export type FrontOpts = {
   phase?: number; expr?: Expr; mode?: "march" | "stroll" | "stand" | "sit" | "fall"; look?: number; blink?: boolean | number; lift?: number;
   prop?: Prop; tilt?: number; headTilt?: number; wave?: number; pose?: Pose;
+  /** 0..1 mouth open while the character speaks a quoted line (see lib/talk.ts) */
+  talk?: number;
   /** canvas angle the key light comes FROM (painted crescent + thick outline side) */
   light?: number; facing?: -1 | 0 | 1; seed?: number;
 };
@@ -530,7 +536,7 @@ const footStroke = (p: Pen, a: P2, b: P2, w: number, col: string) => {
 
 export const bodyFront = (p: Pen, o: Outfit, opts: FrontOpts) => {
   const { phase = 0, expr = "neutral", mode = "march", look = 0, blink = false, lift = 60, prop = null, tilt = 0, headTilt = 0, wave,
-    light = DEF_LIGHT, facing = 0, seed = 1, pose } = opts;
+    light = DEF_LIGHT, facing = 0, seed = 1, pose, talk = 0 } = opts;
   const Bd = BUILD[o.build ?? "adult"], skin = o.skin ?? SKIN, two = Math.PI * 2, lid = lidOf(blink);
   const H = headBlob(seed, Bd.a, facing), W = 2 * H.a, HH = 2 * H.b, u = W / 100;
   const tall = (1 + Bd.torso + Bd.legs) * HH, sole = 975;
@@ -750,7 +756,7 @@ export const bodyFront = (p: Pen, o: Outfit, opts: FrontOpts) => {
   if (o.hair && o.hat !== "hair" && !o.hood && o.hat !== "helm" && o.hat !== "coif") hatOn(p, { ...o, hat: "hair" }, hp, H, 300, hc, light, seed, facing, false);
   hatOn(p, o.hood ? { ...o, hat: "hood_top" } : o, hp, H, 300, hc, light, seed, facing, false);
   const brim = !!o.hat && o.hat !== "hair" && o.hat !== "bonnet" && o.hat !== "cap" && o.hat !== "crown";
-  faceFront(p, 300, hc, W, expr, facing, look, lid, brim, skin, o.moustache, o.build === "stout", !!o.nose);
+  faceFront(p, 300, hc, W, expr, facing, look, lid, brim, skin, o.moustache, o.build === "stout", !!o.nose, talk);
   p.rot = null;
 };
 

@@ -165,7 +165,7 @@ const crane = (a: (f: number) => Shot, fa: number, C: V3, b: (f: number) => Shot
 const S1a = (f: number) => zoom([-262, -37, 34], [-32, -9, -2], 23, pushK(f, 0, 0.0024));
 const S1b = (f: number) => dolly([-36.4, 1.9, 0.5], [-32.9, 2.6, -2.0], pushK(f, 88, 0.003, 0.007, 30), { fov: 44, roll: 0.04 });
 const S2a = (f: number) => zoom([4.6, 1.55, 107], [-0.6, 3.6, 68], 42, pushK(f, 124, 0.0016));
-const S2b = (f: number) => zoom([-112, -22, 74], [-16, 0, 20], 40, pushK(f, 205, 0.0016));
+const S2b = (f: number) => zoom([-112, -22, 74], [-16, 0, 20], 40, pushK(f, 226, 0.0016));
 const S3a = (f: number) => dolly([58, 64, 132], [0, 2, 4], pushK(f, 269, 0.0018), { fov: 44 });
 const S4a = (f: number) => dolly([-5.4, 2.0, 108.4], [-5.9, 1.65, 100.0], pushK(f, 367, 0.002, 0.005, 30), { fov: 44 });
 const S5a = (f: number) => zoom([2.4, 1.55, 113.5], [-1.4, 2.4, 70], 40, pushK(f, 482, 0.0025, 0.006, 30));
@@ -176,7 +176,7 @@ const S8a = (f: number) => zoom([-3.2, 0.95, 112], [0.4, 2.6, 80], 44, pushK(f, 
 const S9a = (f: number) => zoom([-8.0, 1.45, 13.6], [-20.5, 2.6, 3.2], 46, pushK(f, 855, 0.002));
 const S9b = (f: number) => dolly([-44.5, 4.8, 5.6], [-33.6, 6.2, -2.0], pushK(f, 920, 0.003, 0.008, 25), { fov: 44, roll: 0.04 });
 const S10a = (f: number) => zoom([3.5, 1.7, 192], [0, 9, 78], 42, pushK(f, 929, 0.0016));
-const S10b = (f: number) => zoom([6.0, 1.7, 91.5], [0.6, 3.2, 79], 46, pushK(f, 985, 0.0016));
+const S10b = (f: number) => zoom([6.0, 1.7, 91.5], [0.6, 3.2, 79], 46, pushK(f, 1006, 0.0016));
 const S10c = (f: number) => zoom([4, 2.6, 104.5], [0, 8.5, 74], 46, pushK(f, 1036, 0.0016));
 const S11a = (f: number) => dolly([2.6, 11.2, 27.6], [0.0, 13.1, 21.6], pushK(f, 1077, 0.003), { fov: 44 });
 const S12a = (f: number) => dolly([-40.6, 0.9, 1.6], [-36.4, 1.45, -1.2], pushK(f, 1114, 0.002), { fov: 42 });
@@ -204,7 +204,7 @@ const S24b = (f: number) => dolly([-43.5, 6.4, 3.4], [-34.6, 8.0, -2.0], pushK(f
 
 const CAMS: Record<number, Key[]> = {
   1: [{ f: 0, s: S1a }, { f: 88, cut: true, s: S1b }], // cut on "climbed" (88): the one cut inside the hook
-  2: [{ f: 124, s: S2a }, { f: 205, dur: 40, s: S2b }], // glide out to the cliff over the Seine ("cliff" 211, "Seine" 254)
+  2: [{ f: 124, s: S2a }, { f: 226, dur: 40, s: S2b }], // glide out to the cliff over the Seine ("cliff" 211, "Seine" 254)
   3: [{ f: 269, s: S3a }],
   4: [{ f: 367, s: S4a }],
   5: [{ f: 482, s: S5a }],
@@ -212,7 +212,7 @@ const CAMS: Record<number, Key[]> = {
   7: [{ f: 683, s: S7a }],
   8: [{ f: 770, s: S8a }],
   9: [{ f: 855, s: S9a }, { f: 893, s: crane(S9a, 893, [-31, 17, 6], S9b, 893, 26) }], // crane over the wall: "A chapel. With a toilet."
-  10: [{ f: 929, s: S10a }, { f: 985, dur: 34, s: S10b }, { f: 1030, dur: 22, s: S10c }], // "dug under" (989): the miners; pull back for the fall (1056)
+  10: [{ f: 929, s: S10a }, { f: 1006, dur: 26, s: S10b }, { f: 1034, dur: 20, s: S10c }], // "dug under" (989): the miners; pull back for the fall (1056)
   11: [{ f: 1077, s: S11a }],
   12: [{ f: 1114, s: S12a }, { f: 1148, dur: 36, s: S12b }], // "looked up" (1138-1148): tilt up the wall to the chute
   13: [{ f: 1200, s: S13a }],
@@ -244,7 +244,7 @@ export const kickAt = (t: number) => {
 type Arc = { w: number; d: [number, number][]; ramp?: number };
 const ARC: Record<number, Arc> = {
   1: { w: 1.2, d: [[0, 230], [88, 4.2]], ramp: 1 },
-  2: { w: -2.4, d: [[124, 4.6], [205, 95]], ramp: 40 },
+  2: { w: -2.4, d: [[124, 4.6], [226, 95]], ramp: 40 },
   3: { w: 3.0, d: [[269, 120]] },
   4: { w: -3.0, d: [[367, 8.4]] },
   5: { w: 3.2, d: [[482, 3.2]] },
@@ -252,7 +252,7 @@ const ARC: Record<number, Arc> = {
   7: { w: 3.0, d: [[683, 5.0]] },
   8: { w: -3.0, d: [[770, 4.6]] },
   9: { w: 3.0, d: [[855, 7.6], [893, 11.6]], ramp: 26 },
-  10: { w: -2.0, d: [[929, 100], [985, 6], [1030, 30]], ramp: 30 },
+  10: { w: -2.0, d: [[929, 100], [1006, 6], [1034, 30]], ramp: 24 },
   11: { w: 3.0, d: [[1077, 6.4]] },
   12: { w: -3.0, d: [[1114, 4.6], [1148, 9.5]], ramp: 36 },
   13: { w: 2.0, d: [[1200, 2]] },
@@ -273,10 +273,12 @@ const arcDist = (a: Arc, f: number) => {
   for (let i = 1; i < a.d.length; i++) if (f >= a.d[i][0]) v += (a.d[i][1] - v) * glide((f - a.d[i][0]) / (a.ramp ?? 24));
   return v;
 };
+/** global orbit gain: v1 measured 19 % moving frames (reference 65 %) at the base rates above */
+const ARC_GAIN = 2.0;
 const drift = (id: number, c: Cam, f: number): Cam => {
   const a = ARC[id];
   if (!a || !a.w) return c;
-  const th = ((a.w * Math.PI) / 180) * ((f - SHOTS[id - 1].a) / FPS), co = Math.cos(th), si = Math.sin(th);
+  const th = ((ARC_GAIN * a.w * Math.PI) / 180) * ((f - SHOTS[id - 1].a) / FPS), co = Math.cos(th), si = Math.sin(th);
   const v: V3 = [c.look[0] - c.pos[0], c.look[1] - c.pos[1], c.look[2] - c.pos[2]], n = Math.hypot(...v) || 1, d = arcDist(a, f);
   const P: V3 = [c.pos[0] + (v[0] / n) * d, 0, c.pos[2] + (v[2] / n) * d];
   const rot = (p: V3): V3 => { const x = p[0] - P[0], z = p[2] - P[2]; return [P[0] + x * co - z * si, p[1], P[2] + x * si + z * co]; };
@@ -307,7 +309,7 @@ export const DOF: Dof[] = [
   { f: 0, cInf: 0 }, // castle wide
   { f: 88, cInf: 7, focus: () => [-32.9, 2.4, -2.0] }, // the climber in the chute
   { f: 124, cInf: 9, focus: eyes(ahead(2, 124, 4.6, -0.55)) }, // Richard at the site
-  { f: 200, dur: 26, cInf: 0 }, // out to the cliff
+  { f: 222, dur: 26, cInf: 0 }, // out to the cliff
   { f: 367, cInf: 0 }, // the balance is the point
   { f: 482, cInf: 11, focus: eyes(ahead(5, 482, 3.2, -0.25), 1.45) }, // Richard and his "daughter"
   { f: 571, cInf: 5, focus: eyes(ahead(6, 571, 4.8, -0.5, LOW), 1.5) }, // Philip (the castle stays readable)

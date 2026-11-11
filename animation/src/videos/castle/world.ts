@@ -19,6 +19,11 @@ import {
   Light, ShotDef, V3, camAt, stateAt, popIn, clamp01, ahead, at, smooth, easeOut,
 } from "./story";
 import { RICHARD, PHILIP, JOHN, CLIMBER, TREASURER, french, english, worker } from "./people";
+import { talkAt, quoteRange } from "../../lib/talk";
+import type { Word } from "../../lib/Captions";
+import wordsJson from "../../../shorts/castle/voice/words.json";
+const WORDS = wordsJson as Word[];
+const QUOTE_PHILIP = quoteRange(WORDS, 5), QUOTE_RICHARD = quoteRange(WORDS, 6);
 import {
   terrainTex, butterTex, waterTex, tentTex, chuteTex, stainTex, sectionTex, steelTex, marbleTex, glassTex, flagTex, tapestryTex,
   cliffTex, fxSack, fxCoin, fxCrown, fxHeart, fxFly, fxStink, fxFlame, fxDrop, fxSmoke, fxMap, fxSpark,
@@ -76,7 +81,7 @@ export const groundY = (x: number, z: number) => {
 
 // ---------------- the cast ----------------
 type Who = { o: Outfit; seed: number; x: number; y: number; z: number; expr: Expr; mode?: FrontOpts["mode"]; dir?: number; phase?: number; wave?: number;
-  prop?: FrontOpts["prop"]; look?: number; scale?: number; pose?: FrontOpts["pose"]; facing?: -1 | 0 | 1; tilt?: number; noBlob?: boolean };
+  prop?: FrontOpts["prop"]; look?: number; scale?: number; pose?: FrontOpts["pose"]; facing?: -1 | 0 | 1; tilt?: number; noBlob?: boolean; talk?: number };
 type FxP = { key: string; cw: number; ch: number; draw: (p: Pen) => void; x: number; y: number; z: number; w: number; h: number; flat?: boolean; soft?: boolean; rot?: number; yaw?: number };
 
 const tier = (d: number): [number, number, number] => (d < 3.2 ? [1800, 3000, 3.0] : d < 6.5 ? [1080, 1800, 1.8] : d < 16 ? [480, 800, 0.8] : [240, 400, 0.4]);
@@ -97,7 +102,7 @@ const castFor = (id: number, f: number): Who[] => {
     case 2: {
       const [x, , z] = ahead(2, 124, 4.6, -0.55);
       return [
-        { o: RICHARD, seed: 11, x, y: 0, z, expr: f < 181 - L ? "proud" : "grin", prop: "scroll", facing: 1 },
+        { o: RICHARD, seed: 11, x, y: 0, z, expr: f < 211 - L ? "proud" : "grin", prop: "scroll", facing: 1 },
         { o: worker(0), seed: 31, x: x + 4.5, y: 0, z: z - 9, expr: "grin", prop: ["hammer", 0.5 + 0.5 * Math.sin(t * 8)] },
         { o: worker(1), seed: 32, x: x - 5.5, y: 0, z: z - 14, expr: "smile_closed", mode: "stroll", phase: t * 1.1 },
         { o: worker(2), seed: 33, x: x + 9.5, y: 0, z: z - 19, expr: "laugh", prop: ["hammer", 0.5 + 0.5 * Math.sin(t * 7 + 1)] },
@@ -114,10 +119,10 @@ const castFor = (id: number, f: number): Who[] => {
         { o: english(0), seed: 51, x: x + 3.2, y: 0, z: z - 6.5, expr: "smile_closed", wave: f > 545 ? 1 : undefined }];
     }
     case 6: { const [px, , pz] = ahead(6, 571, 4.8, -0.5); return [
-      { o: PHILIP, seed: 12, x: px, y: LOW, z: pz, expr: f < 607 - L ? "stern" : f < 672 - L ? "sneer" : "laugh", pose: "point", facing: 1 },
+      { o: PHILIP, seed: 12, x: px, y: LOW, z: pz, expr: f < 607 - L ? "stern" : f < 672 - L ? "sneer" : "laugh", pose: "point", facing: 1, talk: talkAt(WORDS, t, ...QUOTE_PHILIP) },
       ...([[8.5, 1.6, 0], [11, -2.4, 2]] as const).map(([d, sd, v], k) => { const [kx, , kz] = ahead(6, 571, d, sd); return { o: french(v), seed: 61 + k, x: kx, y: LOW, z: kz, expr: (k ? "laugh" : "grin") as Expr }; }),
     ]; }
-    case 7: return [{ o: RICHARD, seed: 11, x: R7[0], y: 0, z: R7[2], expr: f < 701 - L ? "smug" : f < 756 - L ? "proud" : "laugh", pose: "hips", facing: -1 }];
+    case 7: return [{ o: RICHARD, seed: 11, x: R7[0], y: 0, z: R7[2], expr: f < 701 - L ? "smug" : f < 756 - L ? "proud" : "laugh", pose: "hips", facing: -1, talk: talkAt(WORDS, t, ...QUOTE_RICHARD) }];
     case 8: {
       const [x, , z] = ahead(8, 770, 4.6, 0.35), crowned = f >= 828;
       return [{ o: crowned ? JOHN : { ...JOHN, hat: "hair" }, seed: 13, x, y: 0, z, expr: f < 809 - L ? "nervous" : f < 828 ? "shock" : "relief_open", facing: -1, look: f < 815 ? -1 : 0 },
@@ -129,7 +134,7 @@ const castFor = (id: number, f: number): Who[] => {
         { o: english(2), seed: 91, x: x - 6.5, y: 0, z: z - 6, expr: "smile_closed" }];
     }
     case 10: {
-      if (f < 985) {
+      if (f < 1010) {
         return [0, 1, 2, 3, 4].map((k) => { const [x, , z] = ahead(10, 929, 5.5 + 2.2 * k, [-1.3, 1.5, -2.4, 2.6, 0.2][k]); return { o: french(k), seed: 100 + k, x, y: 0, z, expr: (["grin", "stern", "laugh", "smile", "grin"] as Expr[])[k], wave: k === 2 ? 1 : undefined }; });
       }
       return [0, 1, 2].map((k) => ({ o: worker(k + 1), seed: 110 + k, x: [-0.7, 1.0, 2.6][k], y: 0, z: [85.6, 86.6, 85.1][k], expr: (f < 1050 ? "grin" : "shock") as Expr,
@@ -862,15 +867,17 @@ export class World {
     // ---- cast + effects ----
     const right = V(0, 0, 0).setFromMatrixColumn(cam.matrixWorld, 0);
     const sx = sunDir.dot(right), light2 = Math.round(Math.atan2(-sunDir.y, sx) / (Math.PI / 4)) * (Math.PI / 4);
-    const places: { key: string; draw: (p: Pen) => void; x: number; y: number; z: number; size: [number, number, number] }[] = [];
+    const places: { key: string; draw: (p: Pen) => void; x: number; y: number; z: number; size: [number, number, number]; breath: number }[] = [];
     const fxs: FxP[] = [];
     castFor(id, f).forEach((w) => {
       const d = cam.position.distanceTo(this.v.set(w.x, w.y + 1.2, w.z)) / (w.scale ?? 1);
       const [cw, ch, k] = tier(d);
       const blink = lidAt(f, w.seed);
       const fo: FrontOpts = { phase: q(((w.phase ?? 0) % 1 + 1) % 1, 30), expr: w.expr, mode: w.mode ?? "stand", blink, light: light2, seed: w.seed,
-        wave: w.wave, prop: w.prop ?? null, look: w.look ?? 0, pose: w.pose, facing: w.facing ?? 0, tilt: w.tilt ? q(w.tilt, 2) : 0 };
-      places.push({ key: `F|${JSON.stringify(w.o)}|${JSON.stringify(fo)}|${cw}`, draw: (p) => bodyFront(p, w.o, fo), x: w.x, y: w.y, z: w.z, size: [cw, ch, k] });
+        wave: w.wave, prop: w.prop ?? null, look: w.look ?? 0, pose: w.pose, facing: w.facing ?? 0, tilt: w.tilt ? q(w.tilt, 2) : 0, ...(w.talk ? { talk: w.talk } : {}) };
+      // idle breathing (GrowKaz idea): standing and seated cards rise and settle ~1.2 % on a 3-4 s cycle, a phase per character
+      const breath = (w.mode ?? "stand") === "stand" || w.mode === "sit" ? 0.012 * Math.sin((2 * Math.PI * t) / (3.1 + 0.5 * h01(w.seed, 3)) + w.seed) : 0;
+      places.push({ key: `F|${JSON.stringify(w.o)}|${JSON.stringify(fo)}|${cw}`, draw: (p) => bodyFront(p, w.o, fo), x: w.x, y: w.y, z: w.z, size: [cw, ch, k], breath });
       if (!w.noBlob) {
         const cc = set === "out" ? "#9aa0c0" : "#7a6a6a";
         fxs.push({ key: `blob|contact|${cc}`, cw: 128, ch: 128, draw: (p) => fxContact(p, cc), x: w.x, y: w.y + 0.025, z: w.z, w: 0.75, h: 0.55, flat: true });
@@ -917,7 +924,7 @@ export class World {
     if (id === 9) spark(913, GARDE.x0 - 0.5, 8.2, -2.0, 4.5);
     if (id === 10) {
       for (let i = 0; i < 6; i++) puff(1056 + i * 3, ADV[0] + (h01(i, 5) - 0.5) * 14, 2 + 4 * h01(i, 6), ADV[2] + 4 + (h01(i, 7) - 0.5) * 8, 14 + 6 * h01(i, 8), 32);
-      if (f >= 989 && f < 1050) for (let k = 0; k < 3; k++) { const f0 = 989 + ((Math.floor((f - 989 - k * 7) / 21)) * 21) + k * 7; puff(f0, [-0.7, 1.0, 2.6][k] + 0.4, 0.3, [85.6, 86.6, 85.1][k] - 0.4, 1.0, 14); }
+      if (f >= 1014 && f < 1050) for (let k = 0; k < 3; k++) { const f0 = 1014 + ((Math.floor((f - 1014 - k * 7) / 21)) * 21) + k * 7; puff(f0, [-0.7, 1.0, 2.6][k] + 0.4, 0.3, [85.6, 86.6, 85.1][k] - 0.4, 1.0, 14); }
     }
     if (id === 15) spark(1287, SEAT[0], 1.0, SEAT[2], 1.6);
     if (id === 16) {
@@ -950,7 +957,7 @@ export class World {
       a.r = this.pool.req(p.key, p.size[0], p.size[1], p.size[2], p.draw);
       a.mesh.visible = true; a.mesh.position.set(p.x, p.y, p.z);
       a.mesh.rotation.set(0, Math.atan2(cam.position.x - p.x, cam.position.z - p.z), 0);
-      a.mesh.scale.set(1, 1, 1);
+      a.mesh.scale.set(1 - 0.4 * p.breath, 1 + p.breath, 1);
       a.mesh.castShadow = Lp.actorShadow && set === "out";
       used.push(a);
     }
