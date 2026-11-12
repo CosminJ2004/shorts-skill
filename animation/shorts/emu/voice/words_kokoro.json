@@ -1,0 +1,1346 @@
+[
+ {
+  "word": "In",
+  "start": 0.05,
+  "end": 0.14,
+  "sentence": 0
+ },
+ {
+  "word": "1932,",
+  "start": 0.14,
+  "end": 0.78,
+  "sentence": 0
+ },
+ {
+  "word": "Australia",
+  "start": 1.46,
+  "end": 1.8,
+  "sentence": 0
+ },
+ {
+  "word": "declared",
+  "start": 1.8,
+  "end": 2.12,
+  "sentence": 0
+ },
+ {
+  "word": "war",
+  "start": 2.12,
+  "end": 2.54,
+  "sentence": 0
+ },
+ {
+  "word": "on",
+  "start": 2.54,
+  "end": 2.8,
+  "sentence": 0
+ },
+ {
+  "word": "birds,",
+  "start": 2.8,
+  "end": 3.06,
+  "sentence": 0
+ },
+ {
+  "word": "with",
+  "start": 3.06,
+  "end": 3.6,
+  "sentence": 0
+ },
+ {
+  "word": "machine",
+  "start": 3.6,
+  "end": 3.84,
+  "sentence": 0
+ },
+ {
+  "word": "guns.",
+  "start": 3.84,
+  "end": 4.2,
+  "sentence": 0
+ },
+ {
+  "word": "And",
+  "start": 4.62,
+  "end": 4.66,
+  "sentence": 1
+ },
+ {
+  "word": "the",
+  "start": 4.66,
+  "end": 4.74,
+  "sentence": 1
+ },
+ {
+  "word": "birds",
+  "start": 4.74,
+  "end": 4.96,
+  "sentence": 1
+ },
+ {
+  "word": "won.",
+  "start": 4.96,
+  "end": 5.3,
+  "sentence": 1
+ },
+ {
+  "word": "After",
+  "start": 5.502,
+  "end": 5.64,
+  "sentence": 2
+ },
+ {
+  "word": "World",
+  "start": 5.64,
+  "end": 5.9,
+  "sentence": 2
+ },
+ {
+  "word": "War",
+  "start": 5.9,
+  "end": 6.18,
+  "sentence": 2
+ },
+ {
+  "word": "One,",
+  "start": 6.18,
+  "end": 6.92,
+  "sentence": 2
+ },
+ {
+  "word": "Australia",
+  "start": 6.92,
+  "end": 7.18,
+  "sentence": 2
+ },
+ {
+  "word": "gave",
+  "start": 7.18,
+  "end": 7.56,
+  "sentence": 2
+ },
+ {
+  "word": "its",
+  "start": 7.56,
+  "end": 7.72,
+  "sentence": 2
+ },
+ {
+  "word": "soldiers",
+  "start": 7.72,
+  "end": 7.94,
+  "sentence": 2
+ },
+ {
+  "word": "farms",
+  "start": 7.94,
+  "end": 8.36,
+  "sentence": 2
+ },
+ {
+  "word": "in",
+  "start": 8.36,
+  "end": 8.68,
+  "sentence": 2
+ },
+ {
+  "word": "the",
+  "start": 8.68,
+  "end": 8.76,
+  "sentence": 2
+ },
+ {
+  "word": "west,",
+  "start": 8.76,
+  "end": 8.94,
+  "sentence": 2
+ },
+ {
+  "word": "to",
+  "start": 8.94,
+  "end": 9.42,
+  "sentence": 2
+ },
+ {
+  "word": "grow",
+  "start": 9.42,
+  "end": 9.62,
+  "sentence": 2
+ },
+ {
+  "word": "wheat.",
+  "start": 9.62,
+  "end": 9.95,
+  "sentence": 2
+ },
+ {
+  "word": "Then",
+  "start": 10.14,
+  "end": 10.18,
+  "sentence": 3
+ },
+ {
+  "word": "twenty",
+  "start": 10.14,
+  "end": 10.47,
+  "sentence": 3
+ },
+ {
+  "word": "thousand",
+  "start": 10.47,
+  "end": 10.8,
+  "sentence": 3
+ },
+ {
+  "word": "emus",
+  "start": 10.8,
+  "end": 11.12,
+  "sentence": 3
+ },
+ {
+  "word": "walked",
+  "start": 11.12,
+  "end": 11.44,
+  "sentence": 3
+ },
+ {
+  "word": "in,",
+  "start": 11.44,
+  "end": 11.66,
+  "sentence": 3
+ },
+ {
+  "word": "and",
+  "start": 11.66,
+  "end": 12.02,
+  "sentence": 3
+ },
+ {
+  "word": "ate",
+  "start": 12.02,
+  "end": 12.24,
+  "sentence": 3
+ },
+ {
+  "word": "it.",
+  "start": 12.24,
+  "end": 12.4,
+  "sentence": 3
+ },
+ {
+  "word": "So",
+  "start": 12.6,
+  "end": 12.64,
+  "sentence": 4
+ },
+ {
+  "word": "the",
+  "start": 12.6,
+  "end": 12.7,
+  "sentence": 4
+ },
+ {
+  "word": "farmers",
+  "start": 12.7,
+  "end": 12.92,
+  "sentence": 4
+ },
+ {
+  "word": "asked",
+  "start": 12.92,
+  "end": 13.26,
+  "sentence": 4
+ },
+ {
+  "word": "the",
+  "start": 13.26,
+  "end": 13.5,
+  "sentence": 4
+ },
+ {
+  "word": "army",
+  "start": 13.5,
+  "end": 13.68,
+  "sentence": 4
+ },
+ {
+  "word": "for",
+  "start": 13.68,
+  "end": 13.9,
+  "sentence": 4
+ },
+ {
+  "word": "help.",
+  "start": 13.9,
+  "end": 14.1,
+  "sentence": 4
+ },
+ {
+  "word": "The",
+  "start": 14.36,
+  "end": 14.4,
+  "sentence": 5
+ },
+ {
+  "word": "army",
+  "start": 14.36,
+  "end": 14.52,
+  "sentence": 5
+ },
+ {
+  "word": "sent",
+  "start": 14.52,
+  "end": 14.8,
+  "sentence": 5
+ },
+ {
+  "word": "one",
+  "start": 14.8,
+  "end": 14.96,
+  "sentence": 5
+ },
+ {
+  "word": "major,",
+  "start": 14.96,
+  "end": 15.22,
+  "sentence": 5
+ },
+ {
+  "word": "two",
+  "start": 15.68,
+  "end": 15.78,
+  "sentence": 5
+ },
+ {
+  "word": "soldiers,",
+  "start": 15.78,
+  "end": 16.18,
+  "sentence": 5
+ },
+ {
+  "word": "two",
+  "start": 16.66,
+  "end": 16.72,
+  "sentence": 5
+ },
+ {
+  "word": "machine",
+  "start": 16.72,
+  "end": 16.92,
+  "sentence": 5
+ },
+ {
+  "word": "guns,",
+  "start": 16.92,
+  "end": 17.3,
+  "sentence": 5
+ },
+ {
+  "word": "and",
+  "start": 17.3,
+  "end": 17.56,
+  "sentence": 5
+ },
+ {
+  "word": "ten",
+  "start": 17.56,
+  "end": 17.87,
+  "sentence": 5
+ },
+ {
+  "word": "thousand",
+  "start": 17.87,
+  "end": 18.18,
+  "sentence": 5
+ },
+ {
+  "word": "bullets.",
+  "start": 18.18,
+  "end": 18.42,
+  "sentence": 5
+ },
+ {
+  "word": "Day",
+  "start": 18.781,
+  "end": 18.92,
+  "sentence": 6
+ },
+ {
+  "word": "one,",
+  "start": 18.92,
+  "end": 19.06,
+  "sentence": 6
+ },
+ {
+  "word": "the",
+  "start": 19.06,
+  "end": 19.24,
+  "sentence": 6
+ },
+ {
+  "word": "emus",
+  "start": 19.24,
+  "end": 19.58,
+  "sentence": 6
+ },
+ {
+  "word": "stayed",
+  "start": 19.58,
+  "end": 19.72,
+  "sentence": 6
+ },
+ {
+  "word": "out",
+  "start": 19.72,
+  "end": 19.86,
+  "sentence": 6
+ },
+ {
+  "word": "of",
+  "start": 19.86,
+  "end": 20.0,
+  "sentence": 6
+ },
+ {
+  "word": "range.",
+  "start": 20.0,
+  "end": 20.26,
+  "sentence": 6
+ },
+ {
+  "word": "Day",
+  "start": 20.67,
+  "end": 20.72,
+  "sentence": 7
+ },
+ {
+  "word": "three,",
+  "start": 20.72,
+  "end": 20.98,
+  "sentence": 7
+ },
+ {
+  "word": "a",
+  "start": 21.14,
+  "end": 21.2,
+  "sentence": 7
+ },
+ {
+  "word": "thousand",
+  "start": 21.2,
+  "end": 21.46,
+  "sentence": 7
+ },
+ {
+  "word": "emus",
+  "start": 21.46,
+  "end": 21.92,
+  "sentence": 7
+ },
+ {
+  "word": "walked",
+  "start": 21.92,
+  "end": 22.16,
+  "sentence": 7
+ },
+ {
+  "word": "straight",
+  "start": 22.16,
+  "end": 22.46,
+  "sentence": 7
+ },
+ {
+  "word": "into",
+  "start": 22.46,
+  "end": 22.74,
+  "sentence": 7
+ },
+ {
+  "word": "an",
+  "start": 22.74,
+  "end": 22.84,
+  "sentence": 7
+ },
+ {
+  "word": "ambush.",
+  "start": 22.84,
+  "end": 23.1,
+  "sentence": 7
+ },
+ {
+  "word": "Then",
+  "start": 23.5,
+  "end": 23.54,
+  "sentence": 8
+ },
+ {
+  "word": "the",
+  "start": 23.52,
+  "end": 23.6,
+  "sentence": 8
+ },
+ {
+  "word": "gun",
+  "start": 23.6,
+  "end": 23.78,
+  "sentence": 8
+ },
+ {
+  "word": "jammed.",
+  "start": 23.78,
+  "end": 24.02,
+  "sentence": 8
+ },
+ {
+  "word": "So",
+  "start": 24.42,
+  "end": 24.54,
+  "sentence": 9
+ },
+ {
+  "word": "they",
+  "start": 24.54,
+  "end": 24.64,
+  "sentence": 9
+ },
+ {
+  "word": "put",
+  "start": 24.64,
+  "end": 24.78,
+  "sentence": 9
+ },
+ {
+  "word": "a",
+  "start": 24.78,
+  "end": 24.86,
+  "sentence": 9
+ },
+ {
+  "word": "machine",
+  "start": 24.86,
+  "end": 25.06,
+  "sentence": 9
+ },
+ {
+  "word": "gun",
+  "start": 25.06,
+  "end": 25.38,
+  "sentence": 9
+ },
+ {
+  "word": "on",
+  "start": 25.38,
+  "end": 25.56,
+  "sentence": 9
+ },
+ {
+  "word": "a",
+  "start": 25.56,
+  "end": 25.66,
+  "sentence": 9
+ },
+ {
+  "word": "truck.",
+  "start": 25.66,
+  "end": 25.8,
+  "sentence": 9
+ },
+ {
+  "word": "Luckily,",
+  "start": 26.18,
+  "end": 26.32,
+  "sentence": 10
+ },
+ {
+  "word": "the",
+  "start": 26.32,
+  "end": 26.58,
+  "sentence": 10
+ },
+ {
+  "word": "truck",
+  "start": 26.58,
+  "end": 26.74,
+  "sentence": 10
+ },
+ {
+  "word": "was",
+  "start": 26.74,
+  "end": 26.96,
+  "sentence": 10
+ },
+ {
+  "word": "fast.",
+  "start": 26.96,
+  "end": 27.16,
+  "sentence": 10
+ },
+ {
+  "word": "Unluckily,",
+  "start": 27.544,
+  "end": 27.76,
+  "sentence": 11
+ },
+ {
+  "word": "the",
+  "start": 27.76,
+  "end": 28.06,
+  "sentence": 11
+ },
+ {
+  "word": "emus",
+  "start": 28.06,
+  "end": 28.4,
+  "sentence": 11
+ },
+ {
+  "word": "were",
+  "start": 28.4,
+  "end": 28.56,
+  "sentence": 11
+ },
+ {
+  "word": "faster,",
+  "start": 28.56,
+  "end": 28.84,
+  "sentence": 11
+ },
+ {
+  "word": "and",
+  "start": 28.84,
+  "end": 29.42,
+  "sentence": 11
+ },
+ {
+  "word": "the",
+  "start": 29.42,
+  "end": 29.5,
+  "sentence": 11
+ },
+ {
+  "word": "ride",
+  "start": 29.5,
+  "end": 29.74,
+  "sentence": 11
+ },
+ {
+  "word": "was",
+  "start": 29.74,
+  "end": 29.92,
+  "sentence": 11
+ },
+ {
+  "word": "so",
+  "start": 29.92,
+  "end": 30.08,
+  "sentence": 11
+ },
+ {
+  "word": "bumpy,",
+  "start": 30.08,
+  "end": 30.5,
+  "sentence": 11
+ },
+ {
+  "word": "nobody",
+  "start": 30.68,
+  "end": 30.98,
+  "sentence": 11
+ },
+ {
+  "word": "could",
+  "start": 30.98,
+  "end": 31.26,
+  "sentence": 11
+ },
+ {
+  "word": "aim.",
+  "start": 31.26,
+  "end": 31.4,
+  "sentence": 11
+ },
+ {
+  "word": "Every",
+  "start": 31.8,
+  "end": 31.84,
+  "sentence": 12
+ },
+ {
+  "word": "flock",
+  "start": 31.8,
+  "end": 32.04,
+  "sentence": 12
+ },
+ {
+  "word": "even",
+  "start": 32.04,
+  "end": 32.38,
+  "sentence": 12
+ },
+ {
+  "word": "had",
+  "start": 32.38,
+  "end": 32.56,
+  "sentence": 12
+ },
+ {
+  "word": "a",
+  "start": 32.56,
+  "end": 32.64,
+  "sentence": 12
+ },
+ {
+  "word": "lookout,",
+  "start": 32.64,
+  "end": 32.86,
+  "sentence": 12
+ },
+ {
+  "word": "a",
+  "start": 33.36,
+  "end": 33.42,
+  "sentence": 12
+ },
+ {
+  "word": "tall",
+  "start": 33.42,
+  "end": 33.62,
+  "sentence": 12
+ },
+ {
+  "word": "black",
+  "start": 33.62,
+  "end": 33.96,
+  "sentence": 12
+ },
+ {
+  "word": "emu,",
+  "start": 33.96,
+  "end": 34.38,
+  "sentence": 12
+ },
+ {
+  "word": "watching",
+  "start": 34.56,
+  "end": 34.8,
+  "sentence": 12
+ },
+ {
+  "word": "for",
+  "start": 34.8,
+  "end": 35.06,
+  "sentence": 12
+ },
+ {
+  "word": "soldiers.",
+  "start": 35.06,
+  "end": 35.46,
+  "sentence": 12
+ },
+ {
+  "word": "You",
+  "start": 35.84,
+  "end": 35.88,
+  "sentence": 13
+ },
+ {
+  "word": "see,",
+  "start": 35.88,
+  "end": 36.02,
+  "sentence": 13
+ },
+ {
+  "word": "a",
+  "start": 36.12,
+  "end": 36.22,
+  "sentence": 13
+ },
+ {
+  "word": "flock",
+  "start": 36.22,
+  "end": 36.42,
+  "sentence": 13
+ },
+ {
+  "word": "is",
+  "start": 36.42,
+  "end": 36.68,
+  "sentence": 13
+ },
+ {
+  "word": "not",
+  "start": 36.68,
+  "end": 36.88,
+  "sentence": 13
+ },
+ {
+  "word": "one",
+  "start": 36.88,
+  "end": 37.08,
+  "sentence": 13
+ },
+ {
+  "word": "target.",
+  "start": 37.08,
+  "end": 37.38,
+  "sentence": 13
+ },
+ {
+  "word": "Shoot",
+  "start": 37.72,
+  "end": 37.8,
+  "sentence": 14
+ },
+ {
+  "word": "at",
+  "start": 37.8,
+  "end": 37.98,
+  "sentence": 14
+ },
+ {
+  "word": "it,",
+  "start": 37.98,
+  "end": 38.12,
+  "sentence": 14
+ },
+ {
+  "word": "and",
+  "start": 38.34,
+  "end": 38.48,
+  "sentence": 14
+ },
+ {
+  "word": "it",
+  "start": 38.48,
+  "end": 38.56,
+  "sentence": 14
+ },
+ {
+  "word": "bursts",
+  "start": 38.56,
+  "end": 38.74,
+  "sentence": 14
+ },
+ {
+  "word": "into",
+  "start": 38.74,
+  "end": 39.0,
+  "sentence": 14
+ },
+ {
+  "word": "little",
+  "start": 39.0,
+  "end": 39.24,
+  "sentence": 14
+ },
+ {
+  "word": "groups,",
+  "start": 39.24,
+  "end": 39.54,
+  "sentence": 14
+ },
+ {
+  "word": "each",
+  "start": 39.94,
+  "end": 40.16,
+  "sentence": 14
+ },
+ {
+  "word": "running",
+  "start": 40.16,
+  "end": 40.48,
+  "sentence": 14
+ },
+ {
+  "word": "at",
+  "start": 40.48,
+  "end": 40.7,
+  "sentence": 14
+ },
+ {
+  "word": "almost",
+  "start": 40.7,
+  "end": 40.9,
+  "sentence": 14
+ },
+ {
+  "word": "fifty",
+  "start": 40.9,
+  "end": 41.32,
+  "sentence": 14
+ },
+ {
+  "word": "kilometres",
+  "start": 41.32,
+  "end": 41.74,
+  "sentence": 14
+ },
+ {
+  "word": "an",
+  "start": 41.74,
+  "end": 42.04,
+  "sentence": 14
+ },
+ {
+  "word": "hour.",
+  "start": 42.04,
+  "end": 42.3,
+  "sentence": 14
+ },
+ {
+  "word": "It's",
+  "start": 42.54,
+  "end": 42.58,
+  "sentence": 15
+ },
+ {
+  "word": "like",
+  "start": 42.56,
+  "end": 42.7,
+  "sentence": 15
+ },
+ {
+  "word": "trying",
+  "start": 42.7,
+  "end": 42.88,
+  "sentence": 15
+ },
+ {
+  "word": "to",
+  "start": 42.88,
+  "end": 43.0,
+  "sentence": 15
+ },
+ {
+  "word": "catch",
+  "start": 43.0,
+  "end": 43.24,
+  "sentence": 15
+ },
+ {
+  "word": "spilled",
+  "start": 43.24,
+  "end": 43.52,
+  "sentence": 15
+ },
+ {
+  "word": "marbles",
+  "start": 43.52,
+  "end": 44.02,
+  "sentence": 15
+ },
+ {
+  "word": "with",
+  "start": 44.02,
+  "end": 44.2,
+  "sentence": 15
+ },
+ {
+  "word": "one",
+  "start": 44.2,
+  "end": 44.42,
+  "sentence": 15
+ },
+ {
+  "word": "hand.",
+  "start": 44.42,
+  "end": 44.68,
+  "sentence": 15
+ },
+ {
+  "word": "By",
+  "start": 44.94,
+  "end": 44.98,
+  "sentence": 16
+ },
+ {
+  "word": "December,",
+  "start": 44.98,
+  "end": 45.18,
+  "sentence": 16
+ },
+ {
+  "word": "the",
+  "start": 45.64,
+  "end": 45.78,
+  "sentence": 16
+ },
+ {
+  "word": "army",
+  "start": 45.78,
+  "end": 46.02,
+  "sentence": 16
+ },
+ {
+  "word": "had",
+  "start": 46.02,
+  "end": 46.22,
+  "sentence": 16
+ },
+ {
+  "word": "fired",
+  "start": 46.22,
+  "end": 46.48,
+  "sentence": 16
+ },
+ {
+  "word": "9,860",
+  "start": 46.48,
+  "end": 48.06,
+  "sentence": 16
+ },
+ {
+  "word": "bullets,",
+  "start": 48.06,
+  "end": 48.36,
+  "sentence": 16
+ },
+ {
+  "word": "and",
+  "start": 48.36,
+  "end": 48.98,
+  "sentence": 16
+ },
+ {
+  "word": "counted",
+  "start": 48.98,
+  "end": 49.2,
+  "sentence": 16
+ },
+ {
+  "word": "986",
+  "start": 49.2,
+  "end": 50.24,
+  "sentence": 16
+ },
+ {
+  "word": "emus.",
+  "start": 50.24,
+  "end": 50.88,
+  "sentence": 16
+ },
+ {
+  "word": "Exactly",
+  "start": 51.16,
+  "end": 51.4,
+  "sentence": 17
+ },
+ {
+  "word": "ten",
+  "start": 51.4,
+  "end": 51.76,
+  "sentence": 17
+ },
+ {
+  "word": "bullets",
+  "start": 51.76,
+  "end": 52.04,
+  "sentence": 17
+ },
+ {
+  "word": "per",
+  "start": 52.04,
+  "end": 52.3,
+  "sentence": 17
+ },
+ {
+  "word": "bird.",
+  "start": 52.3,
+  "end": 52.5,
+  "sentence": 17
+ },
+ {
+  "word": "The",
+  "start": 52.86,
+  "end": 52.9,
+  "sentence": 18
+ },
+ {
+  "word": "major",
+  "start": 52.88,
+  "end": 53.1,
+  "sentence": 18
+ },
+ {
+  "word": "said,",
+  "start": 53.1,
+  "end": 53.4,
+  "sentence": 18
+ },
+ {
+  "word": "\"If",
+  "start": 53.84,
+  "end": 54.0,
+  "sentence": 18
+ },
+ {
+  "word": "we",
+  "start": 54.0,
+  "end": 54.08,
+  "sentence": 18
+ },
+ {
+  "word": "had",
+  "start": 54.08,
+  "end": 54.22,
+  "sentence": 18
+ },
+ {
+  "word": "a",
+  "start": 54.22,
+  "end": 54.32,
+  "sentence": 18
+ },
+ {
+  "word": "division",
+  "start": 54.32,
+  "end": 54.6,
+  "sentence": 18
+ },
+ {
+  "word": "with",
+  "start": 54.6,
+  "end": 54.88,
+  "sentence": 18
+ },
+ {
+  "word": "the",
+  "start": 54.88,
+  "end": 55.0,
+  "sentence": 18
+ },
+ {
+  "word": "bullet-carrying",
+  "start": 55.0,
+  "end": 55.54,
+  "sentence": 18
+ },
+ {
+  "word": "capacity",
+  "start": 55.54,
+  "end": 55.96,
+  "sentence": 18
+ },
+ {
+  "word": "of",
+  "start": 55.96,
+  "end": 56.28,
+  "sentence": 18
+ },
+ {
+  "word": "these",
+  "start": 56.28,
+  "end": 56.44,
+  "sentence": 18
+ },
+ {
+  "word": "birds,",
+  "start": 56.44,
+  "end": 56.72,
+  "sentence": 18
+ },
+ {
+  "word": "it",
+  "start": 56.72,
+  "end": 57.3,
+  "sentence": 18
+ },
+ {
+  "word": "would",
+  "start": 57.3,
+  "end": 57.4,
+  "sentence": 18
+ },
+ {
+  "word": "face",
+  "start": 57.4,
+  "end": 57.58,
+  "sentence": 18
+ },
+ {
+  "word": "any",
+  "start": 57.58,
+  "end": 57.82,
+  "sentence": 18
+ },
+ {
+  "word": "army",
+  "start": 57.82,
+  "end": 58.14,
+  "sentence": 18
+ },
+ {
+  "word": "in",
+  "start": 58.14,
+  "end": 58.32,
+  "sentence": 18
+ },
+ {
+  "word": "the",
+  "start": 58.32,
+  "end": 58.38,
+  "sentence": 18
+ },
+ {
+  "word": "world.\"",
+  "start": 58.38,
+  "end": 58.62,
+  "sentence": 18
+ },
+ {
+  "word": "The",
+  "start": 58.94,
+  "end": 58.98,
+  "sentence": 19
+ },
+ {
+  "word": "army",
+  "start": 58.96,
+  "end": 59.16,
+  "sentence": 19
+ },
+ {
+  "word": "went",
+  "start": 59.16,
+  "end": 59.4,
+  "sentence": 19
+ },
+ {
+  "word": "home,",
+  "start": 59.4,
+  "end": 59.62,
+  "sentence": 19
+ },
+ {
+  "word": "and",
+  "start": 59.62,
+  "end": 60.1,
+  "sentence": 19
+ },
+ {
+  "word": "refused",
+  "start": 60.1,
+  "end": 60.34,
+  "sentence": 19
+ },
+ {
+  "word": "to",
+  "start": 60.34,
+  "end": 60.62,
+  "sentence": 19
+ },
+ {
+  "word": "come",
+  "start": 60.62,
+  "end": 60.76,
+  "sentence": 19
+ },
+ {
+  "word": "back,",
+  "start": 60.76,
+  "end": 61.0,
+  "sentence": 19
+ },
+ {
+  "word": "three",
+  "start": 61.0,
+  "end": 61.28,
+  "sentence": 19
+ },
+ {
+  "word": "more",
+  "start": 61.28,
+  "end": 61.48,
+  "sentence": 19
+ },
+ {
+  "word": "times.",
+  "start": 61.48,
+  "end": 61.84,
+  "sentence": 19
+ },
+ {
+  "word": "As",
+  "start": 62.16,
+  "end": 62.22,
+  "sentence": 20
+ },
+ {
+  "word": "for",
+  "start": 62.22,
+  "end": 62.36,
+  "sentence": 20
+ },
+ {
+  "word": "the",
+  "start": 62.36,
+  "end": 62.46,
+  "sentence": 20
+ },
+ {
+  "word": "emus,",
+  "start": 62.46,
+  "end": 62.9,
+  "sentence": 20
+ },
+ {
+  "word": "today",
+  "start": 63.12,
+  "end": 63.48,
+  "sentence": 20
+ },
+ {
+  "word": "one",
+  "start": 63.48,
+  "end": 63.72,
+  "sentence": 20
+ },
+ {
+  "word": "of",
+  "start": 63.72,
+  "end": 63.8,
+  "sentence": 20
+ },
+ {
+  "word": "them",
+  "start": 63.8,
+  "end": 63.92,
+  "sentence": 20
+ },
+ {
+  "word": "holds",
+  "start": 63.92,
+  "end": 64.16,
+  "sentence": 20
+ },
+ {
+  "word": "up",
+  "start": 64.16,
+  "end": 64.38,
+  "sentence": 20
+ },
+ {
+  "word": "Australia's",
+  "start": 64.38,
+  "end": 65.0,
+  "sentence": 20
+ },
+ {
+  "word": "coat",
+  "start": 65.0,
+  "end": 65.12,
+  "sentence": 20
+ },
+ {
+  "word": "of",
+  "start": 65.12,
+  "end": 65.26,
+  "sentence": 20
+ },
+ {
+  "word": "arms.",
+  "start": 65.26,
+  "end": 65.46,
+  "sentence": 20
+ }
+]

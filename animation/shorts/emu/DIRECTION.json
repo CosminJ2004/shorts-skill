@@ -1,0 +1,27 @@
+{
+  "_about": "Voice direction for Chatterbox (scripts/make_voice_cb.py). One entry per script sentence, in order. exag = emotion intensity (0.25 flat .. 1.0 wild), cfg = pacing/adherence (lower = slower, more deliberate), pause = silence after the line (s), note = the acting intention.",
+  "voice": { "seed": 1932, "takes": 3 },
+  "lines": [
+    { "exag": 0.65, "cfg": 0.4, "pause": 0.42, "note": "big storyteller opening, building, punch 'machine guns'" },
+    { "exag": 0.45, "cfg": 0.3, "pause": 0.75, "note": "deadpan punchline, slower, a beat after" },
+    { "exag": 0.5, "cfg": 0.45, "pause": 0.22, "note": "warm, nostalgic storytelling" },
+    { "exag": 0.75, "cfg": 0.4, "pause": 0.5, "note": "playful, amused, 'and ate it' as a cheeky aside" },
+    { "exag": 0.5, "cfg": 0.5, "pause": 0.2, "note": "matter of fact, moving on" },
+    { "exag": 0.7, "cfg": 0.4, "pause": 0.55, "note": "proud, escalating list, like announcing an invasion force" },
+    { "exag": 0.5, "cfg": 0.45, "pause": 0.35, "note": "dry, slightly disappointed" },
+    { "exag": 0.7, "cfg": 0.35, "pause": 0.35, "note": "suspense, leaning in, excited" },
+    { "exag": 0.35, "cfg": 0.3, "pause": 0.8, "note": "flat deadpan; the joke is the pause" },
+    { "exag": 0.6, "cfg": 0.45, "pause": 0.3, "note": "new plan, enthusiastic" },
+    { "exag": 0.65, "cfg": 0.45, "pause": 0.3, "note": "confident, optimistic" },
+    { "exag": 0.85, "cfg": 0.4, "pause": 0.55, "note": "comic exasperation, faster, 'nobody could aim' falls flat" },
+    { "exag": 0.6, "cfg": 0.35, "pause": 0.45, "note": "conspiratorial, a little secretive" },
+    { "exag": 0.45, "cfg": 0.45, "pause": 0.2, "note": "calm explainer, clear" },
+    { "exag": 0.75, "cfg": 0.45, "pause": 0.4, "note": "energetic, fast, 'bursts' with energy" },
+    { "exag": 0.6, "cfg": 0.4, "pause": 0.55, "note": "playful analogy, a smile in the voice" },
+    { "exag": 0.45, "cfg": 0.35, "pause": 0.4, "note": "weary, slow, the numbers heavy", "say": "By December, the army had fired nine thousand, eight hundred and sixty bullets, and counted nine hundred and eighty six emus." },
+    { "exag": 0.4, "cfg": 0.3, "pause": 0.75, "note": "deadpan punchline, slow" },
+    { "exag": 0.8, "cfg": 0.35, "pause": 0.6, "note": "the major's quote: grand, genuinely impressed, theatrical" },
+    { "exag": 0.5, "cfg": 0.4, "pause": 0.5, "note": "dry, wry, 'three more times' with a smirk" },
+    { "exag": 0.75, "cfg": 0.4, "pause": 0.3, "note": "triumphant, proud ending, warm" }
+  ]
+}

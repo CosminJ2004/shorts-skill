@@ -158,3 +158,35 @@ Read this file before starting a new short.
   - Camera moving frames rose from 19 % to 37 % (reference 34-94 %); dead-still frames fell from 18 % to 8 %.
   - Median speed is still low: 1.2 px/f against 3.6.
   - Still open: the golden vignette is too strong (0.52 against 0.75).
+
+## Iteration 6: The War Australia Lost to Birds (2026-11-12)
+- **User:** make another short with a viral idea. "I want quality, I want to see movement in the characters, and it
+  should be something beautiful."
+- **Topic:** the Emu War of 1932, a classic viral fact with built-in motion. Running emus, a truck chase, a flock that
+  bursts apart. Facts and sources are in `shorts/emu/SCRIPT.md`; an unsourced detail (an emu in the truck's steering)
+  was dropped.
+- **Movement:**
+  - emus walk, run and peck with IK legs;
+  - a 240-bird horde comes over the rise;
+  - emus overtake the truck between it and the lens;
+  - the flock bursts into eight groups;
+  - a tracking shot at 50 km/h;
+  - the "emu division" marches in step behind the major;
+  - marbles spill and roll;
+  - the windmill turns;
+  - the truck bounces;
+  - the gunner bounces with the gun swinging.
+- **Beauty:** golden wheat tufts, a warmer sunset sky, the homestead with its windmill, gum trees, a sunset drive
+  away.
+- **Kit added to toon.ts** (all fields optional):
+  - hats `slouch` (rising-sun badge) and `peaked`;
+  - poses `salute`, `binoc`, `aim`, `shrug`, `fist`;
+  - mode `run`;
+  - outfit fields `pockets`, `braces`, `scarf`, `sam` (Sam Browne).
+- **Lessons:** see SKILL.md, "Build lessons from the emu short".
+- **User, mid-build:** the voice should be better timed and more expressive. "Not boring": emotion that follows the
+  sentence, pauses, not robotic, "too bland".
+  - Change: Chatterbox with per-line direction (DIRECTION.json), 3 takes per line picked by Whisper score, and
+    directed pauses.
+  - The picture and the sound follow the new narration through a word-anchored time warp (timewarp.ts / audio.py).
+  - The old rule "Voice: one steady tone" is replaced in SKILL.md.

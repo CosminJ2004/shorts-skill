@@ -19,7 +19,7 @@ User rules that apply:
 - Burn in viral word-by-word captions. This rule changed with user feedback on 2026-11-10; see "Captions" below.
   No other labels or text in the video.
 - English only.
-- Voice: one steady tone.
+- Voice: a directed, expressive narrator (see "Voice: directed and expressive"); one narrator, acting per line.
 - Jokes are researched real facts.
 - Standard mix: music +3 dB, SFX -6 dB, voice unchanged.
 - Final export: 1080x1920. `--scale 1.3333` fails in Remotion 4.0.542, because 1920 x 1.3333 is not a whole number of pixels. For 2K, register the composition at 1440x2560 instead.
@@ -126,6 +126,35 @@ The user liked v3 but asked for more care with details. Treat every point here a
 - **Grade per light** stays the rule: re-fit with `fit_grade.py` on pre-grade stills of the new world. It now
   accepts `inside` as an interior light name.
 
+## Build lessons from the emu short (iteration 6: "I want to see the characters move")
+- **Animal cards** (`src/videos/emu/birds.ts`): a side view for movement and a front view for close-ups.
+  - Side view: two-bone legs solved with IK, so the feet plant (`ik(hip, foot, l1, l2)`, with the joint bent the
+    animal's way). The foot path is a stance slide plus a lifted swing, with a body bob and a neck pump on the stride.
+    Gaits are stand, walk, run (with a flight phase and a forward neck) and peck.
+  - Mirror the card by the screen-space velocity: `dir = sign(v · cameraRight)`. Never let an animal moonwalk.
+  - Quantise the gait phase to 16 steps (8 when far), so the canvas pool reuses drawings across a herd of 250.
+  - Cadence: walk 1.5 Hz, run 3.4 Hz. At run speed (13 m/s) the feet slide a little; the dust puffs hide it.
+- **Motion inventory.** Every shot needs something moving besides the camera: a gait, a herd crossing, a pop-in, a
+  bouncing vehicle, a turning windmill, rolling marbles. Write the mover next to each line in the shot plan.
+- **Crowds** are path functions of time (`flock(n, seed, t, anchor, width, depth, heading, speed, peck share)`), not
+  simulations. They are deterministic per frame, so stills match the render.
+- **Fields of crops or grass.** Use instanced alpha tufts (two crossed quads) as an unlit `MeshBasicMaterial` with a
+  per-light tint, on the NOINK layer, with no shadows.
+  - Lit up-facing tufts fell below the golden terminator and turned violet. Tufts that receive shadows from each
+    other turned violet too.
+  - Keep 2 m round every lens position clear. Sample `camAt` over all shots to find them, or a tuft at the lens
+    becomes a blurred wall.
+  - The tufts give the near layer; the ground's vertex colours give the far fields. Mute the ground (straw and brown)
+    so the tufts carry the gold.
+- **Tiny instanced props** (a pile of 1300 cartridge cases) go on the NOINK layer, or the ink pass turns them into a
+  black blob.
+- **Water at golden hour** is unlit and tinted toward the sky colour. Lit water read as a violet hole.
+- **Place every set, prop and character away from buildings and tents.** A camera at an offset from a character can
+  land inside a house (the emu at "the farmyard" sat in the living room) or a tent. Check the first stills sheet for
+  walls filling the frame.
+- **Billboard soldiers can't look away from the lens.** For "he looks at the far birds", cut between a binocular
+  close-up and a reverse shot of the birds, rather than placing both in one frame.
+
 ## Life and pacing rules (from the GrowKaz Stickman plugin, adopted 2026-11-11; the code is ours)
 - **Quoted lines are lip-synced. The narrator never is.**
   - When a character's quote is spoken (`"I'd take it..."`), pass `talk: talkAt(WORDS, t, ...quoteRange(WORDS, s))`
@@ -155,6 +184,33 @@ The user liked v3 but asked for more care with details. Treat every point here a
   - A riser 1-2 s before each big reveal, with the impact on the reveal frame.
   - A pop or blip when something appears.
   - Never more than ~2 SFX on the same instant.
+
+## Voice: directed and expressive (user feedback, iteration 6: "not robotic, it should act")
+- **Standard is Chatterbox** (Resemble AI, MIT), locally on the CPU, in its own venv: `tools/chatterbox-venv`, with
+  Python 3.12, torch CPU, `chatterbox-tts` and `setuptools<81` (Perth's watermarker needs `pkg_resources`). The
+  models are ~3 GB, downloaded once. Kokoro stays only as the quick timing draft.
+- **Direction per line** lives in `shorts/<name>/DIRECTION.json`. Each line carries:
+  - `exag`: emotion intensity. 0.35-0.45 for deadpan punchlines, 0.6-0.85 for excitement and exasperation.
+  - `cfg`: pacing. Lower is slower and more deliberate (0.3 for punchlines).
+  - `pause`: the silence after the line. Put 0.7-0.8 s after a punchline ("And the birds won.", "Then the gun
+    jammed."), and 0.2-0.3 s between setup lines.
+  - `say`: the spoken text when it differs from the caption text, for numbers written out.
+  - `note`: the acting intention.
+- **Takes:**
+  1. `tools/chatterbox-venv/Scripts/python.exe animation/scripts/make_voice_cb.py <name>` writes 3 takes per line,
+     about 10 minutes for 21 lines.
+  2. `uv run python animation/scripts/pick_takes.py <name>` scores each take with faster-whisper against the line,
+     penalising long internal gaps and trailing mumbles. It keeps the best take, assembles the line with its pause,
+     and writes picks.json. `--force 6=2` overrides a pick by ear.
+  3. `align_words.py` then gives the real word times.
+- **Story time vs video time** (`src/videos/<name>/timewarp.ts`, mirrored in audio.py). When the narration changes
+  after the picture is timed, don't re-time hundreds of constants. Keep the old words as `words_kokoro.json` and play
+  story frames through a warp: the word starts of the old take against the new take, piecewise linear, then a
+  symmetric ±15-frame smoothing that shrinks at the ends, kept monotonic. Pauses become slower breathing holds; word
+  events still land on their words. Measured on the emu short: slope 0.6-2.3, p90 sync error 2.4 frames. Captions
+  read the new words.json directly.
+- **Render concurrency 4** for big three.js worlds. Remotion's default (8 tabs) died at frame 1336 with WebGL shader
+  VALIDATE_STATUS errors.
 
 ## Captions (user feedback, iteration 3)
 - **Style:** `animation/src/lib/Captions.tsx`, driven by the short's `words.json`.
