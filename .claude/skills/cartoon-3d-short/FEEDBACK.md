@@ -190,3 +190,14 @@ Read this file before starting a new short.
     directed pauses.
   - The picture and the sound follow the new narration through a word-anchored time warp (timewarp.ts / audio.py).
   - The old rule "Voice: one steady tone" is replaced in SKILL.md.
+
+## Iteration 7: Doomsday Is Today (2026-11-13)
+- **User, on the emu short:** the voice is "not the best". The script isn't catchy: "no real hook, one or two jokes".
+  Make every script very catchy, inspired by what is viral, with fresh facts and professional animation.
+- **Changes:**
+  - Topic taken from this week's viral news: the 1960 Science paper that set doomsday for 13 November 2026.
+  - A catchy-script checklist, now in SKILL.md.
+  - Voice: the user picked a timbre (Kokoro bm_george cloned as the Chatterbox reference) from 4 audition samples.
+  - Every shot and sound is timed from the word clock.
+  - New sets: a 1960 office, a colour cyclorama studio for gag beats, a town, the curve as a roller-coaster, a cliff.
+  - Kit additions: glasses (round or cat-eye), tie, bow tie, lab coat, party hat.

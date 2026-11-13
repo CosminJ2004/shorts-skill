@@ -1,0 +1,23 @@
+{
+  "_about": "Voice direction for Chatterbox (scripts/make_voice_cb.py). One entry per script LINE (split=line), in order. exag = emotion intensity, cfg = pacing (lower = slower), pause = silence after (s), say = spoken text when it differs, note = acting intention. Timbre: Kokoro bm_george cloned as the reference (out/doomsday/vs/ref_bm_george.wav), picked by the user.",
+  "voice": { "seed": 2026, "takes": 3, "split": "line" },
+  "lines": [
+    { "exag": 0.7, "cfg": 0.4, "pause": 0.45, "note": "hook: ominous, deliberate, lands on 'humanity ends'" },
+    { "exag": 0.6, "cfg": 0.3, "pause": 0.55, "note": "three hammer blows; slow; then a beat", "say": "Friday. November thirteenth. Twenty twenty-six." },
+    { "exag": 0.75, "cfg": 0.4, "pause": 0.3, "note": "quick dismissals, then weight on 'The journal Science'" },
+    { "exag": 0.6, "cfg": 0.4, "pause": 0.2, "note": "storyteller, leaning in on 'terrifying'" },
+    { "exag": 0.7, "cfg": 0.4, "pause": 0.35, "note": "eerie, accelerating" },
+    { "exag": 0.75, "cfg": 0.4, "pause": 0.5, "note": "build to 'infinity', big" },
+    { "exag": 0.7, "cfg": 0.35, "pause": 0.65, "note": "dark comedy: 'squeezed to death' with relish" },
+    { "exag": 0.6, "cfg": 0.35, "pause": 0.55, "note": "setup then deadpan reveal 'his birthday'" },
+    { "exag": 0.75, "cfg": 0.45, "pause": 0.5, "note": "throwaway aside, amused" },
+    { "exag": 0.55, "cfg": 0.4, "pause": 0.25, "note": "dry" },
+    { "exag": 0.7, "cfg": 0.4, "pause": 0.45, "note": "twist, impressed" },
+    { "exag": 0.55, "cfg": 0.4, "pause": 0.25, "note": "explainer, calm, 'People were' with a smile" },
+    { "exag": 0.5, "cfg": 0.45, "pause": 0.2, "note": "plain, clear" },
+    { "exag": 0.75, "cfg": 0.45, "pause": 0.45, "note": "tense then relief on 'hits the brakes'" },
+    { "exag": 0.6, "cfg": 0.4, "pause": 0.35, "note": "warm, matter of fact" },
+    { "exag": 0.65, "cfg": 0.35, "pause": 0.6, "note": "direct to the viewer, slight smile, beat after" },
+    { "exag": 0.7, "cfg": 0.35, "pause": 0.4, "note": "warm, affectionate sign-off" }
+  ]
+}

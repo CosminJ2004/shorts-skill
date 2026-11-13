@@ -185,6 +185,29 @@ The user liked v3 but asked for more care with details. Treat every point here a
   - A pop or blip when something appears.
   - Never more than ~2 SFX on the same instant.
 
+## Catchy scripts (user feedback after iteration 6: "very catchy, a real hook, not one or two jokes")
+- **Find the topic in what is viral this week.** Search the news and the Shorts trends. Iteration 7's topic was
+  trending on its own date: the 1960 *Science* "Doomsday" paper predicted Friday, 13 November 2026.
+- **Hook, first 2 s:** a paradox or a deadline aimed at the viewer ("...calculated the exact day humanity ends"), then
+  the payload as hammer blows ("Friday. November thirteenth. 2026.").
+- **Credibility flip next:** "Not a cult. Not a psychic. The journal Science."
+- **A reveal every 3-5 s.** Each line must add a new fact or a joke. Cut any line that only links two others.
+- **Stack the absurd true details** (his birthday, a stage magician), then the turn ("and yet he was right for 30
+  years"), then the "You see," explanation and one analogy.
+- **End on a loop or callback** that pays off an early detail ("Happy birthday, Heinz"), and talk to the viewer ("if
+  you're watching this...").
+- Write the checklist into SCRIPT.md and tick it before building anything.
+
+## Word clock (iteration 7): time the picture from the narration, never by hand
+- Record the directed voice first. Then story.ts reads words.json and derives everything from it:
+  - `LS[i]` / `LE[i]`: line starts and ends;
+  - `wf(line, k)`: the frame of the k-th word (negative k counts from the end);
+  - `SHOTS`: one per line, starting 4 frames before it;
+  - kicks, pops and expression changes: `wf(...) - 3`.
+- audio.py uses the same word clock.
+- A new voice take re-times the whole short. No warp needed.
+- **Pace:** one shot per line (17 shots in 67 s). Use hard cuts inside a set and 6-frame dissolves between sets.
+
 ## Voice: directed and expressive (user feedback, iteration 6: "not robotic, it should act")
 - **Standard is Chatterbox** (Resemble AI, MIT), locally on the CPU, in its own venv: `tools/chatterbox-venv`, with
   Python 3.12, torch CPU, `chatterbox-tts` and `setuptools<81` (Perth's watermarker needs `pkg_resources`). The

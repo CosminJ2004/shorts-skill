@@ -11,6 +11,8 @@ import castleWords from "../shorts/castle/voice/words.json";
 import { EmuCastSheet } from "./videos/emu/CastSheet";
 import { EmuShort, EMU_FRAMES } from "./videos/emu/Emu";
 import emuWords from "../shorts/emu/voice/words.json";
+import { DoomShort, DOOM_FRAMES } from "./videos/doomsday/Doom";
+import doomWords from "../shorts/doomsday/voice/words.json";
 
 // close-ups whose faces sit in the caption band: the line moves to the upper third there
 const PYRAMID_CAPTION_ZONES: CaptionZone[] = [[247, 362, 0.36], [424, 555, 0.36], [1044, 1104, 0.36], [1556, 1634, 0.36]];
@@ -34,6 +36,9 @@ export const RemotionRoot: React.FC = () => (
     <Composition id="EmuShort" component={EmuShort} durationInFrames={EMU_FRAMES} fps={30} width={1080} height={1920} />
     <Composition id="EmuCaptions" component={CaptionsLayer} defaultProps={{ words: emuWords as Word[], zones: EMU_CAPTION_ZONES }}
       durationInFrames={EMU_FRAMES} fps={30} width={1080} height={1920} />
+    <Composition id="DoomShort" component={DoomShort} durationInFrames={DOOM_FRAMES} fps={30} width={1080} height={1920} />
+    <Composition id="DoomCaptions" component={CaptionsLayer} defaultProps={{ words: doomWords as Word[], zones: [[283, 391, 0.3], [1820, 1947, 0.3]] as CaptionZone[] }}
+      durationInFrames={DOOM_FRAMES} fps={30} width={1080} height={1920} />
     <Composition id="EmuCastSheet" component={EmuCastSheet} durationInFrames={20} fps={30} width={1080} height={1920} />
     <Composition id="BoxTest" component={BoxTest} durationInFrames={30} fps={30} width={1080} height={1920} />
   </>

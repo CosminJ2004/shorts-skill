@@ -23,6 +23,8 @@ export type Outfit = {
   mail?: boolean; nose?: boolean; folds?: boolean; girdle?: string; spear?: boolean; hood?: string;
   // 1932 detail pass (emu short): slouch-hat badge, farmer's braces, a neck scarf, an officer's Sam Browne belt
   badge?: boolean; braces?: string; scarf?: string; sam?: string; pockets?: boolean; sleeves?: string;
+  // 1960 detail pass (doomsday short): spectacles (frame colour; cat-eye for `cat`), a necktie, a bow tie, a lab coat
+  glasses?: string; cat?: boolean; tie?: string; bow?: string; coat?: string;
 };
 type P2 = [number, number];
 
@@ -488,6 +490,15 @@ const hatOn = (p: Pen, o: Outfit, hp: P2[], H: Blob, cx: number, hc: number, lig
         p.ell(sx, sy, 5.5 * u, 5.5 * u, GOLD, 1.4 * u, 180, 360);
       }
     }
+  } else if (o.hat === "party") {
+    // a striped party cone, tilted, with a pompom
+    const yb = crown + 0.16 * HH, wb = 0.26 * W, ht = 0.95 * HH, col = o.cap ?? "#e86e9a";
+    const cone = R([[cx - wb, yb], [cx + wb, yb], [cx + 0.12 * W, yb - ht]]);
+    p.gradFill(cone, col, mul(col, SH_FELT), light, 0.3);
+    p.clip(cone, () => { for (let k = 0; k < 5; k++) p.band(R([[cx - W, yb - (0.12 + 0.2 * k) * ht], [cx + W, yb - (0.2 + 0.2 * k) * ht]]), k % 2 ? "#f2c230" : "#3b6fd2", 0.07 * HH, 0); });
+    p.poly(cone, null, ow);
+    const [tx, ty] = R([[cx + 0.12 * W, yb - ht]])[0];
+    p.ell(tx, ty, 8 * u, 8 * u, "#f4efe2", 2 * u);
   } else if (o.hat === "peaked") {
     // officer's peaked service cap: flared top, dark band, leather peak, a small gold badge
     const col = o.cap ?? "#8f7d55", yb = crown + 0.26 * HH, wb = 0.37 * W, wt = 0.5 * W, ht = 0.3 * HH, deg = (a * 180) / Math.PI;
@@ -733,6 +744,21 @@ export const bodyFront = (p: Pen, o: Outfit, opts: FrontOpts) => {
         p.dot(px, py + 0.06 * HH, 1.8 * u, "#c9a64a");
         p.poly([[px - 11 * u, torsoBot - 0.3 * HH], [px + 11 * u, torsoBot - 0.3 * HH], [px + 10 * u, torsoBot - 0.06 * HH], [px - 10 * u, torsoBot - 0.06 * HH]], null, 1.4 * u);
       }
+      if (o.coat) { // open lab coat over the shirt: two white panels, lapels, a pocket with pens
+        for (const s of [-1, 1]) {
+          const pn: P2[] = [[tcx + s * 0.18 * T.a, chin - 0.1 * HH], [tcx + s * 1.3 * T.a, chin - 0.1 * HH], [tcx + s * 1.3 * T.a, torsoBot + 0.3 * HH], [tcx + s * 0.32 * T.a, torsoBot + 0.3 * HH]];
+          p.gradFill(pn, o.coat, mul(o.coat, SH_CLOTH), light, 0.3); p.poly(pn, null, 1.8 * u);
+          p.poly([[tcx + s * 0.18 * T.a, chin - 0.1 * HH], [tcx + s * 0.62 * T.a, chin - 0.1 * HH], [tcx + s * 0.34 * T.a, chin + 0.3 * HH]], mul(o.coat, [0.9, 0.9, 0.92]), 1.6 * u);
+        }
+        const px = tcx - 0.62 * T.a, py = chin + 0.3 * HH;
+        p.poly([[px - 9 * u, py], [px + 9 * u, py], [px + 9 * u, py + 0.14 * HH], [px - 9 * u, py + 0.14 * HH]], null, 1.4 * u);
+        for (const [k, c] of [[-4, "#2c56b8"], [2, "#c8323a"], [6, "#2a2a2a"]] as const) p.band([[px + k * u, py + 0.04 * HH], [px + k * u, py - 0.08 * HH]], c, 2.4 * u, 0.8 * u);
+      }
+      if (o.tie) { // necktie from the knot under the chin
+        p.poly([[tcx - 3.5 * u, chin - 0.04 * HH], [tcx + 3.5 * u, chin - 0.04 * HH], [tcx + 2.5 * u, chin + 0.06 * HH], [tcx - 2.5 * u, chin + 0.06 * HH]], mul(o.tie, [0.85, 0.85, 0.85]), 1.4 * u);
+        p.poly([[tcx - 2.5 * u, chin + 0.06 * HH], [tcx + 2.5 * u, chin + 0.06 * HH], [tcx + 5.5 * u, torsoBot - 0.28 * HH], [tcx, torsoBot - 0.2 * HH], [tcx - 5.5 * u, torsoBot - 0.28 * HH]], o.tie, 1.6 * u);
+        for (let k = 0; k < 4; k++) p.stroke([[tcx - 3 * u, chin + (0.12 + 0.1 * k) * HH], [tcx + 3 * u, chin + (0.08 + 0.1 * k) * HH]], 1.6 * u, mul(o.tie, [0.7, 0.7, 0.75]));
+      }
       if (o.braces) for (const s of [-1, 1]) p.band([[tcx + s * 0.5 * T.a, chin - 0.1 * HH], [tcx + s * 0.36 * T.a, torsoBot + 0.1 * HH]], o.braces, 4.2 * u, 1.2 * u);
       if (o.sam) { // Sam Browne: waist belt, a cross strap over the right shoulder, a brass buckle
         const gy = torsoBot - 0.24 * HH;
@@ -770,6 +796,11 @@ export const bodyFront = (p: Pen, o: Outfit, opts: FrontOpts) => {
     });
     if (o.sash) { const s = facing || 1; p.poly([[tcx + s * 0.55 * T.a, torsoBot - 0.3 * HH], [tcx + s * 0.75 * T.a, torsoBot + 0.05 * HH], [tcx + s * 0.45 * T.a, torsoBot + 0.02 * HH]], o.sash, 1.6 * u); }
     p.inkRing(tp, ow, thick);
+    if (o.bow) { // bow tie at the collar
+      p.poly([[tcx, chin + 0.02 * HH], [tcx - 14 * u, chin - 0.05 * HH], [tcx - 14 * u, chin + 0.1 * HH]], o.bow, 1.6 * u);
+      p.poly([[tcx, chin + 0.02 * HH], [tcx + 14 * u, chin - 0.05 * HH], [tcx + 14 * u, chin + 0.1 * HH]], o.bow, 1.6 * u);
+      p.ell(tcx, chin + 0.025 * HH, 3.5 * u, 3.5 * u, mul(o.bow, [0.8, 0.8, 0.8]), 1.4 * u);
+    }
     if (o.scarf) { // neckerchief knotted under the chin
       p.poly([[tcx - 0.42 * T.a, chin - 0.04 * HH], [tcx + 0.42 * T.a, chin - 0.04 * HH], [tcx + 3 * u, chin + 0.24 * HH], [tcx - 3 * u, chin + 0.24 * HH]], o.scarf, 1.8 * u);
       p.ell(tcx, chin + 0.05 * HH, 5 * u, 4 * u, mul(o.scarf, SH_CLOTH), 1.4 * u);
@@ -825,6 +856,16 @@ export const bodyFront = (p: Pen, o: Outfit, opts: FrontOpts) => {
   hatOn(p, o.hood ? { ...o, hat: "hood_top" } : o, hp, H, 300, hc, light, seed, facing, false);
   const brim = !!o.hat && o.hat !== "hair" && o.hat !== "bonnet" && o.hat !== "cap" && o.hat !== "crown";
   faceFront(p, 300, hc, W, expr, facing, look, lid, brim, skin, o.moustache, o.build === "stout", !!o.nose, talk);
+  if (o.glasses && pose !== "binoc") { // spectacles: two round (or cat-eye) rims over the eyes, a bridge, the arms
+    const fx0 = 300 + 7 * u * facing;
+    for (const s of [-1, 1]) {
+      const gx = fx0 + s * 13 * u;
+      if (o.cat) p.poly([[gx - s * 10 * u, hc + 6 * u], [gx - s * 11 * u, hc - 5 * u], [gx + s * 3 * u, hc - 8 * u], [gx + s * 13 * u, hc - 11 * u], [gx + s * 11 * u, hc + 4 * u], [gx + s * 2 * u, hc + 9 * u]], null, 3.2 * u);
+      else p.ell(gx, hc, 10.5 * u, 9.5 * u, null, 3 * u);
+      p.stroke([[gx + s * 10.5 * u, hc - 2 * u], [gx + s * 20 * u, hc - 4 * u]], 2.4 * u, o.glasses);
+    }
+    p.arc(fx0, hc - 1 * u, 3.5 * u, 2.5 * u, 200, 340, 2.6 * u, o.glasses);
+  }
   if (pose === "binoc") { // field glasses held to the eyes: two dark barrels, a bridge, the hands round them
     const fx0 = 300 + 7 * u * facing;
     for (const s of [-1, 1]) { p.ell(fx0 + s * 13 * u, hc + 1 * u, 10 * u, 12 * u, "#2e2a2a", 2.6 * u); p.ell(fx0 + s * 13 * u, hc - 2 * u, 7 * u, 7 * u, "#5a6a7a", 2 * u); p.ell(fx0 + s * 13 * u, hc - 3 * u, 2.5 * u, 2.5 * u, "#c9d6e2", 0); }

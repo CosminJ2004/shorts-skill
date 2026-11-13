@@ -29,7 +29,8 @@ args = ap.parse_args()
 
 root = ANIM / "shorts" / args.name
 text = (root / "SCRIPT.md").read_text(encoding="utf-8").split("## Script", 1)[1].split("\n", 1)[1]
-sentences = [s.strip() for line in text.strip().splitlines() for s in re.split(r"(?<=[.?!])\s+(?=[A-Z\"])", line) if s.strip()]
+_split_lines = json.loads((root / "DIRECTION.json").read_text(encoding="utf-8"))["voice"].get("split") == "line"
+sentences = [line.strip() for line in text.strip().splitlines() if line.strip()] if _split_lines else [s.strip() for line in text.strip().splitlines() for s in re.split(r"(?<=[.?!])\s+(?=[A-Z\"])", line) if s.strip()]
 dirn = json.loads((root / "DIRECTION.json").read_text(encoding="utf-8"))
 assert len(dirn["lines"]) == len(sentences), (len(dirn["lines"]), len(sentences))
 takes = args.takes or dirn["voice"].get("takes", 2)

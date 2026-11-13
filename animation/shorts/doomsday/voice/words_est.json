@@ -1,0 +1,962 @@
+[
+ {
+  "word": "In",
+  "start": 0.12,
+  "end": 0.401,
+  "sentence": 0
+ },
+ {
+  "word": "1960,",
+  "start": 0.401,
+  "end": 0.823,
+  "sentence": 0
+ },
+ {
+  "word": "three",
+  "start": 0.823,
+  "end": 1.316,
+  "sentence": 0
+ },
+ {
+  "word": "scientists",
+  "start": 1.316,
+  "end": 2.16,
+  "sentence": 0
+ },
+ {
+  "word": "calculated",
+  "start": 2.16,
+  "end": 3.004,
+  "sentence": 0
+ },
+ {
+  "word": "the",
+  "start": 3.004,
+  "end": 3.355,
+  "sentence": 0
+ },
+ {
+  "word": "exact",
+  "start": 3.355,
+  "end": 3.848,
+  "sentence": 0
+ },
+ {
+  "word": "day",
+  "start": 3.848,
+  "end": 4.199,
+  "sentence": 0
+ },
+ {
+  "word": "humanity",
+  "start": 4.199,
+  "end": 4.902,
+  "sentence": 0
+ },
+ {
+  "word": "ends.",
+  "start": 4.902,
+  "end": 5.324,
+  "sentence": 0
+ },
+ {
+  "word": "Friday.",
+  "start": 5.774,
+  "end": 6.503,
+  "sentence": 1
+ },
+ {
+  "word": "November",
+  "start": 6.503,
+  "end": 7.415,
+  "sentence": 1
+ },
+ {
+  "word": "thirteenth.",
+  "start": 7.415,
+  "end": 8.508,
+  "sentence": 1
+ },
+ {
+  "word": "2026.",
+  "start": 8.508,
+  "end": 9.055,
+  "sentence": 1
+ },
+ {
+  "word": "Not",
+  "start": 9.605,
+  "end": 9.91,
+  "sentence": 2
+ },
+ {
+  "word": "a",
+  "start": 9.91,
+  "end": 10.093,
+  "sentence": 2
+ },
+ {
+  "word": "cult.",
+  "start": 10.093,
+  "end": 10.458,
+  "sentence": 2
+ },
+ {
+  "word": "Not",
+  "start": 10.458,
+  "end": 10.763,
+  "sentence": 2
+ },
+ {
+  "word": "a",
+  "start": 10.763,
+  "end": 10.946,
+  "sentence": 2
+ },
+ {
+  "word": "psychic.",
+  "start": 10.946,
+  "end": 11.495,
+  "sentence": 2
+ },
+ {
+  "word": "The",
+  "start": 11.495,
+  "end": 11.799,
+  "sentence": 2
+ },
+ {
+  "word": "journal",
+  "start": 11.799,
+  "end": 12.348,
+  "sentence": 2
+ },
+ {
+  "word": "Science.",
+  "start": 12.348,
+  "end": 12.897,
+  "sentence": 2
+ },
+ {
+  "word": "They",
+  "start": 13.197,
+  "end": 13.507,
+  "sentence": 3
+ },
+ {
+  "word": "took",
+  "start": 13.507,
+  "end": 13.817,
+  "sentence": 3
+ },
+ {
+  "word": "two",
+  "start": 13.817,
+  "end": 14.076,
+  "sentence": 3
+ },
+ {
+  "word": "thousand",
+  "start": 14.076,
+  "end": 14.593,
+  "sentence": 3
+ },
+ {
+  "word": "years",
+  "start": 14.593,
+  "end": 14.955,
+  "sentence": 3
+ },
+ {
+  "word": "of",
+  "start": 14.955,
+  "end": 15.162,
+  "sentence": 3
+ },
+ {
+  "word": "population",
+  "start": 15.162,
+  "end": 15.783,
+  "sentence": 3
+ },
+ {
+  "word": "numbers,",
+  "start": 15.783,
+  "end": 16.248,
+  "sentence": 3
+ },
+ {
+  "word": "and",
+  "start": 16.248,
+  "end": 16.507,
+  "sentence": 3
+ },
+ {
+  "word": "spotted",
+  "start": 16.507,
+  "end": 16.972,
+  "sentence": 3
+ },
+ {
+  "word": "something",
+  "start": 16.972,
+  "end": 17.541,
+  "sentence": 3
+ },
+ {
+  "word": "terrifying.",
+  "start": 17.541,
+  "end": 18.161,
+  "sentence": 3
+ },
+ {
+  "word": "Every",
+  "start": 18.361,
+  "end": 18.789,
+  "sentence": 4
+ },
+ {
+  "word": "time",
+  "start": 18.789,
+  "end": 19.155,
+  "sentence": 4
+ },
+ {
+  "word": "humanity",
+  "start": 19.155,
+  "end": 19.766,
+  "sentence": 4
+ },
+ {
+  "word": "doubled,",
+  "start": 19.766,
+  "end": 20.315,
+  "sentence": 4
+ },
+ {
+  "word": "it",
+  "start": 20.315,
+  "end": 20.559,
+  "sentence": 4
+ },
+ {
+  "word": "doubled",
+  "start": 20.559,
+  "end": 21.109,
+  "sentence": 4
+ },
+ {
+  "word": "faster.",
+  "start": 21.109,
+  "end": 21.597,
+  "sentence": 4
+ },
+ {
+  "word": "Follow",
+  "start": 21.947,
+  "end": 22.36,
+  "sentence": 5
+ },
+ {
+  "word": "that",
+  "start": 22.36,
+  "end": 22.67,
+  "sentence": 5
+ },
+ {
+  "word": "curve,",
+  "start": 22.67,
+  "end": 23.031,
+  "sentence": 5
+ },
+ {
+  "word": "and",
+  "start": 23.031,
+  "end": 23.289,
+  "sentence": 5
+ },
+ {
+  "word": "on",
+  "start": 23.289,
+  "end": 23.495,
+  "sentence": 5
+ },
+ {
+  "word": "one",
+  "start": 23.495,
+  "end": 23.753,
+  "sentence": 5
+ },
+ {
+  "word": "Friday,",
+  "start": 23.753,
+  "end": 24.166,
+  "sentence": 5
+ },
+ {
+  "word": "the",
+  "start": 24.166,
+  "end": 24.424,
+  "sentence": 5
+ },
+ {
+  "word": "number",
+  "start": 24.424,
+  "end": 24.837,
+  "sentence": 5
+ },
+ {
+  "word": "of",
+  "start": 24.837,
+  "end": 25.043,
+  "sentence": 5
+ },
+ {
+  "word": "humans",
+  "start": 25.043,
+  "end": 25.456,
+  "sentence": 5
+ },
+ {
+  "word": "hits",
+  "start": 25.456,
+  "end": 25.766,
+  "sentence": 5
+ },
+ {
+  "word": "infinity.",
+  "start": 25.766,
+  "end": 26.282,
+  "sentence": 5
+ },
+ {
+  "word": "Their",
+  "start": 26.782,
+  "end": 27.216,
+  "sentence": 6
+ },
+ {
+  "word": "verdict?",
+  "start": 27.216,
+  "end": 27.773,
+  "sentence": 6
+ },
+ {
+  "word": "We",
+  "start": 27.773,
+  "end": 28.021,
+  "sentence": 6
+ },
+ {
+  "word": "wouldn't",
+  "start": 28.021,
+  "end": 28.579,
+  "sentence": 6
+ },
+ {
+  "word": "starve.",
+  "start": 28.579,
+  "end": 29.075,
+  "sentence": 6
+ },
+ {
+  "word": "We'd",
+  "start": 29.075,
+  "end": 29.385,
+  "sentence": 6
+ },
+ {
+  "word": "be",
+  "start": 29.385,
+  "end": 29.633,
+  "sentence": 6
+ },
+ {
+  "word": "squeezed",
+  "start": 29.633,
+  "end": 30.253,
+  "sentence": 6
+ },
+ {
+  "word": "to",
+  "start": 30.253,
+  "end": 30.501,
+  "sentence": 6
+ },
+ {
+  "word": "death.",
+  "start": 30.501,
+  "end": 30.935,
+  "sentence": 6
+ },
+ {
+  "word": "And",
+  "start": 31.585,
+  "end": 31.819,
+  "sentence": 7
+ },
+ {
+  "word": "the",
+  "start": 31.819,
+  "end": 32.053,
+  "sentence": 7
+ },
+ {
+  "word": "date",
+  "start": 32.053,
+  "end": 32.334,
+  "sentence": 7
+ },
+ {
+  "word": "they",
+  "start": 32.334,
+  "end": 32.615,
+  "sentence": 7
+ },
+ {
+  "word": "picked",
+  "start": 32.615,
+  "end": 32.99,
+  "sentence": 7
+ },
+ {
+  "word": "for",
+  "start": 32.99,
+  "end": 33.225,
+  "sentence": 7
+ },
+ {
+  "word": "doomsday?",
+  "start": 33.225,
+  "end": 33.693,
+  "sentence": 7
+ },
+ {
+  "word": "The",
+  "start": 33.693,
+  "end": 33.927,
+  "sentence": 7
+ },
+ {
+  "word": "lead",
+  "start": 33.927,
+  "end": 34.209,
+  "sentence": 7
+ },
+ {
+  "word": "scientist's",
+  "start": 34.209,
+  "end": 34.771,
+  "sentence": 7
+ },
+ {
+  "word": "birthday.",
+  "start": 34.771,
+  "end": 35.239,
+  "sentence": 7
+ },
+ {
+  "word": "Oh,",
+  "start": 35.789,
+  "end": 35.989,
+  "sentence": 8
+ },
+ {
+  "word": "and",
+  "start": 35.989,
+  "end": 36.237,
+  "sentence": 8
+ },
+ {
+  "word": "he",
+  "start": 36.237,
+  "end": 36.437,
+  "sentence": 8
+ },
+ {
+  "word": "used",
+  "start": 36.437,
+  "end": 36.735,
+  "sentence": 8
+ },
+ {
+  "word": "to",
+  "start": 36.735,
+  "end": 36.934,
+  "sentence": 8
+ },
+ {
+  "word": "be",
+  "start": 36.934,
+  "end": 37.134,
+  "sentence": 8
+ },
+ {
+  "word": "a",
+  "start": 37.134,
+  "end": 37.283,
+  "sentence": 8
+ },
+ {
+  "word": "stage",
+  "start": 37.283,
+  "end": 37.631,
+  "sentence": 8
+ },
+ {
+  "word": "magician.",
+  "start": 37.631,
+  "end": 38.129,
+  "sentence": 8
+ },
+ {
+  "word": "Other",
+  "start": 38.629,
+  "end": 38.998,
+  "sentence": 9
+ },
+ {
+  "word": "scientists",
+  "start": 38.998,
+  "end": 39.629,
+  "sentence": 9
+ },
+ {
+  "word": "called",
+  "start": 39.629,
+  "end": 40.05,
+  "sentence": 9
+ },
+ {
+  "word": "it",
+  "start": 40.05,
+  "end": 40.261,
+  "sentence": 9
+ },
+ {
+  "word": "ridiculous.",
+  "start": 40.261,
+  "end": 40.892,
+  "sentence": 9
+ },
+ {
+  "word": "But",
+  "start": 41.142,
+  "end": 41.391,
+  "sentence": 10
+ },
+ {
+  "word": "for",
+  "start": 41.391,
+  "end": 41.64,
+  "sentence": 10
+ },
+ {
+  "word": "thirty",
+  "start": 41.64,
+  "end": 42.039,
+  "sentence": 10
+ },
+ {
+  "word": "years,",
+  "start": 42.039,
+  "end": 42.387,
+  "sentence": 10
+ },
+ {
+  "word": "the",
+  "start": 42.387,
+  "end": 42.636,
+  "sentence": 10
+ },
+ {
+  "word": "curve",
+  "start": 42.636,
+  "end": 42.985,
+  "sentence": 10
+ },
+ {
+  "word": "was",
+  "start": 42.985,
+  "end": 43.234,
+  "sentence": 10
+ },
+ {
+  "word": "right.",
+  "start": 43.234,
+  "end": 43.583,
+  "sentence": 10
+ },
+ {
+  "word": "More",
+  "start": 43.583,
+  "end": 43.882,
+  "sentence": 10
+ },
+ {
+  "word": "right",
+  "start": 43.882,
+  "end": 44.23,
+  "sentence": 10
+ },
+ {
+  "word": "than",
+  "start": 44.23,
+  "end": 44.529,
+  "sentence": 10
+ },
+ {
+  "word": "the",
+  "start": 44.529,
+  "end": 44.778,
+  "sentence": 10
+ },
+ {
+  "word": "experts.",
+  "start": 44.778,
+  "end": 45.226,
+  "sentence": 10
+ },
+ {
+  "word": "You",
+  "start": 45.676,
+  "end": 45.917,
+  "sentence": 11
+ },
+ {
+  "word": "see,",
+  "start": 45.917,
+  "end": 46.157,
+  "sentence": 11
+ },
+ {
+  "word": "the",
+  "start": 46.157,
+  "end": 46.397,
+  "sentence": 11
+ },
+ {
+  "word": "math",
+  "start": 46.397,
+  "end": 46.686,
+  "sentence": 11
+ },
+ {
+  "word": "wasn't",
+  "start": 46.686,
+  "end": 47.022,
+  "sentence": 11
+ },
+ {
+  "word": "the",
+  "start": 47.022,
+  "end": 47.263,
+  "sentence": 11
+ },
+ {
+  "word": "problem.",
+  "start": 47.263,
+  "end": 47.695,
+  "sentence": 11
+ },
+ {
+  "word": "People",
+  "start": 47.695,
+  "end": 48.08,
+  "sentence": 11
+ },
+ {
+  "word": "were.",
+  "start": 48.08,
+  "end": 48.368,
+  "sentence": 11
+ },
+ {
+  "word": "Families",
+  "start": 48.618,
+  "end": 49.163,
+  "sentence": 12
+ },
+ {
+  "word": "started",
+  "start": 49.163,
+  "end": 49.654,
+  "sentence": 12
+ },
+ {
+  "word": "having",
+  "start": 49.654,
+  "end": 50.09,
+  "sentence": 12
+ },
+ {
+  "word": "fewer",
+  "start": 50.09,
+  "end": 50.471,
+  "sentence": 12
+ },
+ {
+  "word": "kids.",
+  "start": 50.471,
+  "end": 50.798,
+  "sentence": 12
+ },
+ {
+  "word": "The",
+  "start": 50.798,
+  "end": 51.071,
+  "sentence": 12
+ },
+ {
+  "word": "birth",
+  "start": 51.071,
+  "end": 51.452,
+  "sentence": 12
+ },
+ {
+  "word": "rate",
+  "start": 51.452,
+  "end": 51.779,
+  "sentence": 12
+ },
+ {
+  "word": "fell",
+  "start": 51.779,
+  "end": 52.106,
+  "sentence": 12
+ },
+ {
+  "word": "to",
+  "start": 52.106,
+  "end": 52.325,
+  "sentence": 12
+ },
+ {
+  "word": "about",
+  "start": 52.325,
+  "end": 52.706,
+  "sentence": 12
+ },
+ {
+  "word": "half.",
+  "start": 52.706,
+  "end": 53.033,
+  "sentence": 12
+ },
+ {
+  "word": "Like",
+  "start": 53.233,
+  "end": 53.541,
+  "sentence": 13
+ },
+ {
+  "word": "a",
+  "start": 53.541,
+  "end": 53.695,
+  "sentence": 13
+ },
+ {
+  "word": "car",
+  "start": 53.695,
+  "end": 53.952,
+  "sentence": 13
+ },
+ {
+  "word": "racing",
+  "start": 53.952,
+  "end": 54.363,
+  "sentence": 13
+ },
+ {
+  "word": "at",
+  "start": 54.363,
+  "end": 54.568,
+  "sentence": 13
+ },
+ {
+  "word": "a",
+  "start": 54.568,
+  "end": 54.722,
+  "sentence": 13
+ },
+ {
+  "word": "cliff,",
+  "start": 54.722,
+  "end": 55.082,
+  "sentence": 13
+ },
+ {
+  "word": "that",
+  "start": 55.082,
+  "end": 55.39,
+  "sentence": 13
+ },
+ {
+  "word": "finally",
+  "start": 55.39,
+  "end": 55.852,
+  "sentence": 13
+ },
+ {
+  "word": "hits",
+  "start": 55.852,
+  "end": 56.16,
+  "sentence": 13
+ },
+ {
+  "word": "the",
+  "start": 56.16,
+  "end": 56.417,
+  "sentence": 13
+ },
+ {
+  "word": "brakes.",
+  "start": 56.417,
+  "end": 56.828,
+  "sentence": 13
+ },
+ {
+  "word": "So",
+  "start": 57.278,
+  "end": 57.461,
+  "sentence": 14
+ },
+ {
+  "word": "instead",
+  "start": 57.461,
+  "end": 57.872,
+  "sentence": 14
+ },
+ {
+  "word": "of",
+  "start": 57.872,
+  "end": 58.055,
+  "sentence": 14
+ },
+ {
+  "word": "infinity,",
+  "start": 58.055,
+  "end": 58.512,
+  "sentence": 14
+ },
+ {
+  "word": "there",
+  "start": 58.512,
+  "end": 58.832,
+  "sentence": 14
+ },
+ {
+  "word": "are",
+  "start": 58.832,
+  "end": 59.061,
+  "sentence": 14
+ },
+ {
+  "word": "about",
+  "start": 59.061,
+  "end": 59.381,
+  "sentence": 14
+ },
+ {
+  "word": "eight",
+  "start": 59.381,
+  "end": 59.7,
+  "sentence": 14
+ },
+ {
+  "word": "billion",
+  "start": 59.7,
+  "end": 60.112,
+  "sentence": 14
+ },
+ {
+  "word": "of",
+  "start": 60.112,
+  "end": 60.295,
+  "sentence": 14
+ },
+ {
+  "word": "us.",
+  "start": 60.295,
+  "end": 60.478,
+  "sentence": 14
+ },
+ {
+  "word": "Which",
+  "start": 60.828,
+  "end": 61.222,
+  "sentence": 15
+ },
+ {
+  "word": "means,",
+  "start": 61.222,
+  "end": 61.616,
+  "sentence": 15
+ },
+ {
+  "word": "if",
+  "start": 61.616,
+  "end": 61.842,
+  "sentence": 15
+ },
+ {
+  "word": "you're",
+  "start": 61.842,
+  "end": 62.236,
+  "sentence": 15
+ },
+ {
+  "word": "watching",
+  "start": 62.236,
+  "end": 62.799,
+  "sentence": 15
+ },
+ {
+  "word": "this,",
+  "start": 62.799,
+  "end": 63.137,
+  "sentence": 15
+ },
+ {
+  "word": "the",
+  "start": 63.137,
+  "end": 63.419,
+  "sentence": 15
+ },
+ {
+  "word": "world",
+  "start": 63.419,
+  "end": 63.814,
+  "sentence": 15
+ },
+ {
+  "word": "didn't",
+  "start": 63.814,
+  "end": 64.208,
+  "sentence": 15
+ },
+ {
+  "word": "end.",
+  "start": 64.208,
+  "end": 64.49,
+  "sentence": 15
+ },
+ {
+  "word": "Happy",
+  "start": 65.09,
+  "end": 65.439,
+  "sentence": 16
+ },
+ {
+  "word": "birthday,",
+  "start": 65.439,
+  "end": 65.938,
+  "sentence": 16
+ },
+ {
+  "word": "Heinz.",
+  "start": 65.938,
+  "end": 66.287,
+  "sentence": 16
+ }
+]
