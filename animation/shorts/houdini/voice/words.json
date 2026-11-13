@@ -1,0 +1,1052 @@
+[
+ {
+  "word": "This",
+  "start": 0.07,
+  "end": 0.24,
+  "sentence": 0
+ },
+ {
+  "word": "Halloween,",
+  "start": 0.24,
+  "end": 0.52,
+  "sentence": 0
+ },
+ {
+  "word": "twenty-five",
+  "start": 0.52,
+  "end": 1.48,
+  "sentence": 0
+ },
+ {
+  "word": "s\u00e9ances",
+  "start": 1.48,
+  "end": 2.44,
+  "sentence": 0
+ },
+ {
+  "word": "tried",
+  "start": 2.44,
+  "end": 2.86,
+  "sentence": 0
+ },
+ {
+  "word": "to",
+  "start": 2.86,
+  "end": 3.1,
+  "sentence": 0
+ },
+ {
+  "word": "summon",
+  "start": 3.1,
+  "end": 3.32,
+  "sentence": 0
+ },
+ {
+  "word": "the",
+  "start": 3.32,
+  "end": 3.54,
+  "sentence": 0
+ },
+ {
+  "word": "same",
+  "start": 3.54,
+  "end": 3.74,
+  "sentence": 0
+ },
+ {
+  "word": "dead",
+  "start": 3.74,
+  "end": 4.04,
+  "sentence": 0
+ },
+ {
+  "word": "man.",
+  "start": 4.04,
+  "end": 4.32,
+  "sentence": 0
+ },
+ {
+  "word": "He's",
+  "start": 4.891,
+  "end": 5.12,
+  "sentence": 1
+ },
+ {
+  "word": "ignored",
+  "start": 5.12,
+  "end": 5.38,
+  "sentence": 1
+ },
+ {
+  "word": "them",
+  "start": 5.38,
+  "end": 5.74,
+  "sentence": 1
+ },
+ {
+  "word": "for",
+  "start": 5.74,
+  "end": 6.08,
+  "sentence": 1
+ },
+ {
+  "word": "a",
+  "start": 6.08,
+  "end": 6.22,
+  "sentence": 1
+ },
+ {
+  "word": "hundred",
+  "start": 6.22,
+  "end": 6.46,
+  "sentence": 1
+ },
+ {
+  "word": "years.",
+  "start": 6.46,
+  "end": 6.84,
+  "sentence": 1
+ },
+ {
+  "word": "Harry",
+  "start": 7.671,
+  "end": 7.9,
+  "sentence": 2
+ },
+ {
+  "word": "Houdini.",
+  "start": 7.9,
+  "end": 8.46,
+  "sentence": 2
+ },
+ {
+  "word": "He",
+  "start": 8.98,
+  "end": 9.12,
+  "sentence": 2
+ },
+ {
+  "word": "escaped",
+  "start": 9.12,
+  "end": 9.38,
+  "sentence": 2
+ },
+ {
+  "word": "handcuffs,",
+  "start": 9.38,
+  "end": 9.82,
+  "sentence": 2
+ },
+ {
+  "word": "jail",
+  "start": 10.42,
+  "end": 10.58,
+  "sentence": 2
+ },
+ {
+  "word": "cells,",
+  "start": 10.58,
+  "end": 10.88,
+  "sentence": 2
+ },
+ {
+  "word": "and",
+  "start": 10.88,
+  "end": 11.46,
+  "sentence": 2
+ },
+ {
+  "word": "a",
+  "start": 11.46,
+  "end": 11.54,
+  "sentence": 2
+ },
+ {
+  "word": "dead",
+  "start": 11.54,
+  "end": 11.78,
+  "sentence": 2
+ },
+ {
+  "word": "whale.",
+  "start": 11.78,
+  "end": 12.14,
+  "sentence": 2
+ },
+ {
+  "word": "Upside",
+  "start": 12.64,
+  "end": 13.06,
+  "sentence": 3
+ },
+ {
+  "word": "down",
+  "start": 13.06,
+  "end": 13.34,
+  "sentence": 3
+ },
+ {
+  "word": "in",
+  "start": 13.34,
+  "end": 13.6,
+  "sentence": 3
+ },
+ {
+  "word": "a",
+  "start": 13.6,
+  "end": 13.7,
+  "sentence": 3
+ },
+ {
+  "word": "locked",
+  "start": 13.7,
+  "end": 13.88,
+  "sentence": 3
+ },
+ {
+  "word": "tank",
+  "start": 13.88,
+  "end": 14.16,
+  "sentence": 3
+ },
+ {
+  "word": "of",
+  "start": 14.16,
+  "end": 14.34,
+  "sentence": 3
+ },
+ {
+  "word": "water,",
+  "start": 14.34,
+  "end": 14.66,
+  "sentence": 3
+ },
+ {
+  "word": "he",
+  "start": 15.06,
+  "end": 15.18,
+  "sentence": 3
+ },
+ {
+  "word": "held",
+  "start": 15.18,
+  "end": 15.38,
+  "sentence": 3
+ },
+ {
+  "word": "his",
+  "start": 15.38,
+  "end": 15.58,
+  "sentence": 3
+ },
+ {
+  "word": "breath",
+  "start": 15.58,
+  "end": 15.84,
+  "sentence": 3
+ },
+ {
+  "word": "for",
+  "start": 15.84,
+  "end": 16.16,
+  "sentence": 3
+ },
+ {
+  "word": "three",
+  "start": 16.16,
+  "end": 16.38,
+  "sentence": 3
+ },
+ {
+  "word": "minutes.",
+  "start": 16.38,
+  "end": 16.66,
+  "sentence": 3
+ },
+ {
+  "word": "But",
+  "start": 17.24,
+  "end": 17.38,
+  "sentence": 4
+ },
+ {
+  "word": "his",
+  "start": 17.38,
+  "end": 17.7,
+  "sentence": 4
+ },
+ {
+  "word": "favourite",
+  "start": 17.7,
+  "end": 18.34,
+  "sentence": 4
+ },
+ {
+  "word": "hobby?",
+  "start": 18.34,
+  "end": 18.62,
+  "sentence": 4
+ },
+ {
+  "word": "Crashing",
+  "start": 18.98,
+  "end": 19.3,
+  "sentence": 4
+ },
+ {
+  "word": "s\u00e9ances.",
+  "start": 19.3,
+  "end": 20.54,
+  "sentence": 4
+ },
+ {
+  "word": "In",
+  "start": 20.54,
+  "end": 21.02,
+  "sentence": 4
+ },
+ {
+  "word": "disguise.",
+  "start": 21.02,
+  "end": 21.44,
+  "sentence": 4
+ },
+ {
+  "word": "With",
+  "start": 21.44,
+  "end": 22.14,
+  "sentence": 4
+ },
+ {
+  "word": "a",
+  "start": 22.14,
+  "end": 22.26,
+  "sentence": 4
+ },
+ {
+  "word": "cop.",
+  "start": 22.26,
+  "end": 22.4,
+  "sentence": 4
+ },
+ {
+  "word": "Even",
+  "start": 23.18,
+  "end": 23.38,
+  "sentence": 5
+ },
+ {
+  "word": "the",
+  "start": 23.38,
+  "end": 23.54,
+  "sentence": 5
+ },
+ {
+  "word": "man",
+  "start": 23.54,
+  "end": 23.76,
+  "sentence": 5
+ },
+ {
+  "word": "who",
+  "start": 23.76,
+  "end": 24.0,
+  "sentence": 5
+ },
+ {
+  "word": "created",
+  "start": 24.0,
+  "end": 24.44,
+  "sentence": 5
+ },
+ {
+  "word": "Sherlock",
+  "start": 24.44,
+  "end": 24.84,
+  "sentence": 5
+ },
+ {
+  "word": "Holmes",
+  "start": 24.84,
+  "end": 25.28,
+  "sentence": 5
+ },
+ {
+  "word": "swore",
+  "start": 25.28,
+  "end": 25.92,
+  "sentence": 5
+ },
+ {
+  "word": "Houdini",
+  "start": 25.92,
+  "end": 26.64,
+  "sentence": 5
+ },
+ {
+  "word": "had",
+  "start": 26.64,
+  "end": 26.94,
+  "sentence": 5
+ },
+ {
+  "word": "real",
+  "start": 26.94,
+  "end": 27.26,
+  "sentence": 5
+ },
+ {
+  "word": "magic",
+  "start": 27.26,
+  "end": 27.76,
+  "sentence": 5
+ },
+ {
+  "word": "powers.",
+  "start": 27.76,
+  "end": 28.04,
+  "sentence": 5
+ },
+ {
+  "word": "Then,",
+  "start": 28.839,
+  "end": 29.04,
+  "sentence": 6
+ },
+ {
+  "word": "in",
+  "start": 29.2,
+  "end": 29.24,
+  "sentence": 6
+ },
+ {
+  "word": "1926,",
+  "start": 29.24,
+  "end": 29.82,
+  "sentence": 6
+ },
+ {
+  "word": "a",
+  "start": 29.82,
+  "end": 30.66,
+  "sentence": 6
+ },
+ {
+  "word": "college",
+  "start": 30.66,
+  "end": 30.9,
+  "sentence": 6
+ },
+ {
+  "word": "student",
+  "start": 30.9,
+  "end": 31.42,
+  "sentence": 6
+ },
+ {
+  "word": "punched",
+  "start": 31.42,
+  "end": 31.74,
+  "sentence": 6
+ },
+ {
+  "word": "him",
+  "start": 31.74,
+  "end": 32.06,
+  "sentence": 6
+ },
+ {
+  "word": "in",
+  "start": 32.06,
+  "end": 32.12,
+  "sentence": 6
+ },
+ {
+  "word": "the",
+  "start": 32.12,
+  "end": 32.2,
+  "sentence": 6
+ },
+ {
+  "word": "stomach.",
+  "start": 32.2,
+  "end": 32.5,
+  "sentence": 6
+ },
+ {
+  "word": "His",
+  "start": 32.9,
+  "end": 32.98,
+  "sentence": 7
+ },
+ {
+  "word": "appendix",
+  "start": 32.98,
+  "end": 33.3,
+  "sentence": 7
+ },
+ {
+  "word": "burst.",
+  "start": 33.3,
+  "end": 33.92,
+  "sentence": 7
+ },
+ {
+  "word": "He",
+  "start": 34.46,
+  "end": 34.54,
+  "sentence": 7
+ },
+ {
+  "word": "did",
+  "start": 34.54,
+  "end": 34.76,
+  "sentence": 7
+ },
+ {
+  "word": "the",
+  "start": 34.76,
+  "end": 34.94,
+  "sentence": 7
+ },
+ {
+  "word": "show",
+  "start": 34.94,
+  "end": 35.14,
+  "sentence": 7
+ },
+ {
+  "word": "anyway,",
+  "start": 35.14,
+  "end": 35.4,
+  "sentence": 7
+ },
+ {
+  "word": "with",
+  "start": 35.88,
+  "end": 35.96,
+  "sentence": 7
+ },
+ {
+  "word": "a",
+  "start": 35.96,
+  "end": 36.06,
+  "sentence": 7
+ },
+ {
+  "word": "fever",
+  "start": 36.06,
+  "end": 36.44,
+  "sentence": 7
+ },
+ {
+  "word": "of",
+  "start": 36.44,
+  "end": 36.68,
+  "sentence": 7
+ },
+ {
+  "word": "a",
+  "start": 36.68,
+  "end": 36.911,
+  "sentence": 7
+ },
+ {
+  "word": "hundred",
+  "start": 36.911,
+  "end": 37.142,
+  "sentence": 7
+ },
+ {
+  "word": "and",
+  "start": 37.142,
+  "end": 37.374,
+  "sentence": 7
+ },
+ {
+  "word": "four.",
+  "start": 37.374,
+  "end": 37.605,
+  "sentence": 7
+ },
+ {
+  "word": "He",
+  "start": 37.905,
+  "end": 38.0,
+  "sentence": 8
+ },
+ {
+  "word": "died",
+  "start": 38.0,
+  "end": 38.22,
+  "sentence": 8
+ },
+ {
+  "word": "on",
+  "start": 38.22,
+  "end": 38.52,
+  "sentence": 8
+ },
+ {
+  "word": "Halloween.",
+  "start": 38.52,
+  "end": 38.82,
+  "sentence": 8
+ },
+ {
+  "word": "Although",
+  "start": 39.838,
+  "end": 40.06,
+  "sentence": 9
+ },
+ {
+  "word": "a",
+  "start": 40.06,
+  "end": 40.26,
+  "sentence": 9
+ },
+ {
+  "word": "new",
+  "start": 40.26,
+  "end": 40.38,
+  "sentence": 9
+ },
+ {
+  "word": "book",
+  "start": 40.38,
+  "end": 40.58,
+  "sentence": 9
+ },
+ {
+  "word": "this",
+  "start": 40.58,
+  "end": 40.78,
+  "sentence": 9
+ },
+ {
+  "word": "year",
+  "start": 40.78,
+  "end": 41.02,
+  "sentence": 9
+ },
+ {
+  "word": "blames",
+  "start": 41.02,
+  "end": 41.28,
+  "sentence": 9
+ },
+ {
+  "word": "something",
+  "start": 41.28,
+  "end": 41.72,
+  "sentence": 9
+ },
+ {
+  "word": "else.",
+  "start": 41.72,
+  "end": 42.08,
+  "sentence": 9
+ },
+ {
+  "word": "Sour",
+  "start": 42.58,
+  "end": 42.92,
+  "sentence": 9
+ },
+ {
+  "word": "cream.",
+  "start": 42.92,
+  "end": 43.4,
+  "sentence": 9
+ },
+ {
+  "word": "You",
+  "start": 44.166,
+  "end": 44.26,
+  "sentence": 10
+ },
+ {
+  "word": "see,",
+  "start": 44.26,
+  "end": 44.42,
+  "sentence": 10
+ },
+ {
+  "word": "Houdini",
+  "start": 44.9,
+  "end": 45.16,
+  "sentence": 10
+ },
+ {
+  "word": "knew",
+  "start": 45.16,
+  "end": 45.52,
+  "sentence": 10
+ },
+ {
+  "word": "fake",
+  "start": 45.52,
+  "end": 45.78,
+  "sentence": 10
+ },
+ {
+  "word": "psychics",
+  "start": 45.78,
+  "end": 46.42,
+  "sentence": 10
+ },
+ {
+  "word": "would",
+  "start": 46.42,
+  "end": 46.52,
+  "sentence": 10
+ },
+ {
+  "word": "claim",
+  "start": 46.52,
+  "end": 46.72,
+  "sentence": 10
+ },
+ {
+  "word": "to",
+  "start": 46.72,
+  "end": 46.94,
+  "sentence": 10
+ },
+ {
+  "word": "reach",
+  "start": 46.94,
+  "end": 47.1,
+  "sentence": 10
+ },
+ {
+  "word": "him.",
+  "start": 47.1,
+  "end": 47.34,
+  "sentence": 10
+ },
+ {
+  "word": "So",
+  "start": 47.673,
+  "end": 47.84,
+  "sentence": 11
+ },
+ {
+  "word": "he",
+  "start": 47.84,
+  "end": 47.94,
+  "sentence": 11
+ },
+ {
+  "word": "gave",
+  "start": 47.94,
+  "end": 48.1,
+  "sentence": 11
+ },
+ {
+  "word": "his",
+  "start": 48.1,
+  "end": 48.36,
+  "sentence": 11
+ },
+ {
+  "word": "wife",
+  "start": 48.36,
+  "end": 48.58,
+  "sentence": 11
+ },
+ {
+  "word": "a",
+  "start": 48.58,
+  "end": 48.86,
+  "sentence": 11
+ },
+ {
+  "word": "secret",
+  "start": 48.86,
+  "end": 49.22,
+  "sentence": 11
+ },
+ {
+  "word": "password.",
+  "start": 49.22,
+  "end": 49.62,
+  "sentence": 11
+ },
+ {
+  "word": "Two",
+  "start": 50.44,
+  "end": 50.64,
+  "sentence": 11
+ },
+ {
+  "word": "words.",
+  "start": 50.64,
+  "end": 51.08,
+  "sentence": 11
+ },
+ {
+  "word": "Rosabelle,",
+  "start": 51.68,
+  "end": 52.38,
+  "sentence": 11
+ },
+ {
+  "word": "believe.",
+  "start": 52.66,
+  "end": 52.86,
+  "sentence": 11
+ },
+ {
+  "word": "Bess",
+  "start": 53.632,
+  "end": 53.72,
+  "sentence": 12
+ },
+ {
+  "word": "held",
+  "start": 53.72,
+  "end": 54.0,
+  "sentence": 12
+ },
+ {
+  "word": "a",
+  "start": 54.0,
+  "end": 54.16,
+  "sentence": 12
+ },
+ {
+  "word": "s\u00e9ance",
+  "start": 54.16,
+  "end": 54.58,
+  "sentence": 12
+ },
+ {
+  "word": "every",
+  "start": 54.58,
+  "end": 55.12,
+  "sentence": 12
+ },
+ {
+  "word": "Halloween,",
+  "start": 55.12,
+  "end": 55.44,
+  "sentence": 12
+ },
+ {
+  "word": "for",
+  "start": 55.44,
+  "end": 55.88,
+  "sentence": 12
+ },
+ {
+  "word": "ten",
+  "start": 55.88,
+  "end": 56.1,
+  "sentence": 12
+ },
+ {
+  "word": "years.",
+  "start": 56.1,
+  "end": 56.48,
+  "sentence": 12
+ },
+ {
+  "word": "Nothing.",
+  "start": 56.96,
+  "end": 57.2,
+  "sentence": 12
+ },
+ {
+  "word": "Then",
+  "start": 57.787,
+  "end": 57.94,
+  "sentence": 13
+ },
+ {
+  "word": "she",
+  "start": 57.94,
+  "end": 58.14,
+  "sentence": 13
+ },
+ {
+  "word": "blew",
+  "start": 58.14,
+  "end": 58.36,
+  "sentence": 13
+ },
+ {
+  "word": "out",
+  "start": 58.36,
+  "end": 58.64,
+  "sentence": 13
+ },
+ {
+  "word": "his",
+  "start": 58.64,
+  "end": 58.8,
+  "sentence": 13
+ },
+ {
+  "word": "candle,",
+  "start": 58.8,
+  "end": 59.06,
+  "sentence": 13
+ },
+ {
+  "word": "and",
+  "start": 59.06,
+  "end": 59.64,
+  "sentence": 13
+ },
+ {
+  "word": "said:",
+  "start": 59.64,
+  "end": 59.92,
+  "sentence": 13
+ },
+ {
+  "word": "ten",
+  "start": 60.38,
+  "end": 60.52,
+  "sentence": 13
+ },
+ {
+  "word": "years",
+  "start": 60.52,
+  "end": 60.9,
+  "sentence": 13
+ },
+ {
+  "word": "is",
+  "start": 60.9,
+  "end": 61.1,
+  "sentence": 13
+ },
+ {
+  "word": "long",
+  "start": 61.1,
+  "end": 61.3,
+  "sentence": 13
+ },
+ {
+  "word": "enough",
+  "start": 61.3,
+  "end": 61.52,
+  "sentence": 13
+ },
+ {
+  "word": "to",
+  "start": 61.52,
+  "end": 61.82,
+  "sentence": 13
+ },
+ {
+  "word": "wait",
+  "start": 61.82,
+  "end": 62.04,
+  "sentence": 13
+ },
+ {
+  "word": "for",
+  "start": 62.04,
+  "end": 62.28,
+  "sentence": 13
+ },
+ {
+  "word": "any",
+  "start": 62.28,
+  "end": 62.48,
+  "sentence": 13
+ },
+ {
+  "word": "man.",
+  "start": 62.48,
+  "end": 62.8,
+  "sentence": 13
+ },
+ {
+  "word": "So",
+  "start": 63.559,
+  "end": 63.78,
+  "sentence": 14
+ },
+ {
+  "word": "if",
+  "start": 64.12,
+  "end": 64.4,
+  "sentence": 14
+ },
+ {
+  "word": "anyone",
+  "start": 64.4,
+  "end": 64.84,
+  "sentence": 14
+ },
+ {
+  "word": "ever",
+  "start": 64.84,
+  "end": 65.1,
+  "sentence": 14
+ },
+ {
+  "word": "whispers",
+  "start": 65.1,
+  "end": 65.44,
+  "sentence": 14
+ },
+ {
+  "word": "Rosabelle,",
+  "start": 65.44,
+  "end": 66.26,
+  "sentence": 14
+ },
+ {
+  "word": "believe...",
+  "start": 66.5,
+  "end": 66.7,
+  "sentence": 14
+ },
+ {
+  "word": "it's",
+  "start": 67.4,
+  "end": 67.68,
+  "sentence": 14
+ },
+ {
+  "word": "a",
+  "start": 67.68,
+  "end": 67.8,
+  "sentence": 14
+ },
+ {
+  "word": "fraud.",
+  "start": 67.8,
+  "end": 68.1,
+  "sentence": 14
+ },
+ {
+  "word": "Or",
+  "start": 68.6,
+  "end": 68.78,
+  "sentence": 14
+ },
+ {
+  "word": "his",
+  "start": 68.78,
+  "end": 68.96,
+  "sentence": 14
+ },
+ {
+  "word": "greatest",
+  "start": 68.96,
+  "end": 69.38,
+  "sentence": 14
+ },
+ {
+  "word": "escape.",
+  "start": 69.38,
+  "end": 69.82,
+  "sentence": 14
+ }
+]

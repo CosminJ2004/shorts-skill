@@ -93,11 +93,30 @@ The user liked v3 but asked for more care with details. Treat every point here a
     is not allowed in close-ups.
   - Draw at close-up resolution even when the shot is wide; the camera pushes in.
 - **Framing.**
-  - Keep characters bigger in frame: in people shots the subject fills 40-60 % of the frame height.
+  - Keep characters bigger in frame: in people shots the subject fills 40-60 % of the frame height, inside the phone
+    SAFE box (see "Phone safe zone").
   - Never crop a head or a key prop at the edge. v3 frame 1600 (digger cut off at the mural) fails this.
   - After adding drift or glides, check the first, middle and last frame of every shot.
 - **Check:** a stills sheet (first, middle and last frame of every shot) reviewed against this list before the full
   render. Use `templates/scripts/stills_sheet.py`.
+
+## Phone safe zone (user feedback, iteration 7: "on the phone the image looks a bit cropped")
+Tall phones (19.5:9-20:9) play Shorts, TikTok and Reels zoomed to FILL the screen. A 1080x1920 frame loses about 10 %
+on each side, and the app's UI covers the top 8 %, the bottom 20 % and a right-hand button column (x > 84 %, y 45-82 %).
+- **Compose for the SAFE box: x 10-84 %, y 8-80 %.** Every face, the hand doing the gag and the key prop sit inside
+  it. Only scenery, crowd fill and blurred foreground may cross into the edges.
+- "Characters big in frame" (40-60 % of the height) still holds; get it from height, not width. A group of three in
+  portrait is a staggered cluster in depth, never a line across the full width.
+- In story.ts, a two-shot's look point is between the two faces, and the faces are at most ~60 % of the frame width
+  apart at the lens distance used (portrait at 44 degrees: 3.5 m wide at 8 m, so 2.1 m apart at most).
+- **Drift pivots on the look point** (story.ts `drift`), and push-ins stay gentle (`PUSH` 0.65). A fixed pivot
+  distance plus a push slid the subject out of the frame, and strong pushes pushed two-shots past the safe box.
+- **Check the LAST frame of every shot**, not the middle: that is where push-ins and orbits have moved furthest.
+- **Captions** never span more than 72 % of the width (`SAFE_W` in `src/lib/Captions.tsx`); long pages shrink to fit.
+- **Check:** before the full render and again on the final, run
+  `python templates/scripts/phone_safe.py <video.mp4> out/<name>/phone_safe.jpg --shots shots.json --cols 9 --w 200`.
+  It tiles the first, middle and last frame of each shot with the cropped edges in red, the UI bands in orange and
+  the SAFE box in green. Fix every face or key prop outside the green box.
 
 ## Build lessons from the castle short (iteration 5)
 - **Character kit** (`toon.ts`, all fields optional, so older shorts are unchanged):
@@ -308,6 +327,7 @@ The user liked v3 but asked for more care with details. Treat every point here a
     - Mux with `-map 0:v:0 -map 1:a:0` (Remotion writes a silent audio track).
     - QA: `python scripts/short_qa.py final.mp4 out/<name>/qa shots.json` checks every frame for black, white, frozen and pop frames, plus loudness and sheets.
     - Fix anything it finds.
+    - Run `phone_safe.py` on the final (see "Phone safe zone"): no face, gag or caption in the red or orange bands.
     - Run `look_score.py` (see the iteration loop) and close the biggest gaps.
     - Then run a deep Opus audit.
 11. **Deliver.** SendUserFile the final mp4, update memory, write notes.

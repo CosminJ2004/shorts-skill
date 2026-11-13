@@ -13,6 +13,9 @@ import { EmuShort, EMU_FRAMES } from "./videos/emu/Emu";
 import emuWords from "../shorts/emu/voice/words.json";
 import { DoomShort, DOOM_FRAMES } from "./videos/doomsday/Doom";
 import doomWords from "../shorts/doomsday/voice/words.json";
+import { HoudiniShort, HOUDINI_FRAMES } from "./videos/houdini/Houdini";
+import houdiniWords from "../shorts/houdini/voice/words.json";
+import { HoudiniCastSheet } from "./videos/houdini/CastSheet";
 
 // close-ups whose faces sit in the caption band: the line moves to the upper third there
 const PYRAMID_CAPTION_ZONES: CaptionZone[] = [[247, 362, 0.36], [424, 555, 0.36], [1044, 1104, 0.36], [1556, 1634, 0.36]];
@@ -39,6 +42,10 @@ export const RemotionRoot: React.FC = () => (
     <Composition id="DoomShort" component={DoomShort} durationInFrames={DOOM_FRAMES} fps={30} width={1080} height={1920} />
     <Composition id="DoomCaptions" component={CaptionsLayer} defaultProps={{ words: doomWords as Word[], zones: [[283, 391, 0.3], [1820, 1947, 0.3]] as CaptionZone[] }}
       durationInFrames={DOOM_FRAMES} fps={30} width={1080} height={1920} />
+    <Composition id="HoudiniShort" component={HoudiniShort} durationInFrames={HOUDINI_FRAMES} fps={30} width={1080} height={1920} />
+    <Composition id="HoudiniCaptions" component={CaptionsLayer} defaultProps={{ words: houdiniWords as Word[], zones: [[0, 143, 0.75], [1605, 1730, 0.45], [1903, 2140, 0.42]] as CaptionZone[] }}
+      durationInFrames={HOUDINI_FRAMES} fps={30} width={1080} height={1920} />
+    <Composition id="HoudiniCastSheet" component={HoudiniCastSheet} durationInFrames={1} fps={30} width={1080} height={1920} />
     <Composition id="EmuCastSheet" component={EmuCastSheet} durationInFrames={20} fps={30} width={1080} height={1920} />
     <Composition id="BoxTest" component={BoxTest} durationInFrames={30} fps={30} width={1080} height={1920} />
   </>

@@ -1,0 +1,21 @@
+{
+  "_about": "Voice direction for Chatterbox (scripts/make_voice_cb.py). One entry per script LINE (split=line). exag = emotion intensity, cfg = pacing (lower = slower), pause = silence after (s), say = spoken text, note = acting intention. Timbre: voice B (Kokoro bm_george reference, out/doomsday/vs/ref_bm_george.wav), picked by the user for iteration 7 and kept.",
+  "voice": { "seed": 1926, "takes": 3, "split": "line" },
+  "lines": [
+    { "exag": 0.7, "cfg": 0.4, "pause": 0.35, "say": "This Halloween, twenty-five say-ances tried to summon the same dead man.", "note": "hook: spooky campfire storyteller, weight on 'same dead man'" },
+    { "exag": 0.45, "cfg": 0.3, "pause": 0.6, "note": "deadpan punchline, slow, a beat after" },
+    { "exag": 0.7, "cfg": 0.45, "pause": 0.3, "note": "showman intro on the name; list builds; 'a dead whale' tossed off, amused" },
+    { "exag": 0.65, "cfg": 0.4, "pause": 0.3, "note": "tense, impressed; slow on 'three minutes'" },
+    { "exag": 0.75, "cfg": 0.45, "pause": 0.5, "say": "But his favourite hobby? Crashing say-ances. In disguise. With a cop.", "note": "gleeful gossip, three quick beats" },
+    { "exag": 0.65, "cfg": 0.4, "pause": 0.45, "note": "incredulous, a smile on 'real magic powers'" },
+    { "exag": 0.7, "cfg": 0.4, "pause": 0.3, "say": "Then, in nineteen twenty-six, a college student punched him in the stomach.", "note": "sudden turn, the punch lands on 'punched'" },
+    { "exag": 0.7, "cfg": 0.45, "pause": 0.35, "note": "urgent, then grudging admiration on 'anyway'" },
+    { "exag": 0.5, "cfg": 0.3, "pause": 0.7, "note": "quiet, ironic, let it hang" },
+    { "exag": 0.65, "cfg": 0.4, "pause": 0.55, "note": "conspiratorial; 'Sour cream.' deadpan" },
+    { "exag": 0.55, "cfg": 0.4, "pause": 0.25, "note": "explainer, clever, leaning in" },
+    { "exag": 0.55, "cfg": 0.35, "pause": 0.45, "note": "secretive, almost a whisper on 'Rosabelle, believe'" },
+    { "exag": 0.55, "cfg": 0.4, "pause": 0.5, "say": "Bess held a say-ance every Halloween, for ten years. Nothing.", "note": "tender, then flat on 'Nothing.'" },
+    { "exag": 0.6, "cfg": 0.35, "pause": 0.6, "note": "bittersweet, dry humour on the quote" },
+    { "exag": 0.7, "cfg": 0.35, "pause": 0.5, "note": "to the viewer, spooky whisper, then a wink on 'his greatest escape'" }
+  ]
+}

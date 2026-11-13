@@ -3,7 +3,9 @@
 //   - 1-2 words per "page", heavy uppercase sans, thick black outline and a hard drop shadow;
 //   - the spoken word turns yellow; numbers and names turn green;
 //   - every page pops in (scale overshoot over ~5 frames) and the active word gets a small bump.
-// Placement: centre at 64 % of the height, inside the reference caption band (60-74 %), clear of the Shorts UI.
+// Placement: centre at 63 % of the height, inside the reference caption band (60-74 %), clear of the Shorts UI.
+// Width: tall phones play 9:16 zoomed to fill and cut ~10 % off each side, so a page never spans more than the
+// central SAFE_W of the frame; long pages shrink their font to fit (iteration 7 feedback: "cropped on the phone").
 // Render as its own transparent layer (CaptionsLayer) and composite with ffmpeg, so captions can be tuned without
 // re-rendering the 3D picture (see animation/README.md).
 import React from "react";
@@ -52,6 +54,12 @@ export const paginate = (words: Word[], st: CaptionStyle): Page[] => {
   return pages;
 };
 
+/** widest a caption page may be, as a fraction of the frame width (phone fill-crop keeps the central 80 %) */
+export const SAFE_W = 0.72;
+/** Segoe UI Black uppercase averages ~0.74 em per letter */
+const fitSize = (letters: number, gaps: number, size: number, width: number) =>
+  Math.min(size, (SAFE_W * width) / (letters * 0.74 + gaps * 0.28 + 0.13));
+
 const pop = (x: number) => (x <= 0 ? 0.6 : x >= 1 ? 1 : 1 + 0.12 * Math.sin(x * Math.PI) * 1.4 - 0.4 * (1 - x) ** 3);
 
 /** [fromFrame, toFrame, y]: move the line where a close-up face would sit under it (never cover a face) */
@@ -68,12 +76,14 @@ export const Captions: React.FC<{ words: Word[]; style?: CaptionStyle; lead?: nu
   const age = (t - p.from) * fps; // frames since the page appeared
   const s = pop(age / 5);
   const y = zones.find(([a, b]) => frame >= a && frame < b)?.[2] ?? style.y;
+  const letters = p.idx.reduce((n, i) => n + (clean(words[i].word) || words[i].word).length, 0);
+  const fs = fitSize(letters, p.idx.length - 1, style.size * k, width);
   return (
     <AbsoluteFill style={{ pointerEvents: "none" }}>
       <div style={{
-        position: "absolute", left: 40 * k, right: 40 * k, top: height * y, transform: `translateY(-50%) scale(${s})`,
-        display: "flex", justifyContent: "center", flexWrap: "wrap", gap: `0 ${0.28 * style.size * k}px`,
-        fontFamily: style.font, fontWeight: 900, fontSize: style.size * k, lineHeight: 1.05, letterSpacing: -1 * k,
+        position: "absolute", left: width * (1 - SAFE_W) / 2, right: width * (1 - SAFE_W) / 2, top: height * y, transform: `translateY(-50%) scale(${s})`,
+        display: "flex", justifyContent: "center", flexWrap: "nowrap", whiteSpace: "nowrap", gap: `0 ${0.28 * fs}px`,
+        fontFamily: style.font, fontWeight: 900, fontSize: fs, lineHeight: 1.05, letterSpacing: -1 * k,
         textTransform: "uppercase", textAlign: "center",
       }}>
         {p.idx.map((i) => {
@@ -82,8 +92,8 @@ export const Captions: React.FC<{ words: Word[]; style?: CaptionStyle; lead?: nu
           return (
             <span key={i} style={{
               color: on ? (isKey(words, i) ? style.key : style.hot) : "#FFFFFF",
-              WebkitTextStroke: `${0.13 * style.size * k}px #000`, paintOrder: "stroke fill",
-              textShadow: `0 ${0.07 * style.size * k}px 0 rgba(0,0,0,0.85)`,
+              WebkitTextStroke: `${0.13 * fs}px #000`, paintOrder: "stroke fill",
+              textShadow: `0 ${0.07 * fs}px 0 rgba(0,0,0,0.85)`,
               display: "inline-block", transform: `scale(${bump})`,
             }}>{clean(w.word) || w.word}</span>
           );

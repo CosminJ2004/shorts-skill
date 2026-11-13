@@ -201,3 +201,25 @@ Read this file before starting a new short.
   - Every shot and sound is timed from the word clock.
   - New sets: a 1960 office, a colour cyclorama studio for gag beats, a town, the curve as a roller-coaster, a cliff.
   - Kit additions: glasses (round or cat-eye), tie, bow tie, lab coat, party hat.
+- **User, on Doomsday Is Today:** voice and animation are good ("very good"), but on the phone the picture "looks a
+  bit cropped, not made for a phone display".
+  - Cause (phone_safe.py sheet): phones zoom 9:16 to fill and cut ~10 % per side. Long caption pages ("WHICH MEANS",
+    "PEOPLE WERE") ran edge to edge, and the hook trio, the magician, Heinz at "be a" and the crowd edges sat in the cut
+    margins.
+  - Changes: captions capped at 72 % of the width with fit-to-width font (`SAFE_W`); a "Phone safe zone" section in
+    SKILL.md (SAFE box x 10-84 %, y 8-80 %); `templates/scripts/phone_safe.py` as a check before and after the
+    render. The doomsday captions were re-composited with the new width.
+
+## Iteration 8: The Last Escape (2026-11-13)
+- **User:** "very good" on voice and animation; asked for another viral, original short ("do your research").
+- **Topic:** the Houdini centennial (died 31 October 1926). About 25 séances tried to reach him this Halloween, and a
+  2026 book disputes how and when he died (sour cream, a day earlier). The hook is a ghost who ignores them.
+- **Changes:**
+  - Built for the phone from the start: SAFE box checks on end-of-shot stills (`phone_safe.py`), captions capped at
+    72 % width, caption zones moved down (0.75) where faces sit low.
+  - Camera drift now pivots on the look point. With push-ins, a fixed pivot distance slid subjects off-centre (the
+    water cell drifted out of frame in the first stills).
+  - Push-ins at 65 % of the doomsday rates (`PUSH` in story.ts), so faces stay in the safe box at the end of a shot.
+  - All-interior sets (séance room, theatre, room, cyclorama, a hotel roof at night): no terrain, faster renders.
+  - New lights `candle` and `night`, with grade presets.
+
