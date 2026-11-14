@@ -1,0 +1,21 @@
+{
+  "_about": "Voice direction for Chatterbox (scripts/make_voice_cb.py). One entry per script LINE (split=line). exag = emotion intensity, cfg = pacing (lower = slower), pause = silence after (s), say = spoken text, note = acting intention. Timbre: voice B (Kokoro bm_george reference, out/doomsday/vs/ref_bm_george.wav), kept from iteration 7.",
+  "voice": { "seed": 1961, "takes": 3, "split": "line" },
+  "lines": [
+    { "exag": 0.75, "cfg": 0.4, "pause": 0.4, "say": "In nineteen sixty-one, two geniuses hid a computer in their shoes. To beat roulette.", "note": "hook: storyteller, weight on 'in their shoes', a beat, then 'To beat roulette' sly" },
+    { "exag": 0.55, "cfg": 0.4, "pause": 0.35, "note": "impressed aside, 'Yes' with a smile" },
+    { "exag": 0.6, "cfg": 0.4, "pause": 0.35, "note": "dry, amused, 'just physics problems' deadpan" },
+    { "exag": 0.65, "cfg": 0.4, "pause": 0.35, "note": "explainer leaning in, 'guess which slice' conspiratorial" },
+    { "exag": 0.75, "cfg": 0.45, "pause": 0.4, "note": "gleeful and absurd, 'big toes' lands the gag" },
+    { "exag": 0.65, "cfg": 0.4, "pause": 0.3, "say": "In the basement test, it gave them a forty-four percent edge.", "note": "building, proud" },
+    { "exag": 0.7, "cfg": 0.35, "pause": 0.5, "note": "'Forty-four percent.' stunned, then flat quip" },
+    { "exag": 0.6, "cfg": 0.4, "pause": 0.35, "note": "adventure, quick" },
+    { "exag": 0.7, "cfg": 0.4, "pause": 0.55, "note": "triumph on 'It worked', then comic deflation on 'they quit'" },
+    { "exag": 0.6, "cfg": 0.4, "pause": 0.35, "say": "Thorp kept the secret for five years. Guinness now calls it the first wearable computer.", "note": "matter of fact, then proud" },
+    { "exag": 0.6, "cfg": 0.4, "pause": 0.4, "note": "wry, museum tone" },
+    { "exag": 0.65, "cfg": 0.4, "pause": 0.3, "note": "'But here's the real lesson' serious turn" },
+    { "exag": 0.6, "cfg": 0.4, "pause": 0.3, "note": "clear teacher voice, slow on 'wipe you out'" },
+    { "exag": 0.6, "cfg": 0.4, "pause": 0.45, "note": "knowing, present day" },
+    { "exag": 0.7, "cfg": 0.35, "pause": 0.5, "note": "wink to the viewer, 'check their shoes' sly" }
+  ]
+}

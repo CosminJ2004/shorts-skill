@@ -1,0 +1,122 @@
+[
+ {
+  "line": 0,
+  "take": "s00_1.wav",
+  "score": 0.889,
+  "heard": "in 1961 two geniuses hid a computer in their shoes to beat roulette",
+  "dur": 5.32,
+  "start": 0.12
+ },
+ {
+  "line": 1,
+  "take": "s01_1.wav",
+  "score": 1.0,
+  "heard": "one of them claude shannon had just invented information theory yes the maths behind your phone",
+  "dur": 6.09,
+  "start": 5.84
+ },
+ {
+  "line": 2,
+  "take": "s02_0.wav",
+  "score": 0.933,
+  "heard": "the other ed thorpe was a maths professor who thought casinos were just physics problems",
+  "dur": 5.39,
+  "start": 12.28
+ },
+ {
+  "line": 3,
+  "take": "s03_2.wav",
+  "score": 1.0,
+  "heard": "the idea roulette isn't pure luck time the ball and the wheel and you can guess which slice it lands in",
+  "dur": 6.11,
+  "start": 18.02
+ },
+ {
+  "line": 4,
+  "take": "s04_1.wav",
+  "score": 0.944,
+  "heard": "their computer had 12 transistors the switches were in their shoes they clicked them with their big toes",
+  "dur": 6.06,
+  "start": 24.48
+ },
+ {
+  "line": 5,
+  "take": "s05_0.wav",
+  "score": 0.857,
+  "heard": "in the basement test it gave them a 44 edge",
+  "dur": 3.72,
+  "start": 30.94
+ },
+ {
+  "line": 6,
+  "take": "s06_0.wav",
+  "score": 0.667,
+  "heard": "44 a normal player loses about 5",
+  "dur": 3.35,
+  "start": 34.97
+ },
+ {
+  "line": 7,
+  "take": "s07_0.wav",
+  "score": 1.0,
+  "heard": "so in august they flew to las vegas",
+  "dur": 2.01,
+  "start": 38.82
+ },
+ {
+  "line": 8,
+  "take": "s08_0.wav",
+  "score": 1.0,
+  "heard": "it worked and then they got so nervous about being caught that they quit",
+  "dur": 4.02,
+  "start": 41.18
+ },
+ {
+  "line": 9,
+  "take": "s09_1.wav",
+  "score": 0.933,
+  "heard": "thought kept the secret for five years guinness now calls it the first wearable computer",
+  "dur": 5.13,
+  "start": 45.74
+ },
+ {
+  "line": 10,
+  "take": "s10_0.wav",
+  "score": 0.87,
+  "heard": "it's in a museum at mit a great grandfather of your smartwatch",
+  "dur": 4.15,
+  "start": 51.22
+ },
+ {
+  "line": 11,
+  "take": "s11_2.wav",
+  "score": 0.933,
+  "heard": "but here's the real lesson thorpe stopped betting on wheels and started betting on markets",
+  "dur": 5.12,
+  "start": 55.77
+ },
+ {
+  "line": 12,
+  "take": "s12_2.wav",
+  "score": 1.0,
+  "heard": "same trick find a small edge then size every bet so one bad night can't wipe you out",
+  "dur": 5.79,
+  "start": 61.2
+ },
+ {
+  "line": 13,
+  "take": "s13_1.wav",
+  "score": 1.0,
+  "heard": "today trading firms run that same playbook on prediction markets",
+  "dur": 4.2,
+  "start": 67.28
+ },
+ {
+  "line": 14,
+  "take": "s14_0.wav",
+  "score": 1.0,
+  "heard": "so next time someone says it's all luck check their shoes",
+  "dur": 2.91,
+  "start": 71.93
+ }
+]

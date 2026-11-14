@@ -118,6 +118,14 @@ on each side, and the app's UI covers the top 8 %, the bottom 20 % and a right-h
   It tiles the first, middle and last frame of each shot with the cropped edges in red, the UI bands in orange and
   the SAFE box in green. Fix every face or key prop outside the green box.
 
+## Niche: educational quant finance (user request, 2026-11-14)
+- Pick a story with one teachable idea (edge, bet sizing, pricing a bet, crowded trades) and a link to something current
+  (prediction markets, quant funds). Research first; sources and `to-verify` items go at the top of SCRIPT.md.
+- Show numbers as bars, dots and shapes, never as lettering. Say "educational, not investment advice" in the description.
+- Do not name firms or claim positions unless a primary source confirms it.
+- Camera distance: stills at the nominal distance gave faces too big for the phone safe box, so cameras sit 18 % further
+  back (`BACK` in story.ts) and two-shots stay within +-0.5 m of the look point.
+
 ## Build lessons from the castle short (iteration 5)
 - **Character kit** (`toon.ts`, all fields optional, so older shorts are unchanged):
   - Outfit fields: `beard`, `cape`, `collar` (ermine), `tabard` with `charge` (lions / lilies / cross) and `trim`,

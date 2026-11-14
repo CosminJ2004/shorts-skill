@@ -223,3 +223,19 @@ Read this file before starting a new short.
   - All-interior sets (séance room, theatre, room, cyclorama, a hotel roof at night): no terrain, faster renders.
   - New lights `candle` and `night`, with grade presets.
 
+
+## Iteration 9: The Shoe Computer (2026-11-14)
+- **User:** asked for a new niche, "a bit educational, quant finance", as current and original as possible. Picked the
+  shoe-computer idea from five options.
+- **Topic:** Ed Thorp and Claude Shannon's 1961 wearable roulette computer (switches in the shoes, +44 % expected gain,
+  abandoned out of nerves, Guinness first wearable computer, MIT Museum), tied to quants on prediction markets today.
+  Educational point: an edge, and sizing the bet so one bad night cannot wipe you out. No firm names, no advice.
+- **Changes:**
+  - Quant-finance rules: research first, sources and `to-verify` items at the top of SCRIPT.md, numbers shown as bars
+    (no lettering), "educational, not investment advice" in the description.
+  - First stills had faces too big for the phone safe box: every camera now sits 18 % further back (`BACK` in the
+    `dolly` helper of story.ts) and two-shots keep people within +-0.5 m at about 5 m.
+  - A flat card lying on a table is invisible from a low camera angle. Use an upright card standing between the people
+    (`wheel(..., upright)`), and leave flat cards for high shots.
+  - A character's `pose: "point"` points in the direction it faces: face it toward the thing it points at.
+  - Floating "inset" cards (the shoe at belly height between two people) read better than a prop on a bench.
