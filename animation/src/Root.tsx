@@ -18,6 +18,8 @@ import houdiniWords from "../shorts/houdini/voice/words.json";
 import { HoudiniCastSheet } from "./videos/houdini/CastSheet";
 import { ThorpShort, THORP_FRAMES } from "./videos/thorp/Thorp";
 import thorpWords from "../shorts/thorp/voice/words.json";
+import { LtcmShort, LTCM_FRAMES } from "./videos/ltcm/Ltcm";
+import ltcmWords from "../shorts/ltcm/voice/words.json";
 
 // close-ups whose faces sit in the caption band: the line moves to the upper third there
 const PYRAMID_CAPTION_ZONES: CaptionZone[] = [[247, 362, 0.36], [424, 555, 0.36], [1044, 1104, 0.36], [1556, 1634, 0.36]];
@@ -51,6 +53,9 @@ export const RemotionRoot: React.FC = () => (
     <Composition id="ThorpShort" component={ThorpShort} durationInFrames={THORP_FRAMES} fps={30} width={1080} height={1920} />
     <Composition id="ThorpCaptions" component={CaptionsLayer} defaultProps={{ words: thorpWords as Word[], zones: [[1531, 1667, 0.3], [1668, 1829, 0.3]] as CaptionZone[] }}
       durationInFrames={THORP_FRAMES} fps={30} width={1080} height={1920} />
+    <Composition id="LtcmShort" component={LtcmShort} durationInFrames={LTCM_FRAMES} fps={30} width={1080} height={1920} />
+    <Composition id="LtcmCaptions" component={CaptionsLayer} defaultProps={{ words: ltcmWords as Word[], zones: [] as CaptionZone[] }}
+      durationInFrames={LTCM_FRAMES} fps={30} width={1080} height={1920} />
     <Composition id="EmuCastSheet" component={EmuCastSheet} durationInFrames={20} fps={30} width={1080} height={1920} />
     <Composition id="BoxTest" component={BoxTest} durationInFrames={30} fps={30} width={1080} height={1920} />
   </>

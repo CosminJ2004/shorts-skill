@@ -1,0 +1,1226 @@
+[
+ {
+  "word": "In",
+  "start": 0.12,
+  "end": 0.383,
+  "sentence": 0
+ },
+ {
+  "word": "1961,",
+  "start": 0.383,
+  "end": 0.777,
+  "sentence": 0
+ },
+ {
+  "word": "two",
+  "start": 0.777,
+  "end": 1.105,
+  "sentence": 0
+ },
+ {
+  "word": "geniuses",
+  "start": 1.105,
+  "end": 1.762,
+  "sentence": 0
+ },
+ {
+  "word": "hid",
+  "start": 1.762,
+  "end": 2.091,
+  "sentence": 0
+ },
+ {
+  "word": "a",
+  "start": 2.091,
+  "end": 2.288,
+  "sentence": 0
+ },
+ {
+  "word": "computer",
+  "start": 2.288,
+  "end": 2.945,
+  "sentence": 0
+ },
+ {
+  "word": "in",
+  "start": 2.945,
+  "end": 3.208,
+  "sentence": 0
+ },
+ {
+  "word": "their",
+  "start": 3.208,
+  "end": 3.668,
+  "sentence": 0
+ },
+ {
+  "word": "shoes.",
+  "start": 3.668,
+  "end": 4.128,
+  "sentence": 0
+ },
+ {
+  "word": "To",
+  "start": 4.128,
+  "end": 4.39,
+  "sentence": 0
+ },
+ {
+  "word": "beat",
+  "start": 4.39,
+  "end": 4.785,
+  "sentence": 0
+ },
+ {
+  "word": "roulette.",
+  "start": 4.785,
+  "end": 5.442,
+  "sentence": 0
+ },
+ {
+  "word": "One",
+  "start": 5.842,
+  "end": 6.113,
+  "sentence": 1
+ },
+ {
+  "word": "of",
+  "start": 6.113,
+  "end": 6.331,
+  "sentence": 1
+ },
+ {
+  "word": "them,",
+  "start": 6.331,
+  "end": 6.657,
+  "sentence": 1
+ },
+ {
+  "word": "Claude",
+  "start": 6.657,
+  "end": 7.092,
+  "sentence": 1
+ },
+ {
+  "word": "Shannon,",
+  "start": 7.092,
+  "end": 7.581,
+  "sentence": 1
+ },
+ {
+  "word": "had",
+  "start": 7.581,
+  "end": 7.853,
+  "sentence": 1
+ },
+ {
+  "word": "just",
+  "start": 7.853,
+  "end": 8.179,
+  "sentence": 1
+ },
+ {
+  "word": "invented",
+  "start": 8.179,
+  "end": 8.723,
+  "sentence": 1
+ },
+ {
+  "word": "information",
+  "start": 8.723,
+  "end": 9.43,
+  "sentence": 1
+ },
+ {
+  "word": "theory.",
+  "start": 9.43,
+  "end": 9.865,
+  "sentence": 1
+ },
+ {
+  "word": "Yes,",
+  "start": 9.865,
+  "end": 10.137,
+  "sentence": 1
+ },
+ {
+  "word": "the",
+  "start": 10.137,
+  "end": 10.408,
+  "sentence": 1
+ },
+ {
+  "word": "maths",
+  "start": 10.408,
+  "end": 10.789,
+  "sentence": 1
+ },
+ {
+  "word": "behind",
+  "start": 10.789,
+  "end": 11.224,
+  "sentence": 1
+ },
+ {
+  "word": "your",
+  "start": 11.224,
+  "end": 11.55,
+  "sentence": 1
+ },
+ {
+  "word": "phone.",
+  "start": 11.55,
+  "end": 11.931,
+  "sentence": 1
+ },
+ {
+  "word": "The",
+  "start": 12.281,
+  "end": 12.542,
+  "sentence": 2
+ },
+ {
+  "word": "other,",
+  "start": 12.542,
+  "end": 12.909,
+  "sentence": 2
+ },
+ {
+  "word": "Ed",
+  "start": 12.909,
+  "end": 13.118,
+  "sentence": 2
+ },
+ {
+  "word": "Thorp,",
+  "start": 13.118,
+  "end": 13.485,
+  "sentence": 2
+ },
+ {
+  "word": "was",
+  "start": 13.485,
+  "end": 13.747,
+  "sentence": 2
+ },
+ {
+  "word": "a",
+  "start": 13.747,
+  "end": 13.904,
+  "sentence": 2
+ },
+ {
+  "word": "maths",
+  "start": 13.904,
+  "end": 14.27,
+  "sentence": 2
+ },
+ {
+  "word": "professor",
+  "start": 14.27,
+  "end": 14.846,
+  "sentence": 2
+ },
+ {
+  "word": "who",
+  "start": 14.846,
+  "end": 15.108,
+  "sentence": 2
+ },
+ {
+  "word": "thought",
+  "start": 15.108,
+  "end": 15.579,
+  "sentence": 2
+ },
+ {
+  "word": "casinos",
+  "start": 15.579,
+  "end": 16.05,
+  "sentence": 2
+ },
+ {
+  "word": "were",
+  "start": 16.05,
+  "end": 16.365,
+  "sentence": 2
+ },
+ {
+  "word": "just",
+  "start": 16.365,
+  "end": 16.679,
+  "sentence": 2
+ },
+ {
+  "word": "physics",
+  "start": 16.679,
+  "end": 17.15,
+  "sentence": 2
+ },
+ {
+  "word": "problems.",
+  "start": 17.15,
+  "end": 17.674,
+  "sentence": 2
+ },
+ {
+  "word": "The",
+  "start": 18.024,
+  "end": 18.27,
+  "sentence": 3
+ },
+ {
+  "word": "idea:",
+  "start": 18.27,
+  "end": 18.565,
+  "sentence": 3
+ },
+ {
+  "word": "roulette",
+  "start": 18.565,
+  "end": 19.058,
+  "sentence": 3
+ },
+ {
+  "word": "isn't",
+  "start": 19.058,
+  "end": 19.353,
+  "sentence": 3
+ },
+ {
+  "word": "pure",
+  "start": 19.353,
+  "end": 19.648,
+  "sentence": 3
+ },
+ {
+  "word": "luck.",
+  "start": 19.648,
+  "end": 19.944,
+  "sentence": 3
+ },
+ {
+  "word": "Time",
+  "start": 19.944,
+  "end": 20.239,
+  "sentence": 3
+ },
+ {
+  "word": "the",
+  "start": 20.239,
+  "end": 20.485,
+  "sentence": 3
+ },
+ {
+  "word": "ball",
+  "start": 20.485,
+  "end": 20.781,
+  "sentence": 3
+ },
+ {
+  "word": "and",
+  "start": 20.781,
+  "end": 21.027,
+  "sentence": 3
+ },
+ {
+  "word": "the",
+  "start": 21.027,
+  "end": 21.273,
+  "sentence": 3
+ },
+ {
+  "word": "wheel,",
+  "start": 21.273,
+  "end": 21.618,
+  "sentence": 3
+ },
+ {
+  "word": "and",
+  "start": 21.618,
+  "end": 21.864,
+  "sentence": 3
+ },
+ {
+  "word": "you",
+  "start": 21.864,
+  "end": 22.11,
+  "sentence": 3
+ },
+ {
+  "word": "can",
+  "start": 22.11,
+  "end": 22.356,
+  "sentence": 3
+ },
+ {
+  "word": "guess",
+  "start": 22.356,
+  "end": 22.701,
+  "sentence": 3
+ },
+ {
+  "word": "which",
+  "start": 22.701,
+  "end": 23.046,
+  "sentence": 3
+ },
+ {
+  "word": "slice",
+  "start": 23.046,
+  "end": 23.39,
+  "sentence": 3
+ },
+ {
+  "word": "it",
+  "start": 23.39,
+  "end": 23.587,
+  "sentence": 3
+ },
+ {
+  "word": "lands",
+  "start": 23.587,
+  "end": 23.932,
+  "sentence": 3
+ },
+ {
+  "word": "in.",
+  "start": 23.932,
+  "end": 24.129,
+  "sentence": 3
+ },
+ {
+  "word": "Their",
+  "start": 24.479,
+  "end": 24.813,
+  "sentence": 4
+ },
+ {
+  "word": "computer",
+  "start": 24.813,
+  "end": 25.291,
+  "sentence": 4
+ },
+ {
+  "word": "had",
+  "start": 25.291,
+  "end": 25.529,
+  "sentence": 4
+ },
+ {
+  "word": "twelve",
+  "start": 25.529,
+  "end": 25.911,
+  "sentence": 4
+ },
+ {
+  "word": "transistors.",
+  "start": 25.911,
+  "end": 26.532,
+  "sentence": 4
+ },
+ {
+  "word": "The",
+  "start": 26.532,
+  "end": 26.77,
+  "sentence": 4
+ },
+ {
+  "word": "switches",
+  "start": 26.77,
+  "end": 27.248,
+  "sentence": 4
+ },
+ {
+  "word": "were",
+  "start": 27.248,
+  "end": 27.534,
+  "sentence": 4
+ },
+ {
+  "word": "in",
+  "start": 27.534,
+  "end": 27.725,
+  "sentence": 4
+ },
+ {
+  "word": "their",
+  "start": 27.725,
+  "end": 28.059,
+  "sentence": 4
+ },
+ {
+  "word": "shoes.",
+  "start": 28.059,
+  "end": 28.393,
+  "sentence": 4
+ },
+ {
+  "word": "They",
+  "start": 28.393,
+  "end": 28.68,
+  "sentence": 4
+ },
+ {
+  "word": "clicked",
+  "start": 28.68,
+  "end": 29.109,
+  "sentence": 4
+ },
+ {
+  "word": "them",
+  "start": 29.109,
+  "end": 29.396,
+  "sentence": 4
+ },
+ {
+  "word": "with",
+  "start": 29.396,
+  "end": 29.682,
+  "sentence": 4
+ },
+ {
+  "word": "their",
+  "start": 29.682,
+  "end": 30.016,
+  "sentence": 4
+ },
+ {
+  "word": "big",
+  "start": 30.016,
+  "end": 30.255,
+  "sentence": 4
+ },
+ {
+  "word": "toes.",
+  "start": 30.255,
+  "end": 30.542,
+  "sentence": 4
+ },
+ {
+  "word": "In",
+  "start": 30.942,
+  "end": 31.154,
+  "sentence": 5
+ },
+ {
+  "word": "the",
+  "start": 31.154,
+  "end": 31.42,
+  "sentence": 5
+ },
+ {
+  "word": "basement",
+  "start": 31.42,
+  "end": 31.952,
+  "sentence": 5
+ },
+ {
+  "word": "test,",
+  "start": 31.952,
+  "end": 32.272,
+  "sentence": 5
+ },
+ {
+  "word": "it",
+  "start": 32.272,
+  "end": 32.484,
+  "sentence": 5
+ },
+ {
+  "word": "gave",
+  "start": 32.484,
+  "end": 32.804,
+  "sentence": 5
+ },
+ {
+  "word": "them",
+  "start": 32.804,
+  "end": 33.123,
+  "sentence": 5
+ },
+ {
+  "word": "a",
+  "start": 33.123,
+  "end": 33.282,
+  "sentence": 5
+ },
+ {
+  "word": "forty-four",
+  "start": 33.282,
+  "end": 33.868,
+  "sentence": 5
+ },
+ {
+  "word": "percent",
+  "start": 33.868,
+  "end": 34.346,
+  "sentence": 5
+ },
+ {
+  "word": "edge.",
+  "start": 34.346,
+  "end": 34.666,
+  "sentence": 5
+ },
+ {
+  "word": "Forty-four",
+  "start": 34.966,
+  "end": 35.59,
+  "sentence": 6
+ },
+ {
+  "word": "percent.",
+  "start": 35.59,
+  "end": 36.101,
+  "sentence": 6
+ },
+ {
+  "word": "A",
+  "start": 36.101,
+  "end": 36.271,
+  "sentence": 6
+ },
+ {
+  "word": "normal",
+  "start": 36.271,
+  "end": 36.725,
+  "sentence": 6
+ },
+ {
+  "word": "player",
+  "start": 36.725,
+  "end": 37.18,
+  "sentence": 6
+ },
+ {
+  "word": "loses",
+  "start": 37.18,
+  "end": 37.577,
+  "sentence": 6
+ },
+ {
+  "word": "about",
+  "start": 37.577,
+  "end": 37.974,
+  "sentence": 6
+ },
+ {
+  "word": "five.",
+  "start": 37.974,
+  "end": 38.315,
+  "sentence": 6
+ },
+ {
+  "word": "So",
+  "start": 38.815,
+  "end": 38.998,
+  "sentence": 7
+ },
+ {
+  "word": "in",
+  "start": 38.998,
+  "end": 39.181,
+  "sentence": 7
+ },
+ {
+  "word": "August,",
+  "start": 39.181,
+  "end": 39.546,
+  "sentence": 7
+ },
+ {
+  "word": "they",
+  "start": 39.546,
+  "end": 39.82,
+  "sentence": 7
+ },
+ {
+  "word": "flew",
+  "start": 39.82,
+  "end": 40.094,
+  "sentence": 7
+ },
+ {
+  "word": "to",
+  "start": 40.094,
+  "end": 40.277,
+  "sentence": 7
+ },
+ {
+  "word": "Las",
+  "start": 40.277,
+  "end": 40.505,
+  "sentence": 7
+ },
+ {
+  "word": "Vegas.",
+  "start": 40.505,
+  "end": 40.825,
+  "sentence": 7
+ },
+ {
+  "word": "It",
+  "start": 41.175,
+  "end": 41.36,
+  "sentence": 8
+ },
+ {
+  "word": "worked.",
+  "start": 41.36,
+  "end": 41.729,
+  "sentence": 8
+ },
+ {
+  "word": "And",
+  "start": 41.729,
+  "end": 41.96,
+  "sentence": 8
+ },
+ {
+  "word": "then",
+  "start": 41.96,
+  "end": 42.237,
+  "sentence": 8
+ },
+ {
+  "word": "they",
+  "start": 42.237,
+  "end": 42.514,
+  "sentence": 8
+ },
+ {
+  "word": "got",
+  "start": 42.514,
+  "end": 42.744,
+  "sentence": 8
+ },
+ {
+  "word": "so",
+  "start": 42.744,
+  "end": 42.929,
+  "sentence": 8
+ },
+ {
+  "word": "nervous",
+  "start": 42.929,
+  "end": 43.344,
+  "sentence": 8
+ },
+ {
+  "word": "about",
+  "start": 43.344,
+  "end": 43.667,
+  "sentence": 8
+ },
+ {
+  "word": "being",
+  "start": 43.667,
+  "end": 43.99,
+  "sentence": 8
+ },
+ {
+  "word": "caught...",
+  "start": 43.99,
+  "end": 44.36,
+  "sentence": 8
+ },
+ {
+  "word": "that",
+  "start": 44.36,
+  "end": 44.636,
+  "sentence": 8
+ },
+ {
+  "word": "they",
+  "start": 44.636,
+  "end": 44.913,
+  "sentence": 8
+ },
+ {
+  "word": "quit.",
+  "start": 44.913,
+  "end": 45.19,
+  "sentence": 8
+ },
+ {
+  "word": "Thorp",
+  "start": 45.74,
+  "end": 46.092,
+  "sentence": 9
+ },
+ {
+  "word": "kept",
+  "start": 46.092,
+  "end": 46.394,
+  "sentence": 9
+ },
+ {
+  "word": "the",
+  "start": 46.394,
+  "end": 46.646,
+  "sentence": 9
+ },
+ {
+  "word": "secret",
+  "start": 46.646,
+  "end": 47.048,
+  "sentence": 9
+ },
+ {
+  "word": "for",
+  "start": 47.048,
+  "end": 47.3,
+  "sentence": 9
+ },
+ {
+  "word": "five",
+  "start": 47.3,
+  "end": 47.602,
+  "sentence": 9
+ },
+ {
+  "word": "years.",
+  "start": 47.602,
+  "end": 47.954,
+  "sentence": 9
+ },
+ {
+  "word": "Guinness",
+  "start": 47.954,
+  "end": 48.457,
+  "sentence": 9
+ },
+ {
+  "word": "now",
+  "start": 48.457,
+  "end": 48.709,
+  "sentence": 9
+ },
+ {
+  "word": "calls",
+  "start": 48.709,
+  "end": 49.061,
+  "sentence": 9
+ },
+ {
+  "word": "it",
+  "start": 49.061,
+  "end": 49.262,
+  "sentence": 9
+ },
+ {
+  "word": "the",
+  "start": 49.262,
+  "end": 49.514,
+  "sentence": 9
+ },
+ {
+  "word": "first",
+  "start": 49.514,
+  "end": 49.866,
+  "sentence": 9
+ },
+ {
+  "word": "wearable",
+  "start": 49.866,
+  "end": 50.369,
+  "sentence": 9
+ },
+ {
+  "word": "computer.",
+  "start": 50.369,
+  "end": 50.872,
+  "sentence": 9
+ },
+ {
+  "word": "It's",
+  "start": 51.222,
+  "end": 51.511,
+  "sentence": 10
+ },
+ {
+  "word": "in",
+  "start": 51.511,
+  "end": 51.741,
+  "sentence": 10
+ },
+ {
+  "word": "a",
+  "start": 51.741,
+  "end": 51.914,
+  "sentence": 10
+ },
+ {
+  "word": "museum",
+  "start": 51.914,
+  "end": 52.375,
+  "sentence": 10
+ },
+ {
+  "word": "at",
+  "start": 52.375,
+  "end": 52.606,
+  "sentence": 10
+ },
+ {
+  "word": "MIT,",
+  "start": 52.606,
+  "end": 52.894,
+  "sentence": 10
+ },
+ {
+  "word": "a",
+  "start": 52.894,
+  "end": 53.067,
+  "sentence": 10
+ },
+ {
+  "word": "great-grandfather",
+  "start": 53.067,
+  "end": 54.104,
+  "sentence": 10
+ },
+ {
+  "word": "of",
+  "start": 54.104,
+  "end": 54.335,
+  "sentence": 10
+ },
+ {
+  "word": "your",
+  "start": 54.335,
+  "end": 54.68,
+  "sentence": 10
+ },
+ {
+  "word": "smartwatch.",
+  "start": 54.68,
+  "end": 55.372,
+  "sentence": 10
+ },
+ {
+  "word": "But",
+  "start": 55.772,
+  "end": 56.018,
+  "sentence": 11
+ },
+ {
+  "word": "here's",
+  "start": 56.018,
+  "end": 56.363,
+  "sentence": 11
+ },
+ {
+  "word": "the",
+  "start": 56.363,
+  "end": 56.609,
+  "sentence": 11
+ },
+ {
+  "word": "real",
+  "start": 56.609,
+  "end": 56.905,
+  "sentence": 11
+ },
+ {
+  "word": "lesson.",
+  "start": 56.905,
+  "end": 57.299,
+  "sentence": 11
+ },
+ {
+  "word": "Thorp",
+  "start": 57.299,
+  "end": 57.644,
+  "sentence": 11
+ },
+ {
+  "word": "stopped",
+  "start": 57.644,
+  "end": 58.087,
+  "sentence": 11
+ },
+ {
+  "word": "betting",
+  "start": 58.087,
+  "end": 58.531,
+  "sentence": 11
+ },
+ {
+  "word": "on",
+  "start": 58.531,
+  "end": 58.728,
+  "sentence": 11
+ },
+ {
+  "word": "wheels,",
+  "start": 58.728,
+  "end": 59.122,
+  "sentence": 11
+ },
+ {
+  "word": "and",
+  "start": 59.122,
+  "end": 59.368,
+  "sentence": 11
+ },
+ {
+  "word": "started",
+  "start": 59.368,
+  "end": 59.812,
+  "sentence": 11
+ },
+ {
+  "word": "betting",
+  "start": 59.812,
+  "end": 60.255,
+  "sentence": 11
+ },
+ {
+  "word": "on",
+  "start": 60.255,
+  "end": 60.452,
+  "sentence": 11
+ },
+ {
+  "word": "markets.",
+  "start": 60.452,
+  "end": 60.895,
+  "sentence": 11
+ },
+ {
+  "word": "Same",
+  "start": 61.195,
+  "end": 61.536,
+  "sentence": 12
+ },
+ {
+  "word": "trick:",
+  "start": 61.536,
+  "end": 61.933,
+  "sentence": 12
+ },
+ {
+  "word": "find",
+  "start": 61.933,
+  "end": 62.273,
+  "sentence": 12
+ },
+ {
+  "word": "a",
+  "start": 62.273,
+  "end": 62.443,
+  "sentence": 12
+ },
+ {
+  "word": "small",
+  "start": 62.443,
+  "end": 62.841,
+  "sentence": 12
+ },
+ {
+  "word": "edge,",
+  "start": 62.841,
+  "end": 63.181,
+  "sentence": 12
+ },
+ {
+  "word": "then",
+  "start": 63.181,
+  "end": 63.521,
+  "sentence": 12
+ },
+ {
+  "word": "size",
+  "start": 63.521,
+  "end": 63.862,
+  "sentence": 12
+ },
+ {
+  "word": "every",
+  "start": 63.862,
+  "end": 64.259,
+  "sentence": 12
+ },
+ {
+  "word": "bet",
+  "start": 64.259,
+  "end": 64.543,
+  "sentence": 12
+ },
+ {
+  "word": "so",
+  "start": 64.543,
+  "end": 64.77,
+  "sentence": 12
+ },
+ {
+  "word": "one",
+  "start": 64.77,
+  "end": 65.053,
+  "sentence": 12
+ },
+ {
+  "word": "bad",
+  "start": 65.053,
+  "end": 65.337,
+  "sentence": 12
+ },
+ {
+  "word": "night",
+  "start": 65.337,
+  "end": 65.734,
+  "sentence": 12
+ },
+ {
+  "word": "can't",
+  "start": 65.734,
+  "end": 66.074,
+  "sentence": 12
+ },
+ {
+  "word": "wipe",
+  "start": 66.074,
+  "end": 66.415,
+  "sentence": 12
+ },
+ {
+  "word": "you",
+  "start": 66.415,
+  "end": 66.698,
+  "sentence": 12
+ },
+ {
+  "word": "out.",
+  "start": 66.698,
+  "end": 66.982,
+  "sentence": 12
+ },
+ {
+  "word": "Today,",
+  "start": 67.282,
+  "end": 67.674,
+  "sentence": 13
+ },
+ {
+  "word": "trading",
+  "start": 67.674,
+  "end": 68.177,
+  "sentence": 13
+ },
+ {
+  "word": "firms",
+  "start": 68.177,
+  "end": 68.569,
+  "sentence": 13
+ },
+ {
+  "word": "run",
+  "start": 68.569,
+  "end": 68.848,
+  "sentence": 13
+ },
+ {
+  "word": "that",
+  "start": 68.848,
+  "end": 69.184,
+  "sentence": 13
+ },
+ {
+  "word": "same",
+  "start": 69.184,
+  "end": 69.52,
+  "sentence": 13
+ },
+ {
+  "word": "playbook",
+  "start": 69.52,
+  "end": 70.079,
+  "sentence": 13
+ },
+ {
+  "word": "on",
+  "start": 70.079,
+  "end": 70.303,
+  "sentence": 13
+ },
+ {
+  "word": "prediction",
+  "start": 70.303,
+  "end": 70.974,
+  "sentence": 13
+ },
+ {
+  "word": "markets.",
+  "start": 70.974,
+  "end": 71.477,
+  "sentence": 13
+ },
+ {
+  "word": "So",
+  "start": 71.927,
+  "end": 72.099,
+  "sentence": 14
+ },
+ {
+  "word": "next",
+  "start": 72.099,
+  "end": 72.355,
+  "sentence": 14
+ },
+ {
+  "word": "time",
+  "start": 72.355,
+  "end": 72.612,
+  "sentence": 14
+ },
+ {
+  "word": "someone",
+  "start": 72.612,
+  "end": 72.997,
+  "sentence": 14
+ },
+ {
+  "word": "says",
+  "start": 72.997,
+  "end": 73.253,
+  "sentence": 14
+ },
+ {
+  "word": "it's",
+  "start": 73.253,
+  "end": 73.467,
+  "sentence": 14
+ },
+ {
+  "word": "all",
+  "start": 73.467,
+  "end": 73.681,
+  "sentence": 14
+ },
+ {
+  "word": "luck...",
+  "start": 73.681,
+  "end": 73.938,
+  "sentence": 14
+ },
+ {
+  "word": "check",
+  "start": 73.938,
+  "end": 74.237,
+  "sentence": 14
+ },
+ {
+  "word": "their",
+  "start": 74.237,
+  "end": 74.537,
+  "sentence": 14
+ },
+ {
+  "word": "shoes.",
+  "start": 74.537,
+  "end": 74.836,
+  "sentence": 14
+ }
+]

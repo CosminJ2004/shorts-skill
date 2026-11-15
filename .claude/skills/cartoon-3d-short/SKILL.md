@@ -118,6 +118,15 @@ on each side, and the app's UI covers the top 8 %, the bottom 20 % and a right-h
   It tiles the first, middle and last frame of each shot with the cropped edges in red, the UI bands in orange and
   the SAFE box in green. Fix every face or key prop outside the green box.
 
+## Bright look (user feedback, iteration 10: "too dark, colours too closed, make it pleasant to the eyes")
+- Standing rule for every new short: bright, saturated, cheerful. Use only two lights: `day` (a sunny room) and `stage` (a
+  coloured cyclorama). No candle, night or dim interiors, no dark fog colours.
+- Values that worked (ltcm): lit [1.7,1.6,1.42], shade [.52,.50,.62], lift [.10,.10,.15], hemisphere 0.85; grade `ky`
+  [.03,.14,.33,.68,.90,.985,1], sat [1.1,1.2,1.15], vignette [.12,.5]. Cyclorama colours: #5cc8ff, #7fe0a8, #ffd84a,
+  #ff9a86, #b9a4ff, #ffc94a, #ff9fc0, #46d2c0.
+- Rooms: cream walls with a mint dado, a window onto a blue sky, parquet, a coral rug, plants. Outfits in saturated colours.
+- Time events by word text (`wfw(line, "word")` in story.ts, `ww(line, "word")` in audio.py), not by word index.
+
 ## Niche: educational quant finance (user request, 2026-11-14)
 - Pick a story with one teachable idea (edge, bet sizing, pricing a bet, crowded trades) and a link to something current
   (prediction markets, quant funds). Research first; sources and `to-verify` items go at the top of SCRIPT.md.

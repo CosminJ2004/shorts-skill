@@ -1,0 +1,21 @@
+{
+  "_about": "Voice direction for Chatterbox (scripts/make_voice_cb.py). One entry per script LINE (split=line). Timbre: voice B (bm_george reference).",
+  "voice": { "seed": 1998, "takes": 3, "split": "line" },
+  "lines": [
+    { "exag": 0.75, "cfg": 0.4, "pause": 0.5, "say": "In nineteen ninety-eight, a fund packed with geniuses lost four point six billion dollars in four months. Two of them had Nobel Prizes.", "note": "hook: storyteller, weight on 'four point six billion', then 'Nobel Prizes' dry" },
+    { "exag": 0.55, "cfg": 0.4, "pause": 0.35, "note": "impressed list, building" },
+    { "exag": 0.6, "cfg": 0.4, "pause": 0.35, "note": "explainer, clear, 'tiny price gap' small and precise" },
+    { "exag": 0.7, "cfg": 0.4, "pause": 0.45, "note": "'Like picking up nickels.' light, then 'A lot.' guilty deadpan" },
+    { "exag": 0.7, "cfg": 0.35, "pause": 0.5, "say": "For every dollar they owned, they borrowed twenty-five.", "note": "stunned, heavy on 'twenty-five'" },
+    { "exag": 0.7, "cfg": 0.4, "pause": 0.4, "say": "It worked. Over forty percent a year. Banks begged to lend them more.", "note": "gleeful, rising" },
+    { "exag": 0.7, "cfg": 0.35, "pause": 0.6, "say": "Then, in August, nineteen ninety-eight, Russia defaulted on its debt.", "note": "ominous turn, slow" },
+    { "exag": 0.65, "cfg": 0.4, "pause": 0.4, "note": "'nearly impossible' dry; then fast panic on 'ran to safe bonds'" },
+    { "exag": 0.65, "cfg": 0.4, "pause": 0.35, "note": "grim, matter of fact" },
+    { "exag": 0.65, "cfg": 0.35, "pause": 0.5, "say": "Borrowing twenty-five times means every loss hits twenty-five times harder.", "note": "teacher voice, slow on 'harder'" },
+    { "exag": 0.6, "cfg": 0.35, "pause": 0.6, "note": "quiet, deadpan 'almost everything was gone'" },
+    { "exag": 0.65, "cfg": 0.4, "pause": 0.4, "say": "The Federal Reserve called the big banks. Fourteen of them paid about three point six five billion dollars, to stop a crash.", "note": "news-anchor gravity with a smirk" },
+    { "exag": 0.65, "cfg": 0.4, "pause": 0.35, "say": "Remember Ed Thorp? Same maths, but he sized every bet so one bad night couldn't wipe him out.", "note": "friendly callback wink" },
+    { "exag": 0.65, "cfg": 0.35, "pause": 0.45, "note": "the lesson, slow, clear" },
+    { "exag": 0.7, "cfg": 0.35, "pause": 0.5, "note": "wry closing, 'steamroller' sly" }
+  ]
+}

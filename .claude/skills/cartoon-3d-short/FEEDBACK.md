@@ -239,3 +239,15 @@ Read this file before starting a new short.
     (`wheel(..., upright)`), and leave flat cards for high shots.
   - A character's `pose: "point"` points in the direction it faces: face it toward the thing it points at.
   - Floating "inset" cards (the shoe at belly height between two people) read better than a prop on a bench.
+
+## Iteration 10: The Nickel Trap (LTCM 1998, 2026-11-15)
+- **User feedback (after the Shoe Computer):** "the videos are a bit dark, colours a bit closed, I don't like it, I want it
+  pleasant to the eyes" (and suggested studying the reference channel again for inspiration).
+- **Changes:**
+  - New standing rule, "Bright look" in SKILL.md: only daylight rooms and a coloured cyclorama, no candle, night or dim
+    interiors. Lit [1.7,1.6,1.4], shade lifted to ~0.5, grade `ky` mids lifted, saturation +10-20 %, vignette 0.1.
+  - Palette: sunny cream walls with mint dado, parquet, a coral rug, a window onto blue sky; cyclorama colours sky blue,
+    mint, yellow, coral, lilac, pink, teal. Outfits in saturated colours (blue suit, mustard tweed, teal cardigan).
+  - Story and code live in `animation/src/videos/ltcm/` (story/world/painth/people/grade), sound in
+    `animation/shorts/ltcm/audio.py`. `wfw(line, "word")` finds a word's frame by text, so the picture follows the words
+    instead of hard-coded word indexes.
